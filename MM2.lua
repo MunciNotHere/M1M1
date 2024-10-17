@@ -1,2 +1,851 @@
---you aint getting my script bud
-([[This file was protected with MoonSec V3]]):gsub('.+', (function(a) _HhBROXhwRPcF = a; end)); return(function(l,...)local u;local a;local h;local t;local d;local j;local e=24915;local n=0;local r={};while n<727 do n=n+1;while n<0x125 and e%0x2328<0x1194 do n=n+1 e=(e+946)%37378 local f=n+e if(e%0x4da2)<0x26d1 then e=(e*0x177)%0x5c01 while n<0xfc and e%0x2862<0x1431 do n=n+1 e=(e*1003)%24674 local d=n+e if(e%0x4756)>0x23ab then e=(e*0x133)%0x31da local e=68165 if not r[e]then r[e]=0x1 u=tonumber;end elseif e%2~=0 then e=(e*0x109)%0x130 local e=23681 if not r[e]then r[e]=0x1 a=(not a)and _ENV or a;end else e=(e+0x2c8)%0x39b6 n=n+1 local e=57191 if not r[e]then r[e]=0x1 h={};end end end elseif e%2~=0 then e=(e*0x150)%0xabc5 while n<0x2bd and e%0x2d7c<0x16be do n=n+1 e=(e-770)%18924 local d=n+e if(e%0x2cb4)<0x165a then e=(e+0x22b)%0x7263 local e=61772 if not r[e]then r[e]=0x1 end elseif e%2~=0 then e=(e-0x305)%0xae50 local e=52318 if not r[e]then r[e]=0x1 a=getfenv and getfenv();end else e=(e+0x197)%0x40a n=n+1 local e=28924 if not r[e]then r[e]=0x1 j=string;end end end else e=(e+0x2f7)%0x7b97 n=n+1 while n<0x14c and e%0xa0e<0x507 do n=n+1 e=(e+693)%9377 local f=n+e if(e%0x480e)>=0x2407 then e=(e-0x3f4)%0x7542 local e=27396 if not r[e]then r[e]=0x1 end elseif e%2~=0 then e=(e*0x288)%0x7db local e=22149 if not r[e]then r[e]=0x1 t="\4\8\116\111\110\117\109\98\101\114\68\65\122\67\70\80\89\90\0\6\115\116\114\105\110\103\4\99\104\97\114\103\115\106\90\117\122\119\97\0\6\115\116\114\105\110\103\3\115\117\98\89\99\87\110\85\115\81\84\0\6\115\116\114\105\110\103\4\98\121\116\101\98\114\119\74\89\119\105\116\0\5\116\97\98\108\101\6\99\111\110\99\97\116\65\112\83\105\70\119\115\106\0\5\116\97\98\108\101\6\105\110\115\101\114\116\121\69\87\65\99\120\79\81\5";end else e=(e-0x3bf)%0xa106 n=n+1 local e=3569 if not r[e]then r[e]=0x1 d=function(r)local e=0x01 local function n(n)e=e+n return r:sub(e-n,e-0x01)end while true do local r=n(0x01)if(r=="\5")then break end local e=j.byte(n(0x01))local e=n(e)if r=="\2"then e=h.DAzCFPYZ(e)elseif r=="\3"then e=e~="\0"elseif r=="\6"then a[e]=function(n,e)return l(8,nil,l,e,n)end elseif r=="\4"then e=a[e]elseif r=="\0"then e=a[e][n(j.byte(n(0x01)))];end local n=n(0x08)h[n]=e end end end end end end end e=(e*815)%33725 end d(t);local n={};for e=0x0,0xff do local r=h.gsjZuzwa(e);n[e]=r;n[r]=e;end local function f(e)return n[e];end local j=(function(l,d)local t,r=0x01,0x10 local n={{},{},{}}local a=-0x01 local e=0x01 local j=l while true do n[0x03][h.YcWnUsQT(d,e,(function()e=t+e return e-0x01 end)())]=(function()a=a+0x01 return a end)()if a==(0x0f)then a=""r=0x000 break end end local a=#d while e<a+0x01 do n[0x02][r]=h.YcWnUsQT(d,e,(function()e=t+e return e-0x01 end)())r=r+0x01 if r%0x02==0x00 then r=0x00 h.yEWAcxOQ(n[0x01],(f((((n[0x03][n[0x02][0x00]]or 0x00)*0x10)+(n[0x03][n[0x02][0x01]]or 0x00)+j)%0x100)));j=l+j;end end return h.ApSiFwsj(n[0x01])end);d(j(9,"k!chaw6HG{)WyD_KK{Kc!H!w,yKy!HcG!w1K!wKyKGywHWH!{HyDyw{_WD)KGa{DHC!Gx_hwwywH6cwGc6awcachWw)DDayGyH_Wy6WW_hDwyGWcW)ashGwDw6aK6GwKa{wWaacyaahDyWya__DKDDyKK{yD_aDWWHWG)vy)aDa66)6hw_waGH6W6Ga6hchGa)hwyKyHK!_)_!OK!!_DyyDDWHWK)Hw)wcHH6K6WHh6Dwy6cwqwHw_66_wDD}GKKKwc!!_!yYe*cDG_y_cH*6){%GaH_H)6_H_H1H!wwwwaw6ahh_{_cY6KDK)KNKDcc!G__K)D6y3_y6W6hGyG6HD{fHDGKG6G_G{w66DK6__!H=K2h!Hh%cK_KxG_y-h_!G!HW{K{G{#GHHDW!)W{&GyG!wWwy6wK)Kc!G!6.yhG!w!_K{_)_)sK(wGwHy)G{DW{{H{DWH)cH){)H)!{!hh6cDcacc!)hK!rCG!6+a!y!6Pc{cG)W!)))aWyWW)6GWWcG_HDGH!D!wh)hHhoaHa6cGhwMW ycwc!)G)myWycW)WWWyDh)c)_y6{)G>hhcWw!a6awwaaH6haKh!w!aah6W_W6_hDGD!KhKa_HDDDD)K)Kyha{ah6{wKwywcacHyH!6G66hwcRhahGycWWDKDHDayHDHK1y!D{ywWe{_)caahy66wWwn6HHHwhwcwyc_aHcHyKyHKB_{DyKaTHDh_H_!yHW!yaw)whH{H6666cHwHK6ea_6waDc_cKDyDaKyKw_6!HqGL__)_G_w_GD)6HwKGaG!H{)!)a6y6wHh6)6ywcKc_ydKSD5hKhK(K{KG!h_KK!_Hy_WW6W6aGGGaHD6yHDGDHhHKHDHAwaah_D_w!!baKH!!c)!DKGrWDh_DD HG6_{6WhWhW)GK)yGHH!GH!wrWhaa_6CwGa{ch(Kc)KyWc)GDcTWD!KaDaDGy)D6)_aKawHPGH6D{6w_6ha)wKha_y_cE_!a!_KK!)KaKy_wKDG{G!)H)!{{yK{6{cGiGcGK6K{w!asWhccHaccKcWhKhGcWKWNw)G{KyHWDyyK=_)Dw)6WG)D{Dhyhhw)wbH{GwaHHw66aGca!GDdyH_K_aXK!H_D_{_W_yyyWD6awDGcHHHc6yH{GGGGHK6_6)wKhG_6DK3hK{Kc_)K1Ka5_/6K{y__hyG6GwKG{HD)6{){_HcHcHawcwcKyKh!{!why!Khchh!W!WSaDy{gGH)K))Dh)GW{yh{6GHGyHDca!Waah_6GaWc_c_c{!ah!hBWG)KDGyyD{_WyKW_WGD_WDWDayah6D6h{D6!wKwa6waW66cK_h"));d(j(162,"CUa:Xyu^1Y!>Stx(yxSa1txSX1Yt6}y^yaUB^(ty:uuYx(aU!>(:^:!x+uU1^^XpYUxtyu>Xxxu>S!ayutx1Xa1(Y^(YSaaa^^t!:x1^tuXtYa(Y^UY(a(U1^SX^!uFay^>!UUMtt:ayYux:Xu!!xuXYY(_Y1!x!X1aS1xyy!^U1u!uya!1zt(y3!ux!uy!U(>^a!(:y1y11xx>:v:^cS^Ut1!tyXuYU(py1!(x(y1S:UY1!>(U(^(YS(t!!U^^:xa:>YS>>y11!Lxy(>tU>^Stst!:1HYyU>^aQX>>U:aYut:at>UUy(SyYx(y!xUaaYUtXyu>Sx1{1u!:X1tx(Xx!!((ua>Y(Xy:t::aYux>a1!U!J<:t6U>^!xa:Y:1 yyS>SD>u>tUU:^1Sy:U!!xSy!!+>1U1xy:SYSx>X>>UUuXt!XU1uat(X^!)Y1(^S#aj^yt1:S^SS1XU>:Uu^Kt:aXUS^SXuY(0Uu2>SUU^XS>2XutSUat!:8>X^!1>1Uytx:xY:(uy!!1UUuxSYaUY:SXay:1Y1u:>:U1u(S>:!1xxUXu>RxUu!!UzaUX^u:t1(6+yaXtqS^NtUa(Ydx1XU!a)1uYS1(Uyy^U"));rIyrEbRTtBepaYO=function(e)e((-h.VpfixhmC+(function()local a,r=h.opRzuSuQ,h.aeyxOw_g;(function(r,e,n)r(n(e and e,r,e and n),r(n,n,e)and n(e,n,n and e),e(n and e,e,r))end)(function(d,e,n)if a>h.eIGxsobs then return d end a=a+h.aeyxOw_g r=(r-h.WWJeWHik)%h.fCccHRCv if(r%h.r_eLAPk_)<=h.oz_GaDUF then return d else return e(e(n,e,n),e(e,e,d and n)and e(n and e,n,e),n(d,d and e,e))end return n(n(n,e,d),n(e,e,n),n(d and e,e,d and d))end,function(e,n,d)if a>h.HKCRIYiz then return n end a=a+h.aeyxOw_g r=(r*h.kqxepOlk)%h.OJTAJCkC if(r%h.LzyXmREz)>=h.TJeevzPp then r=(r+h.PrzCeRrY)%h.qtbgeHRd return e(e(e,n,n),d(d,e,e),e(d,e,n))else return n end return d end,function(e,d,n)if a>h.mSeICLzy then return d end a=a+h.aeyxOw_g r=(r*h.ZAPsgHqZ)%h.gABYPqti if(r%h.YaUCsXPc)>=h.YaLbAKmr then return n else return d(e(e,n,n and e),e(e,e,n and d),d(e,n,e))end return e(d(n,n,d),d(e,d,n),d(e,n,n))end)return r;end)()))end;OYapeBtTRbEryIr={h.DEghneD_,h.VD_sxtyl};local e=(-h.BLlDYzWF+(function()local a,r=h.opRzuSuQ,h.aeyxOw_g;(function(n,e)n(n(e,n),e(e,e)and e(e,n))end)(function(n,e)if a>h.PLqfQzvq then return n end a=a+h.aeyxOw_g r=(r+h.dnjirMVs)%h.trryQEbo if(r%h.MoIj_SJW)<=h.RkPXkFhQ then r=(r-h.TpEbeTGc)%h.SfPGgXBL return n else return e(e(e,e),e(e,e)and n(e,n))end return n(n(e,e),e(n,e)and e(e and n,n))end,function(n,e)if a>h.jdsX_eql then return n end a=a+h.aeyxOw_g r=(r-h.iuFH__jY)%h.HPtYdcSI if(r%h.JcRgnjWO)<=h.SuqUqBeQ then return e(e(e,n),n(e,e))else return e end return n end)return r;end)())local o=h.rKDZFeoj or h.OVESnRbJ;local ae=(getfenv)or(function()return _ENV end);local a=h.XaqOuYLk;local d=h.VqrlODhC;local t=h.vEqZgbwX;local z=h.aeyxOw_g;local function ne(b,...)local f=j(e,"dEjPa9<VWGr1x?,n<9)runEaEGjVjPjWj?PvnVnVX-.<(GR9AnN?9nVP<G<,VP,rx<n1nG?EnP,W,nEa,VinEnE9Ej;?xP?Ex??j?V?rVnrErxrrr9rn1G1VUGE<EPEWE?jF1,??n<x9n<n_n<ar9a9a9G9,<En?jVjVPVVxWrW<W1GLGPPrax9jax<P<PVWVExjx,xx?E?<aEan9Van9X9V<En,EGYW-?EjE91x?9?1,rGx,rnGr1nE197aEaEEEGx,j<jaj<j<jxP,WWWrWnGaGGG,rPnE,?1jxj1xxEx<xG<G9jVP9x<r99WVWxV<<G5jEVgxEEE<EG11xr?V,1,9xVn,,P,<n1,PE9jEn<ja<1VGV9VrVnWjjWanaEPW9j<j9n9?1a1<11x8x9xrxn0aEG,E,P,W,?njnVExWPa<m1<9E9ErEnjj??,,nPnanxxWxjxVeniPE,?rEWEnjnjWPrjxaaaVP,97a<9V91<<9x<rV9Pa<,VnWjaGWPW9r/GVGV<91Fr91G19xExrx,Wnr1?<,a?G,Vnj1jn9,,b9T1_EEP?9,xEaEGjGj?PVnWjEPaa,ajjnaW9r9j9?<;VjPPV<WaV9x??,?V?x,E,aV1rE1arG1?1Gx9x,xW?P?Vj9jVjxPEP<P1wtxEWranVb9G9,<P<<nrjVPKjrPxa<nVTazEa,9r9x9GEr9mjaV?V?PPW?GtWVaVG9r99<<ana!On,wPOWl11Exn?E?E?V,GP=aEPrPnaaaV,<Ma!rE?nEjjj<PEPaP<PWW9x<WnGaGGGxP<9?<n<PV<jWW<WEWxPxWjGaa1GnrGrjra1<<G19xWxEV??<xnx?,9G<,V,9nGn?rnv?zWEPxPt1E9jEj<jnj<,<PEajaaaVnn9P9V>,9a<<<EjjV<VjVVxr?a?a?G?,,EWVrj1WrWnx#,K<71EvEPrVxn?ax9?1nE,9nl!^na!WX99GjWjxPEP<P1a4G91,WPG<W?GjGVGrP99V9W<WV9<,j1<PWEWPWPWGG1,j,n,xnEn<nGr91jx<V11Gx<?rj<jWj?PjPVPxaEP<Wr9P999r9n<a<G<,?V1WV?GGWVWxGEGaPx9r9r<x<fVjVW<1V1PaVrWjG&GEG19jrrGn1Prn11xahGP<EPEWE?jOxV,T,<n9rVnjnrJjw8x0ExJ1jj?ajGPMPjPxPjP9a1aEa9}<<j9G<G<jEn9EVWV?WE<1WjW9aVWj<a,rn<nanGn,DErjxWxExn?E??j<PWPZP9PrP?,P-9nn{a{WxGvEEnjEjEjVPGWmWxWrWnGaGVj19P9Wa?9n<91xx1x<x1?5?P<GGPGErVG1rj1Wr,xi4VEnEEE<E1E,1P,1,a,x,Gx?n,hjnn%V4rn1EjE9j1j9PAPaVnGPWGW,GPG<Pj9x9G<E<1<1V1VEPE<nW6WGGEW,,P2r,?njnVnr1a1Vx1Vx?9x,?hG!?x,n,?raSNn<nWJ<1?E<NnEE?EjGjPj9PV,rPWaVnGajaWaG9Er<1<1y191r1?VxWaV1WPGVG?rcGxr<ran<iE%Qe9Srl?19rG?P?xr<j?PWPVPxaEaasVZ,lrEaEn<a<,<,VPVWV1EjPaaraWG<rVr3r9rrr?arVrVVVnPa<xWrWxWxGjra,1n.n9nrnnUaEEO,EPEWE11E,j,<nE,Vn9z)a9anan9a9G9xnajjj,j1VV?<WEW<W1W,aG9r9n<b<WPaj,PPV1<nWra<WaW1G1Gar<GW1s1Prr1x1jxPxV?jxW?<,ErD?r,1,,19,nnE_xlPOP?EExEEj9jEj?P<Prn1EVaj9La99P9,E,<E9rVEVV<?VnaE9WWTW9G9GGrP<aWPr?1Wr,x)1G1GxYxV1ax??n?V,j,9nV1Wn18Gnr9j9?9x<E<<?,,a,V,P,?,1WGGGGPGWG?r=9G<r<x<n9<VjVVWGWgGa?G,P,P,W,?n>rrrG1r1V21EPE9ErEnGVG,GvPP9jP?ajaVar,rEEE<Er}aE1E,EnEWP,aEP?aVa99<PT9<9<91<E<naVVnWaWVx,?x?W??,j,9r1rj1<11191n1?x,EajPE,jPjWj11n,V,x,Ln,Mw.pU<EW9n<W<G<,VP?1,9,PnGWxxWG<G1r.rPP,<^VGj9V,VVV?WxP,WxG1a?Gnrxrrrarn<1x9xW1nVn?W?E?V,<GWnC,9nGn9KE0r11BWEajExnj?jWPP,PPnj,aAa1nxarara,EJ<G9x<V1W?1xjxVxxxnWar>axG,r1rGrPr,1W1,xWxExP?9x?,9?<GVrarE,rna{PnWoGEEcWxG?V<VV1VEV<V1V,E9Pna,aP9a9x9PEaaj<xVGVEWEVVx1?G?9?r?n,jWjWVVE<aWrxPx91GEEE,E1j.j9jW1n,9,1,1=a#_M?9j<99x<E<<<GEsEE,<PnPnn9a,aVaGSG99<W<<1E1111x_x9xW<aWPGaGW,POR,?njnVnrrE1rx2xnWExn?,GM?<Gr,V,G,rnroVN41?E9EPE9E9E1j?VaxPV,WPWWW1a<9V9x9?<9PEj1P3<?VaWaV?WnWE9jWxG?r;<VrErP1,1919WPx,xP?V?P?n,W,xr?xGnaXjnVN9ER?6EWE8ExErE1PjjGPxn?PnPG9EaV9r<}jK9r<rVVVPV<V,V9V?a?G_WGG<r <9rW1<rVTjea_GD,EPEWE?V1<VjxPrP<P1a}aP,Gm_EaEGEPE?E1jxVjV1VxWEW<WGjGaj9,GnrGrGr,1PjxE,jaPPPE?E?,?1,B,9,WGErG1W1n1Qx5xxEjjxExjEj<jG,n,Gn9nrLa19n,C,E1EVx,jVj0jj,jPaaEaPPrnxGaG?G,rPrWjEj1jVjExExxx1?)?9?WVnGGrGr<ranWE1vjJV;xJnxr?1,_,E,G19rn1a,,nW.Vnxg?E9zx?1EGE,,1E9EajnZVP?P1E<PWP,jErV191E1<111,9aVVWVWxWVW1GjGn,?PWnVnxDEFaGWxgx9?GW1?EG9,j,W,1nEnrnxnno9E<(xE,?Ej?jaPaj?,raPPxP,n,a<9V9G<E<GExVh<xj1WVV?V1GPaaW,raGWrr1<<j1V1W1jxnx_?jW9?P??Ga,?,<,WrWnanP>aQExE0nE,<a<?<,VPVW?nn1n1nEGaG<G1r_r9rrrn1anG1,x,xWx??j?9V1Gjr<WPr9rP1Wrxxjx,},EWEWE?jjj9xE,1,Wn<aTa?aran9a9VjPE_ja?GPVjaPWWEWxW1G#G9GWPr<a9?9nVE1WxjxjxVxxxnV<WxGnr9,rnGnanGn,KEG91?xjr9??,E,<,<,rP<P1Pn9EaGa,9P9<,xjXEWEGPEjVE,P9PnPrar9VGGrrrPrWr?1;9FVEV1V1WaW9G1W1V<G9r,nEnPnWn?kj;VJxEEE<E1jaj9jrjnPj?jnPn?aW999j9V9x9nnrj1PsPEX?P-aaWGGxGPGWG?r49jaJ<9aa9G91<GV,GjVjV9W?V9,WqPnjnVnxnnGaxxx9x?xr1a?,,G?nnE,r,rnEnW,1cj)9E1E9j}ja<nVrVGV,WPW<j?a<aW999jr<1<1_191r1?9EVGV,VjWGWxrjGxrVr1n<7PJk09Srt?rExW?x,W,{,j,EPV9PaEa<a1a,n9b,EajP?9jPPj,ajr,,a<aWajaVa1Fx<a<j<a<a<rVxxP?wx??j?V?rWPGVrGrnrr191G8VCGg,EPEWE?>jG<<xPEajP1a#a9axan9a9G9,<G<W<?VjV9PWPnP1a99NG9rjGnrarGrxa,VaV?VVWjW<G5?<?1,2,9,rnananGn,E9rG5?EjEVE?jEj<j1P;aVPra!aaaGa,9P9WV?VG<V<?VEVVV1WjW9WrGnGaGGG,r9rWr,1j1V?GxEx<x1?E?9?r?n,1,G,,nPnWn,5jXV4xpnEGE1jBj9jrjnParGV,aPaWa?9j9V9n<E<<<1VvV9Vr<nxPWGGaGPGWG?E9E1E,Erjajjx+xrxrxn?aa?Pna99a9jn9nVnx+E!<S1EDE99rj8j9jGj,PPPWP?ajaVa,9E9<91< <1<r<nVaVG,PWPWrW?GjGVGxrEr<191/1W1rx}xaxGx,?P,9??,<,V,?nEn<n1D{#VIrEjEaE1E,j9jWj?PxPVP,aEa<a19P999rV<<a<G<,VaVWV?Wj1rWxGEG<G1?nr9r1rn1a1G1,xPxWP6?j?G?x,E,<,1nyn9rGnn_9_GEREPErE?aW1njxPjP<aVaBa<ar999a9?1G<P<W<?V,VVV?WEW<xrGzG<Grr>rarGr,1PE11?xaxVxx?E?<?1,<9<,rnjnanGn,wa_W5nEjEV9njEj<j1PzP9PrPnaanna,9P9W9n<j<V<xVErxV1WEW9W?WnG9GGrjn,rWr?1j,W1xxjx<x1%n?9?1?n,a,G,,nPnW<#;j3G{xEEE<E1joj9?GjnP9PGa%aPara?VW1a9x<j<<V?V>V<VrWaWaW?,GGPGWG?1arVr?1E1rE<x/x9xrtX?a?r?,,PVP,?nPnVnx_EJ<K1E,<EErjPja9rj,PaPWP,aja1rV9E9<91GE<9<1<nVa1WV,WaWWGHGjGVGxrEx9r11j191r1nxaxG,f,w?W,2,j,1,xnEn<8?E9t97,DnEWEGE,jPjWPjPjPWPxa9a<a?9{V1Vj9n<9<GGnVPVGV?WPWVGJ,xG<G1rc?<rr1/1ax1E,xPxGx??9?V?x,EnWa1nZnVnrD<saTGZ,EPrPE?j9jVjxPEP<P19jr9ar9P9a9?9,<P<WVE11VVV,WE1<W1GEG9Gr}jrarnr,1a1W1?xjxV,a?E???1,a,9,r,nnaE9n,B1lWEEEjEVExjEP,j1PGP9P?PnaaaGa,<r9W<V<j<V<xVEV<V1W9W9G9WnGGGGG,rPrWxE1jxP1xx<x<x1?(?9,G?n,?,GnrnPnrn?ujjx0xEGE<jPj+j,jrjn9nPGaVaPa?a?9j9V9x<1<<VPV V?VrWWWarGrVGPrvG?rrrVr,1E1<x<xwxxxr?<?a,E?,,P,?,?nPnV;jNE#?H1Ea99ErjEjaarj,PaPWP?<GaVa?9E9W91<-<9<rG<VaVGV,W9WWW?GjGV,arEr<r11E191r1n?9xGx,?P?W,9,j,V,x,nGj1Pr?xr11x??PEGj9jPjWj?Pf?}nVqPnV,131999n9n<a<G<xj<j9P<PPWVGPGEG<G1G,Pn<9<?<?<<V<x<xWx??j?V?x,Ex<jrn/n?nrnn8a+VrE?a?jr?,},j,WPEPnP1apa9aW,1unEWEPjPE?jWjxVVW?WEW<W1W,jG919W9E<P<G<W<W91V?WjWx<?WPGGr2,9n<,nnanGnxG1xP1x1nxn1W?G?PnY,EnPPraxaaaGa,9En1NrEVjVn,jxPaqrPaPrajPnGarPG,rPrWr1aE<1<GVnVPVrGAW<GW?nnj,G,,nPn<GE1P1nxaxxW,WV,P,u,W,V,ar<P,aGaWa?9j99EWEnE1j9PZV9WaVnWaWGWxP<9P919G<<<W9,<9<xxvxrxrxn?a?VWEGJG?r?njnxnx+Ey<gG?Pxjxn?njaPWj,PPPWP1?En1nG!ncPgrjbE<jWnxjajGjnPPWWW?GjGVGxx9r<r113xV1,1nxaxG?1?P?W??na^3,xnjn<8V}  9OrInjrEGE,jPjrj?PPPVa,a?a<a19!9W9r9n<aWGWGVPVWV?WjWVW?GE1<1WrYr9rrrn1axj1,,P?Ex??P?V?x,EnE,1n<VGnrhCLaE9w,EaEWE,jjj1WVPEP<P1axa9a1anVa<V9,<a<W<?VjWWVxrEG?W1GEG9G1Gn1PrGr,<j1W1,xjxGxx?P?<,?aa,9,x,nnVnGn,%PjWV9EjEGExjPj<PGP099P1Pna<aG9Z9P<j9?Va<W<xV9V<VnWtW9WrWnr<GGrFrPrxr?1a1V?x?Gx<x??6?V?r,G,an1*PnPnxn?%W>VvxEEE<jPjsjVjrPPPaP1P,aG1ra?9P9VVn<E<V<1VbV9V,?rWaWGW,1<GWG,rjr?E,1E1W11,Px9x1xn?a?G,jP,,W,?njErnx/jN<j1E,E9E?Enj9jGP<PP9W11ajarax9a9<<j<2W9V<<nVWVGVnWPWrW?1jryGxrVr<r?1%1x1r1nx1xG?j?P?,??,P,Vn,+rn<nnQ6E90r-nEaj1jPjPj?j?PVPVPxaEa<a?9w9G9r<E<a<r<,GPWnV?W<WVW?GEGWG1rg3Wrr191a1x1,xPxWx?YW?V,u,E,x,1nEn9nraVXa*G^,EaEWE?jjj1jxPEP<P1Wra9aran9jz?E,jPjajxnWnjnVPaP1a1aa9<aWEG9P<a<Vj,<W<rW9VxVxarG9WrG,Grr<rn1PVaG_11xG1,xx?VGV?n?V,P,E,jnGn3APxaQ<h7EWy,jEjV,VjEPEP,PrP?a9PxaaEa9V9!9?<Vjx<nV?<,x<?<?f?9?r??GxraG1rP1V1?xe1xx<xaE<j;j7j9jrj?,V,<nVnaaW999j9V9x9nnrj1P+PEF?PAaaWGW,GPGWG?rrrVrx1ExW<9xux9xr?E?a?G?,n9n,,?nPnVnn(EU<H1PNjVErjJjajrj,PVPWan9paVan9E9V91<T<9<rWxVaVrV,W<WWW?GjGV19rEr<r11w191x1nxa?Px,?P?W?,,j,G,xnEP,n1{*z9w18nEaEGP1jPjWj?P9PVPxaEa<a19*19Gr9n<,<G<,VPV<apP?a9aP9*9jaWan9<rr1<1a1G1,xE<<VrWjWxG?ri,<nGn2n9nrn?rj1rxWxPxG?1xE,V??,?nj,xnAa99jan9a9G9xz9E?jxjVj9PaPjW<GEGuG9GrG?<k<V<P<?VW1?xVxVxx?E?aGPG1r^r<,n7jnGn,DP2<Gx?P?9?r?j,8,11n,jnPn#2jn<9E9P9W9?<j<V<x<E19V1WWW9WrWnGja19x9,<Ea1a9a91xx9x<x1?&?PGaGbrV,GnGnPnWn?!Rr9x?x119xx?,,V?n?,,9PGa<aPaWa?9k,VErm,jGjyjrjWVrW<WaWGW,GEjV9j<s9<<a<j1G11x5x9xrxnGaP1E,,PnE,?njnVnrG?xExrx9?9xn?r?,jGPWPPPWP?a(,VIAI<L9EjErE<jGj,VaVnV,WPWWW1jE9j9a9x<ar119191r1nxjVxV1WxWG,Q,j,V,xnEn<n1+4a9ZrExEaEGE,jExr,j,PnrnWnxRa{1,n8rj}E^<aVE<,VPVWV1EEaja<a1aVar<:r91Vrn1a1G1x<PW<VrWxG<GWW,raGxrrra1nhj0aJG^,EPEWn?GE<VjxPxP<P1aUaP??7LEanWwnjEjrjjjEjWVxWWW<W1GLGPjG9r9x<a<xPj1G1,xj,Vxx?E?<?GVxG?GV1ar91V<rGjx8xjxEx,x??EGj,<,rrE,Vnan?nVqGEPxaL1jPjVjxjxPZV,W!W9WrWnGaGGG<,jrWrn1j1V1x?nx<x1?_?9,<?n,a,G,xr11Prxrn1nrWxGxP,O?E,PjrPEPaPGP,aE,?a?9<9V9x<E<aj9jEPWVrWEWaWGW,GEP9G?rrrVrx1E1aa1V,VjW?WaW,Wx?,,,,W,?njn9Wx1<x91rx1xn?a?5?P,Gj,a<PWP?aja9,nHxEaEPEwi9j9w,jPPVjnPaajjGa?ax9<<Er<1P1^191r1?<<VrV?GPGPG1<_,VnrnEn<n1n,Gax1x??jxr?W,P1V?r,1,Wnr,,a<999%999r9?nPE?E1PEj9jxajPWarGErzG1rzr9rWaaVP9J<nWW9WWWG9GE?x,<,<,1nQnPGj1a1,1rN,EWEWE?jjj9,a,xnEnVa0axaran9a9V,?n9j<Erj1jWVxWrW<W1G#GPP<9r<P9,<,<WVPVVxjxnxx?E?<?GVxG?GV1ar91V1?}PCr%?EjEVErx9j<P9PeP9PrP?kV_aYx-rEVEG:nE<E?VEV,V1WfW9WWj<a99,j?9,9W9,191V1xxEx<x1?z?9Er?n,G,G,,nPn<GE1P1a1xEEE1E1j7j9jWxb,,nrnVaPa?a?9j9V9rEaEPjajEV9WEVnWaWGWxPEaG9<9?<G9?1ExV11xbx9xWV{GPWrGxVWrjrG1P1VG11jxax?x9xax1Enj1jGj,PPP<x?nPnnn?EEwV91<r<9<r<nVjEjj1P<ajaj9j9Wax9jr<1<1s191r1?9VVrW,VjWGG1raGxG1rjn<&W#_H9+rK?1<x,xn,<,a,Wn)nV?1n<Jxnx9g9r9r9n<a<V&<jaP<PGWjWVWxGEG<,Vrmr9rrxEE<1G1,xP?nx??j?Vnx,n,<,1nqn9nrE1FaE1EnEPErE?P1jVjxPEP<9Pa8a9ar9E9a919,WP<?<?VPVVVxWEGEW1rjGGGrrjra1nr,1P1W???jxVxn?E?G?1nP,9Urn?nanxn,L<yWEEEjEVnpjEjVj1PPP9PxPn9<9ja,999WVa<j<V<xGEVrV1WjW9WxWnraGG1,rWrWrn1j1G1xxjx<,1,W?9?x?n,<,GnWnP_rE_DjDrCxjPE<E1jZa9PMjnPVPGaEaP9Ea?<a,x9x<9<<V?VyV9VrGnG?WGGjGPGxG?r1rVxxxr1<1nx{xGxr,x?anGnV,P,x,?n<nVE(CEzxE1EbE<ErP9jajrj,PaPWaEG?aVax9E<x91<E<9<,xrVaVGV,xEWWW,GjrGTirEr1r119191r1n,aGix,?W?W,j,j,r,xXPnVn1+<t9E<bnEaEGE,jrjWPjPjPGPxaPa<a19r99<e9n<a<G<,VPGWVnWjW,WxGaG<rGrqr9xVrn1r1Gx>xPxrx?nj?,?x,W,<,,nAnxnrEnEj;GEVEPE,E?jxjVaxa,P<aaa6a,ar<a9aVG<,<PVE<?V1VVW1WEW<rVG4GxGrrWrar1r,x9?a1?xrxV?a?E?<?1+Qnj,rnVnauEn,*<DWj?jVEVj9jEj?j1aEP99r9Eaa9Pa,9r9W9n<j<V1GVEV,V1WrW9WxWnGaj1G,rrrW191j1V1xxExVx1?W?9,E?n,W,Gi,e<nW49hj+nuxjxE<E1j9j9PPjnP9PGP,aPa,<a9j9n9xGn<<<xVhV,VrWP?nWGW,GP?<G?rPrV1,E91<xPxo?Vxrxn?anGjG,Pn_,?nrnVF9ZEEWE<E2E,ErPEjajGj,9Pa,P?a1aV999E9n91W*V1<rVWVaWjV,GEWWr?r1GVr9rErnr1x,19xx?rxa?ax,,E?W??,j.VmPnE:En1#1c9I?_nPajVE,jnjWPcPja9Px<E91a19x99<<9nVP<GW,V,VWWrWjW?WxG1G<111?r91VrnxE1G?PxP,W?x?j,a?x,,,<nrn/n9nxnn7n!GE1EPErE?jjaajxP?P<P?a#a9aran<a9G<V<PVa<?VaVVWxjWW<GPG:rPGrrWraxGx91P1?1?xjxV?V?E,Waj,A,x,rF9nanGn,jPDn>?EGEVjPjEPGj19&PnPra<aa9_a,<?9W9?<G<VVEVEV?V1WjW9G#rEGaG,G,,,rWr,1j1V1xx9jEx1?6?9j9?n,9,Gqp9VnWbj#jEaUxEEE<P1jnj9jnjnPGPGaaaPaW9W9j9x9x<P<<<xVTV9WUVnWGWGGEGPGWG?xj1arx1<1<x>xJ??xrxnnD?G,P,P,r,?nPnVnxaGL<#1E^E<ErEnjaP?j,PPPWP?aVaVax9E9a2njEEWE1<nV?VGV,WPW<jE9P9NaG91<E<6<=191n1nxaxGxx<VWGWrGj,VnVnEn<n1n,G?x9xrx111xn?j,W,Wn4PVaWaEa<a1a,,?E9!,EEjEtrj1j9ajPPa9WxG<G<G1rprPa1<G<GVG1,?axWx??j?9VRrjGnGWrr14rnrnrjxaxG?P1axr,s,VjxP<P<P1avaP,r/D!EEj9,<?<W<?VjV9X1P9PPaGP?aa9r9#<jrG1P1P1W1?x/VrVGWrWV?1,r,9,r,nnjGjr11<xjxj?j?Wxx?jj<P<P{P9PrP??Vnr7,,nE()rjVEWjrPtV<VnWDW9WrW?Pja<<PrP19r?1j1V1r9 V,W<WnW<GGGnW}rarPr?1Wn?3<pVQxEEEa?9?E,WjrPVPaPGP,aE,ak9nnExL?Enj9<1V9V9VrVnWjajP19PaxG?r1rVrx1E1a9VV1WaVnWnWGGaGW,PnV,?njnVnrGP11x9xorVxn??,P,G1?,V,?n9njaV9j9E9<919,jEEVjaPjPWVnWPWWW?Gj,EGxrEr<1?W<19111n?ExGx,?PnW,9,j,W,xnjn<0rpSj9Ex*nE<EGE,jPPrj?9jP?Pxaaa<a19O9G9r9nV1<G<nVPV1V?WaWVrxGVG<Gxr8r<rr191a1GxVxPxrx??a?V?x,EnWjnn!nWnrE +a=G_,PPEGE?j9jVjnPEPVP19j<Ear9P9a<?9,<P<WVnW,VVWEWEGyW1G5G91rrWrar,r,1W1Wx?xj,V?1?E?1?1,9,9n<,nnan1n,HWBWEPEjEVExjEPnj1PaP9PrPnaraG9j9r9W9?<jr?<xVjV<G1W,W9GPWnGxGGrVrPr,PE1jx_1x?9x<xx?+?<?r,PPn,G,,nPfxn?AP/VEA<xE<E1j)<1jrP#Pa9GaxaP9Ea?9r9V<9<EW<WjVuV,VrWWWaGxW,r9nWG?r?rVrn1E1<11xKEjxr?W?a,a?,,9,WnPV<nVL9=EjEt1EEE9E1EnjWWaj,PPPW9WajaWax991E91<N<91><nV9VGG,GEWWG<GjGnGxrrr<x1xV19xP1nx?xG,E?P,rP?,jnj,xnPn<n1=tJ99V8nE?EGjGjPjrj?PWrGPxara<GE9v9<9r9n<a<?xGVPVWV?xWWVW?GE1<rGrFr,rr1V1axj1,,P?nx??1?V,9,EnG,1 j99nr=reaE)5,EPEWE?<njVP9PEaEP1aja99{xE9a<j9,rG<W<,VjVVVxW9,EW1GcG9,;Gnr9rGxqEV1Wx<xj?Exx?E?<n1,,,9nP,nn?nG ,KPjWE1EjjYExjrj<PoPuP1VjPnaxaGV19P9G9?<1<VVIxxV<V1W81jWrGCGaG?nGrPrWr?nW1V1?xE,<?G?!?,?r,V,anE,,Z9jxn?yxfVE<EEE<E1amjGjrPGPaaPP,9PaW<?9?9V<<<EVv<1V9V9GrWVWaGPW,G?GWr9rjr?xV1E1n11n9x9x1xn?,?G,jP,,W,?njjxnx jk<Hn<1E9ErEn9xjGjnPPPWVxaj9fax9E9<91<)<1,,<nV?VGxaWPWGW?GPGVr0nxr<r11Hn11rxXxa,G?x?P,E??,r,Vn9nEE<VW.u8,-rEWEaExE,aPPjj?P1PVa9aE9Wa1V#<j9r<G<a<r<,WEVWG?G?WVGWGEG,G1rGr9xrx91ax91,xnxW?e?jnV,V,Enj,1nxn9/xnn!aE9M,E?EWjGjjjGjxPExPP1aGa99Pan9,9GV,VE<WV<VjWIVxWxW<GE9<G9rPGn,rrGrn1P111?x<jjxx?E?<jE,.,<,r,n9VnG6EKPEE;?EjEVExWaj<j?PmP?PrPnaaanEV9P9x9?Vj<V<?VEVWV1Wa,.WrWnGarGG,rarWr??G1V1,xExWx1?O?9?rjV,a,G,,nanWn?YjPE!xEEE<j?rrj9jrjnPrPGP,aP9r9<9j9W9xV?<<<1VLV9GaVnWaWGG)GPGGG?rj1Prx1E1<11xOx9xr,E,n?G?n,PnV,?njnVy,lrS<U?EeE,ErEnjaP1PVPPP1P?99aVax9EV<Vj<H<W<rVjVaGjV,G9,aW?GVGVrWrEr<r11L1r1rxjxax,x,?9?W,n,V,VnAnEKPn1:Fc9jrj9EaE?E,jVjWPWPjaGa,aEa1a19,999r9n<aW<<,VVVWVnWjWGWxxEGnG1rar9rnrnxn1G,,PFxW?E?j,W?xn,,<n1ljn9n,nnqVsGFnEPaWjrjjj1jxaWP<aaa.9V91an9G9GVW<P<W<?GjGEVxW<W<G_G GnGr1ErWrG1a1P?#1?xjxV?,?n?<,j,_,<,r,nnav1EWsPE=2?EPEVExjEj<VWP-PrPraVaaa1a,<PAx9?<<<VV,VEV1V1GjW,WrGaGaG1G,rPrWx?x<1VxExEx1x1?W?9nr,j,a,,,,nWnWEj)jjVj<EEE1E1j9j9P,jnaaajP,aVaW9?9j9x9x<V?V<1V9V9V1VnW9WGWnGPGW,vrjrVrx1E1<11xh,9?Wxn?r?G,E,P,x,?Ej3,nx)VU<EEE0j1Erj9G9jGP<PPPWP?aPaV9_9E9<G,<k<9<rVaVaVGV,WPx1W?GjGVG?rEr<r11YnW1r1nxax1x,?P?W??j9,V,xnEnrn10li97r9xEaEnE,j1jWjnPjaG9<aEaxa19V999r9n<a1E<,VPVWV,WjWVWxGVG<G1r.r91jrn1a1G1x9VWWW?W,<rW?rE,<n;nLn9nrn?1V1<xVxaEWjWjjjVjxjn,,n<,?n9tGQnEjw,EWE<<WVPVjVVVxVnajaGa9an9rGn,GrGr,1P1<VEWjWVWWG=9x9<91rPGV1j<,rx1PxP1xx,xt?W?1?j,a?r,1,nnrn}n,&GxWBjEPE<??nWExjajVE)j9FUPnaGa<a,9W9W<W9,VV<x<?VGV<a<WGWjGGGnG9rV<G1j1P1,x*1<1?EEPPE1jkj9jWx1,x,<XPnaq<1G,rEjNGEEEVE1?x{rPaPEPGaPaP9PaG&GaV9W<E<G<<11xtx9xrxn?n?G?,,PnrExnjnVnxN9K<J1E8jVPlEnj9jGPaPPPWP?aj9xax9E9<9?<k<<<rWEV<VGV,WPW1W?GjGVr,1?r<rx151V1r1nxa,G?E?P?G??,P,V,?nEqWn?>A&W=rEaEaEGE,jP%bj?PPPVPnaEa<a19(rV9r9n<a<G<,V9VWV?j?WVWxGEGVG1rEr9rrnV1a1G1,xaxWx??j,a?x,E,<,1nWn9nrnnBjG,x?rA?^?j,a?Wjx9<P<P1a&aP,<CVIEE,LnjE?anxjrjxPPPjP<nVj1anb<Pn9W9rErax9EP1j,VaW?WnWPaVW,r<rrrnrn1Pn, 1}WH?EjE9x1?x,;,9,E,anrPn9jaGa,9P9<n1EPjEExjjPaEra P<a<a1a9aGG,rGrWr?1j19VWVnV1W9G)?9,1?n,a,G,xGa1ar?rnxV1?r9x1x,?a???n,j,WnGn?aP9Pa?9j9V9rnaEVj1*nj<PWaEPGPWPnGPG?G?rjrVrr<a<PVaVEx9?jxn?a?G?xVnrFGr1VrW1rxff<E1E/E9ErE?1P,V?n,fnW,,?<nxnn 9X,EgEPEGjr<nW}VGV,WPW<j9a?a<aG9Gaj<P9?Vr<1V?xa?ax,?P?W?1WFrWr<G8rV1Gxj1r1Gx&Eaj1E,jPjWj1?=,WnWnGn1nrn?E9413n^PjGjGPEj9P_PPWVGLGEG<G1rar9rrrn1axY1,xPxWx1<GWxGaGGGVG1n:nrnrnnKa.VrWxw?Ex,jjj?jxPEP<PGnxnjnnw?EP9G<P<P<W<?VMyVj?j,P<WxGwG9GrGn1rrGr,1PxrjExjxWxx?a?<?1,H,9jG,nn<nGn,oP_Wg?Ejx5Exjjj<j?PfPWPraPGnaGa,9P<19?<P<VWxVnV<WEW4W9WrGEGaGnxnrPr,r?1r1V1?xExrx1?aP3?r?n,anE,,nanWIE9?JV;xEEjGE1jEj9arP?PaPnP,aWaWa,9j9?,6<E<x<1WEV9V1VnW9WGGj,,GWG?rj1Wrx1j1<?1x,x9?)xn?G?G,j,P,,VEnjn?nxEj3<sxE=E<ErjPVnjGj,PPaGP?aPaVaxxa9<<E<i<<<r<nVaVGr9WPW,W?GaGVGxrErrH<1M191r?jxaxrx,?Pa1??,W,V,xnEn<n1Bsjx.rE9EaE1E,jPjWPPn1PVP?aEara19E999x9n<Wxa<,VPVWWEWjWWWxGE?,G1rtr9r1rn1a1GxGxPxWx??j???x,E,<,Grxrjrn1?xP=GEnEPEWE?jIxW,W,E,Pn1nE?GnnJj_WEEEPE<Exj?PEVVWrWEW<W1W,jWa19nav<E91VW<GV19jVaWxV,?<,r,Z,9,r,?W<r,1W1PGrxj?y?<?x1t?r,8,W,9PranaaaGa,9E,VE1EPEajxjjwrP_PPPGajaaaVa?9,rP16r?1j1V1r<6VrVxW,WrWxGE,anu,,nPnWn1G1xWxrxExV?GjhjrjrjnPaPV?jna3<IW9j9x9x<E<<<G/,P2PjPFWaG<W,GPGWG1PV<E<,<x<?<x9nV<WWGEW9GV?,,x,W,?njn9G9xjxa11xE?Px1??jajGj,PPPW<uajaVax9E,<91<^<9<1<nVaVGG,WWWWW?GjGVGxr9r<1?1?191x1nxVxGx,?P?W,j,j,r,xnjn<n1RX#9E,inEaEGjEjPjrj?9ja9PxaEa<a19q9n9r9n<G<G<,VPVrV?WaWVWxxxG<G1r#r9rrrn1ax1xGxPxWx??P?V?x,E,<San n<nrnnLa(GS,EPjaE?jjjVj,PEPWP1aa9Garan9aV99,<a<WW?W4VVWEWEWrW1GGG9x-nxrar,r,xP1W1,xj?jxx?9PE?1,),9nr,nn9nGKj9,YWM?EjjGExjjj<P?arP9P?Pna1aGa,9P9x1W<j<V<xW?V<VxWQr9GWWnGGGGrjrP1Er??Wan1xx<x<,j?f?<?r,9,a,?aGnPnWn?EGvV-?EEjWP9j.jWjrP9PaPGP,aVrPa?9j9VVW<E<V<1G:WPVrWaWaW?W,GxGWxPnnrV1E1E?E11xEx9?jxn?WPa?,,P,W.WnjnWnxp9<EX1E>E9P<Enj9jGaLa?PWaoajanax9E9<<EjG<9<r<nW*VGVnWPWrW?G<njGxrEr<1V1f1<1r?EjWxGx,?P????,j,V,xGxn<n1m:8<4rE{Eaj1WjjPjWj?PaPVPxaEa<n<9#999r<t<a<r<,VPxLV?WjWVW?GEG<G11Pr9rrrn1axE1,xPxWx1<,WnWGr<GVrGrnnWnrnnlaDG8,nPWV9?jjjnjxPEP<PG?nnGn1Z?4GO1E3<P<,<?VjVVVrP?PPaza,9aGrrGrarGr,1EaVVE<nW9VGWUG<WxG,,9na,nnanGnxG91?x9xrr<?V?G,E,GPKPxPrPnaaaV??2,E7EWjA,<<xV<V<V1WlWPE,a=9j9arErPrWr?1j1V1xxEx<x1?r?9?r?n,jV?rPr<rx191V1rx-?EE<jIjBj9jrj?,V,<nVnaa1a?9j9V9x<EW<?V1;V9WGVnWaWGWxj9a?9V9jPG<E<nV9V1anVGVnWVWa?G,P,P,W,?n:GErG1r1VI1ExE9ErEnjj1x?nnPxVnEnVnnnx n7VE9<%<x<r<nVaVVEVaaa<P?aP99GnrEr<r11X19nrj,LaxG?<?P?W??,uGGrrrxrnGGGPGP6rEVEaEGE,jE1?,x1n,nnE%PnVa19%999r9nxG<G<,VPWrnjWjWVWxG9G<G1rZr91,rn191G1,xPxWx?nj???x,j,<,xnJKanrnnE{5G&nEPErE?jjjVjxPVP<P1a+a9ar9E9a9?<<<P<W<??aVVV?WEW<xrGsGrGrr#rarGr,1GnU1?x<xV?<?E?V?1,9,9,,arnanGn,u?fWI,EjE1VVjEj<j1GjP9P1Pn<a9Va,9W9W<E<j<x<xVV,WV1W9W9,xWnG9GGG,rPrx;W1j1V1xjPx<xx?in9,W?n,G,GnjnPn?n?jjE,&xE<E<jMjwPjjraEGaPGa9aP9ja?9j9V9xr,<<VwVpVxVrWEWaWnEjGPG?G?1<rVr?1E1V11xajDxrxn?a,??,,a,WnEa?nVnxpE<W.1EEE9Prj?jaj,j,PVPWajaj<VGj9E9191<9<9VV<nW<G<V,WrWWGVGjGVGxrE1ar11919xE1nx<xG,u?9?W,j,jnE,xnEn<E12jl9OncnEWEGjxjPPrajPjP?Pxaaa<a19;91<a9n<G<GWxVPVGV?WWWVGJ,xG<G1rgxPrr1.1a1?EGxPxWx?nn?V??,EnWannFnrnrEjMa{GO,EPV1E?jWjVPFPEP<P1aMnaar9a9a919,<9<WVPn<VVWEWErrW1GEG9G1GnrWuar,1P1W,ExjxWxx?9PE?1,4,9EV,nn9nGE8<VeWEjEjjEExjEj<P??,P9a+Pna1aGa,9PVW<x<j<?<xVVV<W?WKGVGGWnG1GGrVrPrWr?xax,1xxGx<?a?%?9?rnEnj,GnVnPyan?Kj8VHxE9E<jEj_j,jrPEPaaGa1aPa?a?9W9V<j<E<rx<V(V9Vr,EWaWrW,1Pr<G?rVrV151Exa11?jjGxr?9?a,G?,,P,WnPjrnV.EKEa9u1EEE9jbEnjWWaj,PPPWVxajaWax<P1r91<9<9V?<nVaVGV,,<WWGPGjG1GxrEr<r19n191n1nx<xG?D?P?,an,j,x,xPsn<nx}(h9QrEP<nEGE,jP<Vj?PPPVa,r9a<9c9m9n9r9n<aV1ExVPV,V?WGWVWxGE1<1artr1rr191ax11,?9,Ex??G?V,W,E,<,1lj^Enr&V6aEj!,EPEWjnj1jVP9PEPnP1aia9ar<<9a9n9,<x<W<nVjWVWWWEW1W1G<G9r GnrW.ar,1P1WEnxjxWxxnE,a?1,9,9,,,n6jnGEq<VRWEPEjEnExjEj<PE<EP9PnPnWWaGan9P9,9?<<xj<xVEV<1nWOW<WrGP,nGGG,rPRjr?1P1Vx,j9x<?T?_,W?r?n,a,G9EnPn,n?^<mV/xEEE<xrjqjrjrPEPaP1P,aG1ra?9V9V1<<E<V<1V!V9V,?rWaWGW,,?GWG,rj1GEp1E1111?Px9xrxn,<0,?,,G,WnWnjnVnxjEj4O1E<E9jJEnj9jGa{PnPWaaajarax9E9<91Vx<9Vp<nVrVGW9WPWWrrGjGxGxrPr<r?1(11xm1nxGxGjW?P?G??,P,Vn&axn<n1_(9ncrEcEaj1WjjPj?j?PxPVPxaE9WnG9K919r<<<a<G<,GPGYV?WWWVGjGErWG11j1Grr1<1a111,xPxW?n,<?V,a,EnV,1n^n93xE1=aEjC,ExEWE?jjjVaWPEPxP1aGa9axan<aV99,<W<WVPVjV?VxW9,EW1G)G9nxGnr9rGx8EV1Wxjxj?Exx?E?<,?W,,9n-,nn1nGn,QPjWjrEjE?ExjVj<P?P&aVP1Pna1aG9V9P9W9?VaW*<xVGV<WVWeW9WrrEG<GGrVrP1Er?1j1V1x?Vx<?E?}?,?r,E,anGn,nPn?n?4W5VEjEEEx,aj}j9jrP9PaPrP,a9aW9Er?9V9x<E<x<1VEV9VrxVWaWGW,GaGWG?rjr,rx1E1<11xxx9xrxn?j<xWnrPVVrErVrnrx1n1Vx9EAEnErEnjajV1?,V,9n1,nn<oxBjEa91<G<9<r<nVj>,PWajaWPraxa<a?rE1pr11N191W9PVGVxWjW1W?GgG<rV,xn9n<n1H(:Pxaxy?VEGj?jPjWj?PHxGnEn1n<??f9EPEGEnnPE?jPj1jWV?WWWVWxGEGa9Va?9r<W<,1a1G1,xPxW,W?j?V?xnP91,1nRn9ZEnnwa6G{,j,EWE,jjjVjxPEP<91aaa9a1an999G9n<P<WVnVjVWVxWPW<W1GmG9rxGnrarGr,1P1r1?x<xxxx?E?<nP,0,<,r,nPPnGvP:PIG{?EjEVjj9Gj<jnPqPnPraeaaa,a,9V1P9?<j<VV<VEVVV1Wa,CWrWnGa1EG,rarWx?x!1VxExExrx1?j?9,C9E,a,,,,+1nWn,cj%VsxE9VEE1j*j9ajjnP9PG9,9EaW9j9j919x<P<<W1WVV9VnVnWGWGGaGPrrn?rjr,rx191<11x8x9EVxn?G?G,9,P,r,?nWV1nxD<M<jPERE<Erjgjaj?WGPPPWP?9raVa?9E<W1n<%<r<rVjVaVGV,rPG<W?GVGVrErEr1r1xjE91rx9xax?x,?P?Wn?nY,VnPnEnrn1Oj39Nra9EaE,E,jrjWj,PjP?X9aEa<a19<99919n<<<GVjx,VWV?WjW?WxGjG<G1,Wr9rrrn191G1,xP,1x??j?V,,nV,<,1nHnrnrnnHaE1jWEPEGE?jajVjxPEP<a<a;a9ar9E9a9r9,V9<?<?VjVVWaWEW<W11eG1GrGnrarGr,1r1Wxn?nxVx,?E,P?1,^,9,r61nanGn, 9CW5nEjjGWJjEjVj1PWP9PrPn<a19a,9a9W9,<j<,<xWPGEV1WPW9GPWnGaGGG,rVrWr,1j1r1xxPx<???,?9?x?n,x,G,,nPEWE<Cj^G+xEPE<jjj(PVj?jnPWPGaraPaWa?9j<19x<P<<<nV6VVVrGnGjWGGEGPGGG?r?rVrx,a1<1nx3xGxrxn?a?nan,P,?,?n9nVn?FE}W41EZ9WErEnjajrj,PPPWP?W9aVax9E9G91<R<9VxWGVaV,V,W?WWW?GjG?o?rEr1r11j19111nx<xGx,E<?W??,j,W,xnEn<n1aPT9sr3nEVEGE,jPPraVPjPxPxaVa<a19Y91x19n<G<G<,VPVGV?WPWVWx?aG<G1rCrGrrrn1ax1?WxPx?x??P?V?x,EZ<nGnZnrnrHE*a>?(,PPjnE?jVjVPEPEPGP1a<1<ar9<9a9r9,<a<W<nVjVV1nWEW<W1GaG9GrGnra,xr,1P1W1?xjxVxx?Ehx?1,9,9nE,nn9nGn,a1FWS?EjEWExjEj<PPPBP9PrPnanaGa,9P9<nPjPjFjW#9jVPNPPPGarWnG?GGG,rPr<aEVPVc<GV1WEWqWk?9?n?n,a,G,xr<r91<1PcVE<EEE<E1E,1a?,?xnj,<,?YPnG=19j9?9x<E<<<GjxPPjnPGaaWGrjGPGWG?r>a<<a<<<<<xV,PEW?VxGPa9W?GVG9rVr9rWrxWVZ<EVEiE9ErE?1x,a??,!n*?GnrnaEESjEa91<W<9<r<nVjE9P<P;a?P,949<G?rEr<r11ixs1r1nxa?1Pa?P?G??,V,V,xnEqWB,8gTVvrE9EaEGE,jPPEj?P9PVPxaEa<a1929n9r<L<a<x<,VaVWWnG<WVW?GEGGG1rBr9xrxj1a1r1,xaxW?9?jnVnE,E,V,1nEn9!EnnjaEV>,EaEWE,jjj1jx9EaaP1aEa9a1an9<9G<,Ir<W<,VjVWVxWEW<W1?WG9GrGnr9rGr,1Pxp1?xjxVxx?1?<?1,I,PVGrPrE1Vr11jxW1,?bEVjEjEj<j1j,,W,VnWn9aG9r9P9W9?< nnjVj;jPPPExP?PV9aa99VG,rGrWr?1j19VWVnV1W9Gb?9,E?n,a,G,xWVrGrr1rxVxkEEE,E1jfj9jWx1,x,<:Pna6<-x9j<19x<E<<<Ginj?jnjnP9aVnr9<a99xK,9<<39,VR<,VEV99{xn???G?,,P,<WE1P1BrG11xExhx.E<ErEnjajGPGPPPWP?9ar?ax9j9<9n<+<9<rWEWVVGW5WPWnW?GjGVGx1<r<r,1p191r1nxaxG?n?P?G??,9,V,?nEIWEE0UZ<lrEEEaEGE,aPj1j?PPPVP?aEaxa1V <?9r<7<a<r<,V<VWG?G+WVW?GEGVG1rEr9xr1?1a1r1,xaxW?9?j,VWP,E,V,1n9n9nrnnMa9E^,EPEWE,jjjVjxPEP<P1a}a<aran9a9G<Y<P<W<?Vj9GVxWEW<W1GbG9GrGn,xrGr,1P1G1?xjxVjG?E?<?1,!nc,r,nnanVG,1axxx?1Ex<xG?G?V?1P}PrPrPnaaaV,ZA,EjE?<j<,<xVEV<VGExPjaWa&a,9GG,rWrWr?1j199xVjWrW1?P?9?r?n,a,G,,PEPWn?EP{VvxEEEa11?E,G,rx,nanVnGnrnG?x3?/nEVEn,9<1V1V9VrVnWjjGPn9V9Wj1<P<V<x<xV{1,x&x9xrxn?aGGP?jP,WnVnjnVnxnnG<xG1?xWx?xx?j,E?nPPP?P?ajaVarma.PEaEE<9<?<nVaVGVxEEE1W?rGGVGxrEraPG9?<aVEVjWjWaWnW?WWV?rqGar<1_1jrW1,1<xa1,?GExE,jPjWj?PjPVjxWma<919%999r9?njjajxjPjGP1jEPx9jajPj9u<a9<<jrn1?1G1,xPx<<?WPG1GxWQG11ErEn90Pnn0abGJx1j?Wxr,j,W,1x?xWP1a?a9aran9j,VEGjEEWE,Pcw<PVPGaEaGhnGWGrGnrarGr,1PEWn?x9i?jGPxx9j,P91rjGnjnanGn,iPmWw?9a9VExjWj<j1PfPPxGnrnx5aCx?j9W<E<j<V<x<nPMjxaPW9WnWnGaGGGxP19G9nVj1VxExEx<x1x,<nWVGWG9,Gn<nPnWn?F&rPxa1,?1xx?,,ajrP<PaPGP,aE?9nxEjCxE,Ej<V<xVcVnVrVnWaWVj,aa9x9?Pr9a9r<j<,11xVx9xrxn?jVWGPrGGG<1V<nrnx:Ee<*1ETE9a19njVV?Ei<?n,9j9GH,W19E<_91<_<9<W3,jPPVjnPaajj;9PaxGxr1r<r11{1P9?VrWjWgW?WnW9WxGP,VnjnEn<n1n,r91nxnxxxrE,PjjWj?PjP9?xnj:r_1na,jEjEaEVjPjVjaPjP?W9WVWxGEG<G1r3r9,rrn111G1,xPx<<xGjWaGxrjr9,1EEn9nrnnbjr9x<x_??x,,:GP11,G,1,rnVn<nr11,nEPxrjPExE,?,PEPVPcP,ahaxIEj?aLPGrxr,1P1W1?xjxVnxEE?<nj,_,9,r,?GarrxjxPrVx??e?j?P?jx<,G??,nnGn1nEXVnnB?AVjj<9aVExWj9V!rV?a?xGGj,?Va9VVWx+x<<1n<1xxVx<x1?l?PV1<nGGrj<xn<ExG,19jVj,PP?G9rjPP,jxnE1P?rWjj?WVa?<a9V9x<E<aHaj1P<PGP5Ejara,9P9P9VEnP<<a<<<9Vjx^x,xrxn?a?VVrG,rVrj1jrx1V11RGp1EkE9ErEn<aGP<,PPaqP?ajaVarFtEEE9ErE<EGjnVVVr;<P,Ojrjr1<h?1rEr,r11l191W9,WaV<W,GaGV<P,j,,,xnEn<nGGrxp1GxVxG?9jExxWWx1EEVW9GE9W9a19V999r9n<jfGjGj<j1P9PPWVG9GEG<G1G,Pr<a<,Va<<VWVjVGx??r?V?x,E,aVrr11Pr1Gjx91,EE9Vx1<7tjG9,PExV9P1a9a9aran9j,rEWjajEVAjx<xE<GnGrGnVa?aGrrWrarGr,1EarVWVxWV<1W<GxWx,2nE,r,nnanVG<1,1V1rxr1P?ax,,1?x,,PWEGG<EVrWVV,rPrGx<j<?<xVEV<VGPxaPPnaG9aGxjrGGjhx,xn?9<r;SxGxxVGP<9rrj?<xRj?nPbPn?*jYVYr1!?E?x?,?a?1x,,EnPn?a<<W9<a?x?<,VjPVrrVPV9VrVnWaWGx,n9?WG?rGrVrx1E1a9rV9W1V1ax9a?G,9,P,W,?n/G<1ExV1VWWGaE9jEEnjajGjx?j,?JPnPx9xx9a9<91<.<9<r<nrw1GWEG8V&9EPEnEaGWV,9r11W191r1nxj9?WPW<WxrRWnrx,xnxn<n1=FHPrrxI?W?Gr??,,&,Wnl1<Pxaxa<a19e9P,?E/jabWEnPEPrPjPEPWWn,jxGn?&,191rEnnP1x1,xPxWx??j?VjWjE,G,1nun9nrnnkaIG_,EPExE?jjjVjr,x,W,?aP1GVEjV?Pn<nGP,rV<?VVVVVxWEWajra991a1GnrrrGr,1P1<anWHVaW9Wj?GG9PjVVLGjVV91xP?0PMnI?EjEVEr1h,a?x,:,rnrPn99aGa,9P9<,1CnE<jPjaPaP<aEPnPrE,an9E9G<EjV1vHn&W)<xGExjQ19Ea?r,1,a,G,,nErG1G1V1<VW?%x9?G?9,E,rPjPaPGP,aPaWa?W1GV9x<?<<<1VXVPErP3aWaGPE9Ea99G9,9W9x1E1?11xcx9xW<,WGGnWn<j<<nynjnVnxUE(<U1aa99E?EnjajGj,PP1WV?WjaVa?9E9<91<,<9<r<nVVVGV,WPWWW?GjGVGxrErGr11J191WVrV,xG?<?P?W??,AW<rxrj1j1V1E19q?pnEaEGE,jPaWGaVjPVa2aEa<a1a,E=/xEE<aVE<,VPVWV1EEaja<a1aVar<4r919rn1a1G1x<EWGWVVEWWGrrPG1GrrEn9n,nnSaNGuxx?xG,:jjPjjxPEP<PG?Pn<*r,,l9EVj3EWEVE,VjVxVxWEW<WGaPaj9P9.rar,r,1P1W11<jVWGTGE?G?1,Z,9,r,nPa9,P,LPEPY?EjEVErxE?V,nnuxan9nVnnuVx?9P9n9?<j<V<r0_PEPPP1aP:GWnG9GGG,rP1Er?1j1V1?xEx<?V?_?9?r??VVGrr,Wjrx1j1r1Vxrxj?bE1j1j9jrjnPjxGnPtjnVzWRxEE2?E/j<<1VaV9VrVnWjE,a?jBGWrWrjrVrxrna9<WVr9aW9WVWxW,W,Ga,Wn9njnVnxnnr9x1xE?E?<?b?ajGPaPPPWP?a0{PnG*<EaEr<U<,<r<nVaVVYxPTaVP,j,aa9r<Er<1t1S191r1?9,V<WVWa?W??,j,V,xEGn<n1&-D9aG_nEaEGE,jPjWj?Pj<KPxaEa<a19L999rW9nx<G<,VPGxV?WPWVW?GEGrn<rAr9rr?P1a1r1,?9jxx??j?V,P,E,<,1n7VEnr#H:acrk,EPEWP?P?jVj?PEPVP1aja9ar<z9a9r9,<9<W<?VjVVGPWEW<W1GSG9GxGnrWr,r,1P1W?,xjxWxxnE,a?1,9,9,,,nn?nGn,ajRWEPEjEGExjEj<a1P,P9ahPnaraG9V9P9,G9<j<x<xGjV<VxWtW1WrGP,nGGG,rPxGr?1P1Vx,j9x<?U?Z?x?r?n,a,G1<nPn,n?_PtVBxEEE<PajmjxjrPEPaPGP,<PaGa?9G9V<P<E<n<1VgVxVrW9WaWnW,GrGW1?1rrV1j1E1x11xjx9xr,x?a?n?,,r,W,?njnVLlwE61;1EtE9jEEnjWWaj,PPPW9xajaWaxVE<?91<r<9VP<nVWVGG6,PWWGGGjGnGxrEr<r1n?19xa1n?hxG?S?P?,<E,jnE,xRnn<nxeq8<zrEP<nEGE,jPa<j?PPPVa-Gxa<a19FVa9r<l<aGG?1VPWEV?WVWVW?GEGx<arLrrrrxV1a1r1,x9xW?Ej??V?x,En,,1nEn9U=xWsa8GN,E?EWE,jjjGjxP9GEP1afa99aan999G<j1,<W<?VjG,VxWjW<G?naG9GrGnrrrGr,1P?W?axjxVxx?E?<?,,Y,9aW,nnanGyg;PHG}?Ej9nExjEj<jxPAP9Pr<?aaaGa,9PGV9?<j<V<xVEV<V1ruGPWrWnGaGGG,r,rW?Par1V1xxE,Px1?E?9?n?n,Waa,,nPnWEryjFW2xEEWGE1jkj9j1jnPaPGP,<?aWa?9j9W9x<E<<<1WjV9VrVnWaWGW,GPxWrnrjrVrx1x1<1?xIx9,0xn?a?G?,,P,W,?>annnxbj}<EGE5E9ErPnP,jGjnPPPGP?araV9,9n9<9?<N<<<r<nVaW1?,WPW1W?G<GVGxrE1Wx?1{1G1rxYxaxGx,?P?1??,P,VnfnEnWn1Ey=xSr5nEaj<E,jajWPna?PVPxaE9Ua19B99Vr<1<a<G<,VPVWW<WjGGGiGEGWG1rVr9rrrn1ax91,xPxWxn?j?G?xFEna,1n;n9nrnnmVFGj,jrEWE?jjjVjxPVP<aE1Ea9axan9a9G9n<P<1<?Vjj?VxWEW<WxG)G9GrGn9rrGr,1P1r1?xjxVxxWV?<?1,X,W,r,nnanGa1/P*W7?EaEVE,jEPWa9P^P9PrajaaaGa,9V1P9?<j<VGGVEVVV1W_xaWrWnGaGGG,rPrWx?x)1V1xxEx<x1?1?9..VV,a,G,,jJnWn,fjSG7xE9VEE1jpj99VjnP9PGP,1<aWa?9j9V9x<E<<<1GrV9VrVnW9WGW,GPGWrWrjrVrx1E1<11xDn9?Gxn?a?G,G,P,?,?njEEnx6E.<l1ETE9ErPEjnjGjnPPa<P?ajaV<x<P9<9x<%<<<rVVVaW1GjWPWrW?G,GVGxrE1W_11w1W1rx0xaxGx,,9PW??,<,V,?nEn<n1Ub9jIrEREaE?E,j9jWP??GPVPxaE9Pa19E999rrV<a<G<,VaVWV?Wj,nW?GEG<r?1<r9rrrnnP1G1,xP?r?<?j?W?x.V,<,1n n9EjnnZaSGEZEPEGE?PaP,jxPEP<a9aMa9ar<n9W9G9,<P<W<?1,VVW,W,W<W?GC1<GrGnrarGxV1P1W1?xaxVx,?E,WPn,b,<,rnGnanGn,jPVaw?EPEVE?jEVjj1ajPWPrajaaWEa,9P9W9?<9<V<?VEVGV1WjW9GxGPGaG1G,r?rWr?1j?V1nxExWx1?j?9j<?nn<nG,,nVnWE<Lj/VzxEEPEE1jjj9j,jnP<PG9:rVaW969jW,9x<E<<W1PrV9V?VnWVWGraGPrr1<rjr1rx?E1<11xOx9,Pxn?V?G,v,P,r,?XaKnnx 9:<ajEoE9ErPnPPjGPjPPPxP?9WaV9,9V9<<6<q1W<r<nVaVGW1WPWxW?GaGVG,rE1WAn1^1r1rn<xaxGx,nPrj??,V,VnEnE.xn1EjE,/rE9EaP9E,jPjWj?anPVaEaEaWa19j99<x<r<a<n<,rrVWV?WjrVGxGEGxG1r<r9x:rnx<xO1,xrxW?a?j?V?x,Enr,1n<n9nxnn/<RGj!VVEWjajj9,jxPEP<91lra99Ean919GVa<PVrV1VjVnVxG?W<W1GhG9rEGnr1rG1*1P1r1??axnxx?G?<Ej,:,9,rsn.PnGM<}PEY_?jWEVj,jjj<PaPT9EPrPnaaaG9W9P<D9?<a<V<,VEWW?nWtW,Wrx<GaGGG,xPnnr?111Vx9xE?xx1,j,n?r,G,a#9,,nPnWn?ExIVE9EEEWE1jjj9araWPaaPP,a9aWWr9j9V<x<EVE<1VNV9VrVn1aWxW,G<GW19rj?1rxxPxv11xxx9?axn?a?Gn,nE,WnGnj&PnxPGv<E1x?E9E?EnjVjGPrPP<W9Waja1ax<G9<<<<>V9Wm<nVWVGWEWPW1W?ra1aGxr?r<xK1i191r?nxrxG?r?P,a??nW,Vn,-Pn<-W0-jnNr{nEaj1jajPP<j?9xPVPxaE9Wr19N<a9rWG<a<G<,VP,nV?W,WVG1GEGWG11}1Vrr1P1azn1,xnxW?n?x?V,W,En1,1n6n9Er6a6aE9N,EnEWPPjjPGP9PEaPP1Wia9aran<<<,9,VE<Wr?VjVVVxGPrjW1GnG9?rGnrarGr,K31WxGxj?<xx?P?<,1nj,9,,,nM9nG=r7PPWj9EjE1Exjnj<anPKaVaVPn9baGVG9P9W9?WjVW<xV?V<WVWCG1WrrEGrGGr1rP?ar?1j1Vx,xVx<?G?Hja?r?n,an1nnnPYVn?jn(VIxEEjWV1j8P9jrV,PaPGP,aP1na?9,9V<x<E<W<1WAW,VrWPWa1WW,GnGWrn1xrV1W1E,E11x_x9,r,T?a,9?,,n,WIPnjzG^16EEP019nE9ErEnP<Prj,aEPW<?ajaVax<P9V91<n<91G<nVaVGG8,PWWG?GjGnGxrEr<r1,r19x<1n?axG?s?P,WnG,j,1,xaPn<7V2 P9jV%nEWEGPWjPaPj?<j9aPxa9a<9a9.V79rWn<V<GVPVPGOV?raWVGxG9G<r7r_rWrr1P1ax1xaxP?ax?,V?V?x,E/<r9nI=Enr+1NaEn8,j9jgE?jnjV<nPEP<P19j9Ear9?9ar<9,<P<WVnV?VVW1WExEW1G0G9Gr1Era19r,xj1W1nxj?V?r?E?1?1P<,9n<,n)<EEn,insWjjEjEVExaEr<j1PxP9a<Pn9raG<F<,9W<r<jW<<xVEV<W?WaW9GWWn,PGGG,rP1r1a1jx<1xEjx<x1?4?9,P?nnu,Gn?nPnrn?EjEP/xE<E<jxj6PEjr9nP<PGaPaP9<a?V<9V<,x9<<VVVur{VrVnWarGGxGPraG?r,rVxj1ExW<WxA?jxrE,?a?G?,n9n<,?+znVjxSEu<R1jjE?Erj,jaVWj,PPPWanaxaV9x9E1P91<!<9<rWGVaW9V,GPWWWnGjrV1jrEr1r1Sj19x<1n?<?Px,?n?WEV,j,V,xEE)an18x+9E<RnE<EGP,PEjWPGPjaPPxW1a<91<j999n9n<<<GVrVPrWG<WjWxWxG9G<xnrF1V1<rnx41G?PxPxWx?nj,1?x,?,<nVnc:1nrEEM<XGE1EPj9E?jjjVP,P<P<aGa%9jaran9a<1<G<PVV<?VnVVVxWEW<?WG:rEGrr,rar1r,xP%11?xVxVEV?E,j?1njnv,rn1naPPn,3P^Wj?EVEVjWjEPjj1<xP99ra9aa99a,9n9W1W<jVVV,VEV1V11xW9G<Wnxa1lG,rWrW1x1j1x1x?P?<x1?x?9,n?n,a,G(,VPnW&G+jEP4xjVE<j?jjj9PVjn9PPGP,aP9r9a9j<99x1)<<<1ViWVWxVnGPWG?nGPGWG?rj1?rx1?1<xrxMxVxr?n,1?G,P,P,,,?n,nVjxEV%<EyE*P?Er<,jaPGWjPPP,P?a9aV9c9E<WVE<LVE<rWaVaVGV,rPGPW?G,GVrWrE1xr1xj1x1rxxxauxx,?P?W,n,W,VnrnEaPn1hQ29Exj1EajWE,9,jWj?PjPV9VaE9ja19n999x9nVa1?<,VGVW?PWjGPWxrPrxG1rxr91nrn1a1G?,?<xW?G?j,P?xnV,<n?nVn96VnnjPgGu,EPjrjWjjP9jxWlP<P1aQ9V<aan<P9Grn<P<W<?VjWnVxW?W<GrGCGVGrrn1<rG1a1PxG1?x,xVnx,,?<,E,knP,rEPnai1Ej6PEaO?P?EVExjEa<PxPeaEPra1aa9na,<9<E9?<n<VxfVEV<V1GjGjWrG?Ga,WG,rPrW1n1G1Vx1xEpVx1?e?9,xPn,anG,,ajnWn?pj_VWPEEjjE1PSj9jxjnaa99P,aGaWVx9j<P9xVP<V<1VxV9r9VnWaWGr,rWGWrGrj1PrxxV1<x??jx9?VxnjP?G?,,Pnrn?njz9nxa9m<C1E:jVjGEnPPjGV?PPPWP?9arVax<E9<<n<H<9<r<nxEVGWrWPGWW?GaGVrxa r<1E1}5V1rx1xa?1xn?P,a??Ex,V,xnEE<EEBbEEtrE1EaE1E,aPj?j?P,PVaWaEG0a1<YVj9r<9<a<1<,VnVWWnGPWVGWGE?OG1rvr9xr1a1ax91,xnxWvG?jnV,r,Enj,1nxn9EVnnEaE1>,EGEW9GjjPPjx<EPWP1a<a9a,anWr9GVNVE<WVGVjWxVxWEW<r1rrG9r<Gn16rGxa1Pxrxaxj?axx?,?<?1,_nVnV,nOjnG_1ePLWJ?jaExExP:j<PWPzP9PrPnGEaG9r9P<V9?<a<VVxWPV<WEW5?bWrG1GaxGr?rPr,r?xE1VE9xE?W,W?J,E?rna,a,G,,EP3Cn?X,{VEWEEjxE1Pja_jrPxPa9WP,aPaW9n<V9V<r<E19<1V}V9WxWPWaGWW,,aGWG?rjrVnG1Exj11xnx9xxxn,aW%?,,G,WnPnj5PnxPEVPJ1E<E9ajEnVPjG9,rgPWaaaj9nax<E9<<11a<9VE<nVVVGWjWPGrG,GjrPGx1<r<r11g?9111n?uxG?r?P,,??nana,xn,n<+Wh8u9ZrjEE,EGjxjPP9j?PjPVa,9 a<9r9/<j9r9n<a<GVrVPWaV?GEWVW,GEr<r?r.rxrrg91ax91,nP?jx??G?V,W,EnP,1Ijt9nr_18aPaO,EPEWP?PajVPWPEajP19<a99x9x9a<<9,GW<W<?VjWGWGWEGaW1?nG9GrGn1<r1r,xj1Wp<xjxVxx,PP<?1nw,9PG,nnanGn,VrRWEGEjjVExjPj<P1a1P9aEPnVPaG9r9P<r9n<jVP<xGxV<V1WDr9G<WnrBGGrrrP1,r?xax=1xx,x<Er?N?9?rnEnW,GnxnPa<n?qjzVE,ErE<jrjKVajrjnPaa1G,aP9Wa?r,9V9x<E<<1WVvWEVrWnWaW1W,rPPVG?rGrVn,1Exj11?jx1xr?1?aEP?,,P,WH?CVnVIWSEEj*1EjE9PrjjjaP9j,PnPWWVaj9Va?9E9?91<j<9V<<nW<VxV,WnWWxVGjGVGxxExEr11x19x<1ne&xG,,,E?W,G,jnP,xPWn<F1Ejg9EE8n9*EGjrjP9Wj,PjP,Pxa9a<V,9Q<V<V9nVz<GWPVPVWV?rjG1WxG?G<rVrz11rrxExx1Gx1xP?9x??j?V,,,?,<nGnzkjnrnnTaE1EGEPjVE?jnjVjxPEP<WWap9Ear9,9a919,VPVr<?VGVVxVWEGjW1xFrrGrr<ra1Wr,In1Wxn?WxV?W?E,1?1,/,9(rvjnaC9n,XnXWjPEjjGEnjEPPj1aPP9PrPn9<<.a,<E9WVX<j<V<xWPVnV1WnW9G?WnGaGGG,??rW1G1jx<1xxPx<?1,x?9,E?n,r,GnrnPjWU9KjZ,>xPGE<<rjD99ajjnP1PGGWaP<Pa?Wj9W9x<G<<WPV=GrVrWnWVWGG<GPG1G?r<rV1,x11<xVx6?rxrxn?anG9,,Pna,?n,nVEjcEEWjVEsjjErjxjajGj,a99EP?9vaV9G9E9<91VjVW<rV,VaW<V,WPWWW?GaGVrWrE19r11j19xr?Vxa?Ex,jG?W,G,jEVnEnEn,n1Rxz9EVmnj<V?E,jnjW9WPjPVPx<E9aa19x99<<9nVr<GWgj)VWWrWjx9WxGEG<r?rrr91WrnmP1G1,xP?r?W?j,<?xjr,<,1nv!V6PnnEalG9?EPEWE?jjPajxP?P<a1azaVar9n<j9G<<<PGV<?V,VVW,WxW<GVGFxpGrGnraxG1x1Pxa1?x,xV,j?E,WWW,*nj,rP,nanGn,E9&13?jDEV<rjEj<j1aj9+Pra,aaGWa,9P9W<nVa<VVxVE?jV1WgW9WrG)Gar9G,1PrWrn1jxV?ExEx,x1jj?9,<?nn<nj,,nnnWPV.jlVuxPEjaE1jxj9P<jnP<PG9,anaW9G9j<P9xr1<<V1VrV9WjVnW<WGGrGPrr1Prj1Prx,11<11xw,9?7xn,&?G,r,Pja,?EjEEnxI?><EVE)9rErjnaEjGP<PPVaP?a,aVVx9V9<<P<L<G<r1nVaW1jxWPGaW?rVGVGxrEx<1W1kxE1rx1xa?nx,,9,;??,n,VaPnEn<n1Ej.<6rE?Ea<WE,jPjWPnanPVa1aEG9a19)999r<E<aV9<,WjVWVnWjGVr9GEG,G1,1r91<rn,aj<1,x1xWx,?jnj?xEE9P,1nWn9oGnnax7GjLxEEWjGjjPxjxPEP<919ja99<an<;9GVa<PVr<,VjWaVxr:W<W1GhrV1EGn1jrGn?1P1W1??a?Wxx,{?<jx,H,9,r,nnrnG_rfPEV{?EaEVjxjPj<PPPhP1Pra1aaVG119P<^9?1x<VWVVEWW?nWeGEWrxGGaGGG,xP1jr?1,1VxWxE,Gx1nJ,E?r,1,an9,,lrnWz?5?OVEaEEPGE1jxj99raPPaajP,91aWrj9j<V<<<E<n<1VPV9V,VnG<r9W,GnGW1jrjrVrx?Exj11xxx9?<xn,r?GnQ,1,WnrnjyanxwEl<E?E1E9jWEnPEjGj,PParaPaj9<ax9,9<91<u<9WV<nW3VGW?WPWrW?rjrjGxrrr<{E1TxE1r,n?<xG?V?P,a??,n,Vn,n?n<}VD PcZrtnEaPGjxjPPaj?P,PV9jaE9WnW95<j9rWW<a<G<,W9VxV?GHWV?1GEG<G11j1jrr1,1anj1,xPxW?n?V?V,x,EP9,1n>n9nrEW6aE9%,jPEWEnjjPVaWPEPnP1<na99<an<<9,9,<n<WGWVjVVVxrEGaW1GxG9r<Gn1rrGxs<H1WxrxjE<xx?E?<,?,P,9nW,n3<nGn,MPErE9Ejj<ExVOj<j1P=aVaVPn9aaG<x9P9W9?<jVa<xV?V<W1WuWVWrGnraGGrVrPnrr?1,1Vx,xGx<?V?L+n?r?n,a&GnxnPgan?k,#V#,EEP<jVjYPEjrP1PaV1P,9P<ja?919V9,<EVj<1WjW,VrW1WaxPW,GPGW1?1NrV1W1Exj11nxx9,r?,?a,9?,,n,WPPnjCV7a_Efn.1axE9j<En9aaEj,PxPWaEajGnax<P5a91<x<9Vn<nVaVGG,WnWWGGGjrPGx1Vr<1?x_19xV1n?ExGx,?P,r,,,jn9,xn,n<n12;EV!x.njPEGj1jPjWj?PjanPxa?a<9r9g9V9r<n<,<GVVVPxPV?W,WV1xn,G<rar81arr?<1ax1<xxP?ax?,V?V?x,EN<,,nSAEnry1DaEn^,j9ErE?jnjV9,PEP<P19j9Var9?9aW19,<P<WVnVnVVW1WE1WW1G>G9Grrxra19r,xj1W1nxj?V?G?E?n?1,<,9n<,nja<<n,vxIWP9Ej<<Ex9EGPj1PGP9GaPn9naG<,<E9W<G<j<?<xGnV<G1GVW9G<WnrCGGxnrPr,E,1jx91xxEx<xx?Q?G?r?njV,G,,nP0Jn?tjCVAx9aE<E1jsP5jrjnPaPGWEaPaWa?9j9V9x<E<<r,VRV9VrWGWaWGW,GPx,G?r,rV1r1E1V11xtO?xrxn?a?r?,,P,Wn9njnVnxQEEjU1E7E9EW1V?n?W?1,1?an9,n%xn?(n9<<n<k<9<r<?EPPEPPPPPGa1n,9raG<_Ej9r<a<jVaVjV9VG9a?P,2??,j,V,rW?r,rWx91<xWx,EaEnE,jPjWj1,,n9nEn1!<a199999r9n<jExE1jxjGV?W1WVWxGEGajn<E9,9V<G<n<,<,xP?jx??j?V?rV&GrGWr,rjrG1n19xV*,E?EWE?jjj9xn?,,,nj?n{En1m5ua9r9,<P<W<?V?VVVxWEGWnEGNG<GrrPrarGr,x91G1?xaxVx,?E?<?1,6,,,rnjnanGn,zPuWK?EGEVE?jEjGj1PEP9ax99aaara,9W9W9?<jWVVaVEVVV1WEW9W?Wn1araG,rarWr,1j1W1x,E?ax1?E?9?1?n,1,Gf,yEnWn,YjTWgxEVE<j1xVj9j1jnPxPGP,aPaWG99j9V9x<j<<<1VRV1V1VnWaG19EGPGWG?rarVrx1E1x?Vx}x9xrn,?a?r?,,P,WnEa?nVnxiEP9Q1EEE9ErjnjajGj,PPPWP?ajaVBP9E9V91<C<9<r<nVanEV,WPWWW?GjGWGxxE1ar11J191r1n?nxG,qPP?W?,,jP?,xnEn<Z?<ak9wxLnE<EGE,jPj,G,PjPrPxara<ax9Q9<9r9nrV<G<,VPVGV?WjWVWx<xG<G?r&rVrr1I1ax1?ExPxrx?EW?V?x,EnW,?npnWnrj,za%G*,PPE,E?j9jVjnPE<WP19j9War9P9aGx9,<P<WW?VGVVWJWEWrW1GVG9rxr<rar,r,,j1W1?xj,V?r?E?1?1,9,9j8,nw<Gxn,7GUWPxEjEVExaEP#j1P<P9apPnWnaGa,9W9W<a<j<V<xVEV<W?W1W9GjWn,rGGG,rP1r1j1jx!1xjEx<x1?p,V,j?n,,,GCGnPnWn?y<E9pxEGE<P1j2j<jrjnGVPGaraPa?a?9j9V9xaE<<VWVCWUVrVnWaWGWnGPraG?rarVr,1E1<x?xmxxxr?r?a,9?,,Pnn,?nGnVvWLEEEZ1Ea99ErjVjaaPj,PaPWP?V9aV9a9E9,91<4<9Vq,cVaWEV,WaWWW,GjG?GxrE,Gr11&191x1nxaxGx,E<?W??,j,1,xnEn<n1aP%9(r4nExEGE,jPjWVyPjPVPxaaa<a19B99G?9n<a<GV9VPVWV?WjxrWxGEG<GxrFr9rrrnW91GxVxP?!x??j?V?x,r,<n9nhn9nrnn;aQGExEPjEE?jajVj,PEP<PxaFa9ar9W9a9G9,<P<,<?VjVVV,WEW<W1G{rWGrGnrarGr,1P1WxExPxVxx?E?1?x,E,9nx9PnanGn,u,hW(?EjPVrEjEj<j1P^P999Pn9<ana,9P9W9,<j<V<xWPWrV1WOW9G9WnGaGG1,1jrWr?1j1V1xR?x<???a?9?r?n#x,G,,nPnWEgIjYV2xEjE<E1jqPVjnjnPaPGVEaPaWa?<a119x<E<<xaV_V9Vrr9,EWGW,GP?PG?rPrVxr1E1rE<x.x9xrbr?a?r?,,PP8,?njnVn?!E!<_1jjVGErEnjaanj,PPPWan?xaVa?9EWV91<+<9WrV<VaVrV,WaWW,9GjrG1PrErGr1,n191r1nxaxxx,?a?W,y,j,V,xnEs9n1vgQ9+rDnE<EGE,PPjWj?PjPWPxaPa<a?9<99919n<V<G<,VPWrGVWjWWWxG<G<G1rtr1E1rn191G1,xPxGx??P?V?xja,<,1nKn9nrnnvaE1G<EPEGE?VPjVjxPEaWaia)a<ar9a9a9G9,<PV9<?VPVVV?WEWVW1rjr?GrrYranrr,1P1W1??ExVx??E?V?1,E,9^rh9nanrn,8PFW<EEjEVP9jEjGj1P%P9aEPn9<j?a,9V9W<V<j<V<xGEGPV1W9W9WrWnnPGGG,1?rW1E1j111xx<x<?1,E?9???nj1,GnjnPjWqWXjur5xE?E<9Pjg99P<jnPVPGaaaP<aa?<a<,9x<9<<GjVsV9VrGnW<WGGjGPGxG??jrV1,1,1<x/x>?Pxrxn?a,1Gs,P,,,?!PnVnxyEA<F?ElEGErj9jaj1j,aPaEP?a9aV<j9E9r91G_V?<rVjVa?<V,?<WW1?GxGVGnrE)Er1?G19xx?Exax?x,^-?W??,j#VnnnEnrn1Kaz9^,_nPajVE,jVjWPEPja1Px9ErVa19P99rn9n<W<G<,VVVWV,WjWrWxGPG<G1rnr9rxrn1a1GxPxP,W?E?j?r?x,j,<%xn%n9qWnnlGuGB,EPErE?9jPPjxP<P<WjaqGParVn9G9G<P<Pr9<?G?VVVxx,W<W,GBGrGrrEra1G<<1P1r1?EhxVxn?En<??,H,W,rn:naErn,SPEW5?EVEVExjEjWj1<HaqPraaaaG3a,GV9WW?<G<VVEVE1PV1r1W9WrG,GaGxG,rWrWrn1jxVxjxExWx1Ea?9???n3aPG,,n<nWn,OjjWUxEEEWE1j9j9jrjnP<PG<,9WaW9j9jG,9xWP<<G1VaV9VnVnxEWG1GGPGW,rrjrrrx1<1<1?xR?9Wjxn?<?G-;,P,1,?Ejnrnx#a(<.xE8P<ErEnPWjGPPPPPWP?aaaVVx9<9<<X<0rx<r1nVarGGVWPW?W?xnGVxVrEr<1,1Q1W1rxaxax1x,,P,W??,a,VPxnEnGn1jy994rEjEaErE,aajWj?aGPVaEaEa<a19j99WrV9<a<,<,1rVW1,Wj1VrjGEG1G1??r9?,rn1aR<1,x<xW?j?j?G?xnEG1,1njn9P1nnmV/GjTjxEWjgjja?jxPEP<a?a<a9a,anW99G9,<PWWVxVjV1VxW9W<,PGyrVG1GnrrrG1?1P1W1?xjxxxx?9?<,E,6,9,r,nnxnGSEkPiW4?EaEVExnWj<j,P{P<PraEaa91nW9P9x9?WW<V<xVEWWWnW5WrWrxSGaGGG,xP11r?1V1VxExEE,x1,j?W?r,<,aEV,,nPnWn?B?CVEEEEE?E1jkj9jrPVPaP?P,aPaWan9j9V<A<E<r<1VEV9VxVnrar=W,GWGWr*rjnarx1Ea?11xVx9xrxn?a?G?,n2,Wnjnjn,nx-js<j1EGE9EnEnjWjGV1PPPWa9aja,ax9E9<91<;<9V?<nVGVGW9WPWGW?1jr<Gxr<r<rn1/_n1r?nx9xG?9?P?r??jP,V,xjVn<fg638xlrE7EaPGx<jPj?j?P9PV9naE<<<O9J9x9r<E<arr<,VPGiV?WVWVGPGEGVG1xh19rr1a1a111,EExW,?,n?V,E,E,1,1axn9qxEG=aE_.,<jEWE?jjjVPaPEP1P1aVa9axanVa<V9,<G<W<nVjx9VxrExPW1G<G9r{Gn11rGr,xa1Wx9xjxVxx?P?<i1,j,9nj,nP1nGEWoPPWj(EjEnExa?j<<jP5P9a<PnaraG9<9P9G9?Wj<1<xVVV<V?W_?PWrrnGGGGrarPr,r?xG1V1xVrx<?P?i?9?r,E,aEGnanPhUn?aGvVa9EEa<PQjDj?jr91PaWEP,aPG,a?9W9V<a<E<V<1GfW,VrW9WaW1W,?VGW1?1,rV1j1E1x11Exx9?x,<?a,E?,jV,W,?njnV3EFE5x(1EWE9ExEnaajrj,PrPWPnajW1axVEr<91<V<9VE<nx<VGV,W9WWG<GjGVGxrar<?1xX19xP1nT1xG*W?P/W,V,jnK,xpEn<a98((VEF5nE,EGjajPjWj?ajaaPxara<Ga9Y9n9r9nVj<GV9VPWEV?WPWVrxG,G<rjrvrVrr?E1a?G?PxPxnx??G?VPW,EnWnVnen,nrjE&a G#,EPEGE?jGjVP9PEPWP1<8<jar9V9a919,W9<WW?xjVVWaWEW,W1,jG9GrrVra1Pr,1P1WxBxjnV?j?E,7?1jV,9yG,njan?n,!?0WE?EjjxExjPjxj1P1P9aaPnaaaG9,nG9W<V<j17<xVxV<V1G<W9GjWnG,GGGnrPxW1V1j1n1xxPx<,??0n9?n?n,x,Gn<nPj?n?EaEPAxE1E<j,jNj9jrjn9EPGaGaPaWa?9G9VWx<P<<V<V_1xVrGnWa1GErGPrPG?1jrVNr1E,<?Wx/?Uxr:r?a,<?,EPwI,?n?nV9PIE9xm1a:EWErjrja<1j,PxPW<?rnaV9V9E9G91V1<9<xV9VaW9V,W,WWW?GjrVGnrE1Er1nG19x<1nxa?Vx,?1?W,W,j,G,xEEEjn1tGm9;xqnP<EGP,jWjWP<Pja0PxV<a<9?<?99<99nVV<G<,VPVWWPWjGPWxGEG<rjrk?91jrnxg1Ge9xPnjx?=j<P?x,?,<n1n8n?nrjnE1oGErEP9PE?PrjV9xaPP<aVaZGxarr99aWGVr<PVa<?1aVVW9WE1<nWGSrEGrrjraxar,191,1?xnxV?P?E?<?1nb,W,rn1naajn,E#{W;?jPEVj9jEPjj1PjP99ra<aa9Pa,999WVn<jWVVWVEWZV1WrW91nWnr<1EG,rnrWx#1j1V1xxE?Vx1???9?r?n,1,GE,TxnW&r&ja,{xjrE<a1rxj9PVjnaaPGVxaPVW<E9j<a9xGx<<r1VFr9WPVnGEWG,9GP,,G??jxErx1,1<n?xmq9xrnnaE?G,1,P,1,?0?nVn,7V7<EGEsE?ErEnjaPG?,PPa9P?W1aV9r9E9<<}<N<n<rVxVaV1V,rPGPW?G?GVG,rEn<r1?bx?1rxrxa?ax,jn?W,nnj,VnGnEa<n12%!9Mrj<EajaE,P;jWjnPj9V9EaE9ja19j99rr9nWa1G<,VnVWWGWj?GWxGEr?G1r,r9rrrn1V1G,,?axW?1?jE,?xy9,<E1Y_n9.WnnEayGj1EPErjPjjP<jxP<P<P1aL99<<an<j9GrV<PVV<?VjGjVxW?W<GGGUG<Gr1nx6rG1r1P1r1?EjxV,x,W?<,V,7nE,raEnanGQ<HPE<5?EjEVEnjE9<j?PtaPPrW<aa91a,WP<n9?V_<VVxVE11V1WjW1WrG,GaG?G,rPrW1?x,1VxrxEHnx1?n?9?rna,an9,,:EnWn,ujjVEWEEjjE1jjj9Vrjn9aaGP,anaW9G9jrG9x<EVm<1V,V9VrVnWVWG1,G9GWr1rj,,rx,?1<,1?<x9?Wxn,a?GIP,P,rnPnjR<nx!P*<l1Euj9naEnPjjGVVPPaVP?ajaWax9?9<<G<4<<<r<nVrVGV,WPWWW?GjGVGx,Gr<r11L1<1r1nxa");local n=h.opRzuSuQ;h.HgheOlhW(function()h.AIlrQMsy()n=n+h.aeyxOw_g end)local function e(r,e)if e then return n end;n=r+n;end local r,n,s=l(h.opRzuSuQ,l,e,f,h.brwJYwit);local function j()local n,r=h.brwJYwit(f,e(h.aeyxOw_g,h.VqrlODhC),e(h.UDvGUEcA,h.EXBfIZLm)+h.XaqOuYLk);e(h.XaqOuYLk);return(r*h.uEJALbKz)+n;end;local c=true;local c=h.opRzuSuQ local function y()local e=n();local n=n();local d=h.aeyxOw_g;local a=(r(n,h.aeyxOw_g,h.TJOlnjCV)*(h.XaqOuYLk^h.JwznHcaZ))+e;local e=r(n,h.cxCzt_DA,h.evUZeoXR);local n=((-h.aeyxOw_g)^r(n,h.JwznHcaZ));if(e==h.opRzuSuQ)then if(a==c)then return n*h.opRzuSuQ;else e=h.aeyxOw_g;d=h.opRzuSuQ;end;elseif(e==h.MennfkiK)then return(a==h.opRzuSuQ)and(n*(h.aeyxOw_g/h.opRzuSuQ))or(n*(h.opRzuSuQ/h.opRzuSuQ));end;return h.VsQMfEm_(n,e-h.BOrsoMkY)*(d+(a/(h.XaqOuYLk^h.danKT_FO)));end;local k=n;local function _(n)local r;if(not n)then n=k();if(n==h.opRzuSuQ)then return'';end;end;r=h.YcWnUsQT(f,e(h.aeyxOw_g,h.VqrlODhC),e(h.UDvGUEcA,h.EXBfIZLm)+n-h.aeyxOw_g);e(n)local e=""for n=(h.aeyxOw_g+c),#r do e=e..h.YcWnUsQT(r,n,n)end return e;end;local k=#h.DEghneD_(u('\49.\48'))~=h.aeyxOw_g local e=n;local function de(...)return{...},h.j_frEpIL('#',...)end local function ne()local l={};local c={};local e={};local u={c,l,nil,e};local e=n()local f={}for a=h.aeyxOw_g,e do local r=s();local e;if(r==h.aeyxOw_g)then e=(s()~=#{});elseif(r==h.VqrlODhC)then local n=y();if k and h.nLQIUxzz(h.DEghneD_(n),'.(\48+)$')then n=h.lgjruvAG(n);end e=n;elseif(r==h.opRzuSuQ)then e=_();end;f[a]=e;end;u[h.VqrlODhC]=s();for e=h.aeyxOw_g,n()do l[e-(#{h.aeyxOw_g})]=ne();end;for u=h.aeyxOw_g,n()do local e=s();if(r(e,h.aeyxOw_g,h.aeyxOw_g)==h.opRzuSuQ)then local l=r(e,h.XaqOuYLk,h.VqrlODhC);local o=r(e,h.vEqZgbwX,h.EXBfIZLm);local e={j(),j(),nil,nil};if(l==h.opRzuSuQ)then e[d]=j();e[t]=j();elseif(l==#{h.aeyxOw_g})then e[d]=n();elseif(l==b[h.XaqOuYLk])then e[d]=n()-(h.XaqOuYLk^h.fRnxirdE)elseif(l==b[h.VqrlODhC])then e[d]=n()-(h.XaqOuYLk^h.fRnxirdE)e[t]=j();end;if(r(o,h.aeyxOw_g,h.aeyxOw_g)==h.aeyxOw_g)then e[a]=f[e[a]]end if(r(o,h.XaqOuYLk,h.XaqOuYLk)==h.aeyxOw_g)then e[d]=f[e[d]]end if(r(o,h.VqrlODhC,h.VqrlODhC)==h.aeyxOw_g)then e[t]=f[e[t]]end c[u]=e;end end;return u;end;local function re(r,e,n)local a=e;local a=n;return u(h.nLQIUxzz(h.nLQIUxzz(({h.HgheOlhW(r)})[h.XaqOuYLk],e),n))end local function _(m,u,f)local function re(...)local j,y,g,ne,c,n,s,k,ee,p,b,r;local e=h.opRzuSuQ;while-h.aeyxOw_g<e do if e<=h.XaqOuYLk then if e>h.opRzuSuQ then if e<h.XaqOuYLk then g=l(h.EXBfIZLm,h.iGatPJXR,h.VqrlODhC,h.jVBKOCiq,m);c=de ne=h.opRzuSuQ;else n=-h.GbOGJyaj;s=-h.aeyxOw_g;end else j=l(h.EXBfIZLm,h.wDKIcRvH,1,87,m);y=l(6,99,2,70,m);end else if e>=5 then if e~=6 then r=l(7);else e=-2;end else if e>2 then for n=18,68 do if e<4 then k={};ee={...};break;end;p=h.j_frEpIL('#',...)-1;b={};break;end;else p=h.j_frEpIL('#',...)-1;b={};end end end e=e+1;end;for e=0,p do if(e>=g)then k[e-g]=ee[e+1];else r[e]=ee[e+1];end;end;local m=p-g+1 local e;local l;local function p(...)while true do end end while true do if n<-40 then n=n+42 end e=j[n];l=e[z];if l>113 then if 171<=l then if 199>=l then if l>184 then if 192<=l then if 195>=l then if l>=194 then if l>192 then for h=16,77 do if l<195 then local h;for l=0,6 do if l>2 then if 5<=l then if l~=3 then for h=42,70 do if 6~=l then r[e[a]]=f[e[d]];n=n+1;e=j[n];break;end;r[e[a]]=r[e[d]][e[t]];break;end;else r[e[a]]=f[e[d]];n=n+1;e=j[n];end else if 4>l then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];else r[e[a]][e[d]]=e[t];n=n+1;e=j[n];end end else if l>0 then if-3~=l then repeat if l~=2 then r(e[a],e[d]);n=n+1;e=j[n];break;end;h=e[a]r[h]=r[h](o(r,h+1,e[d]))n=n+1;e=j[n];until true;else r(e[a],e[d]);n=n+1;e=j[n];end else r(e[a],e[d]);n=n+1;e=j[n];end end end break;end;for t=0,1 do if t~=-4 then for l=22,60 do if t>0 then if r[e[a]]then n=n+1;else n=e[d];end;break;end;r[e[a]]=f[e[d]];n=n+1;e=j[n];break;end;else if r[e[a]]then n=n+1;else n=e[d];end;end end break;end;else local h;for l=0,6 do if l>2 then if 5<=l then if l~=3 then for h=42,70 do if 6~=l then r[e[a]]=f[e[d]];n=n+1;e=j[n];break;end;r[e[a]]=r[e[d]][e[t]];break;end;else r[e[a]]=f[e[d]];n=n+1;e=j[n];end else if 4>l then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];else r[e[a]][e[d]]=e[t];n=n+1;e=j[n];end end else if l>0 then if-3~=l then repeat if l~=2 then r(e[a],e[d]);n=n+1;e=j[n];break;end;h=e[a]r[h]=r[h](o(r,h+1,e[d]))n=n+1;e=j[n];until true;else r(e[a],e[d]);n=n+1;e=j[n];end else r(e[a],e[d]);n=n+1;e=j[n];end end end end else if 189<=l then for n=43,58 do if l<193 then local e=e[a]r[e]=r[e]()break;end;r[e[a]][e[d]]=e[t];break;end;else local e=e[a]r[e]=r[e]()end end else if 197>=l then if l>196 then local j,l,f,h,t;local n=0;while n>-1 do if n<=2 then if n>=1 then if n>-1 then for e=21,76 do if 1~=n then f=d;break;end;l=a;break;end;else f=d;end else j=e;end else if n<5 then if n>=2 then for e=14,75 do if n~=3 then t=j[l];break;end;h=j[f];break;end;else t=j[l];end else if 2<n then for e=33,61 do if 5~=n then n=-2;break;end;r(t,h);break;end;else n=-2;end end end n=n+1 end else local a=e[a]local d={r[a](o(r,a+1,s))};local n=0;for e=a,e[t]do n=n+1;r[e]=d[n];end end else if 194<=l then repeat if 198~=l then local l,h;for f=0,6 do if f<3 then if 0<f then if-3<=f then for t=26,54 do if 2>f then r(e[a],e[d]);n=n+1;e=j[n];break;end;l=e[a]r[l]=r[l](r[l+1])n=n+1;e=j[n];break;end;else l=e[a]r[l]=r[l](r[l+1])n=n+1;e=j[n];end else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end else if f<5 then if f==4 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];else r[e[a]]=u[e[d]];n=n+1;e=j[n];end else if 3<f then for o=37,89 do if f~=6 then l=e[a]r[l]=r[l](r[l+1])n=n+1;e=j[n];break;end;l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];break;end;else l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];end end end end break;end;if(r[e[a]]<r[e[t]])then n=n+1;else n=e[d];end;until true;else if(r[e[a]]<r[e[t]])then n=n+1;else n=e[d];end;end end end else if l<=187 then if 186>l then for l=0,2 do if 1>l then r[e[a]]={};n=n+1;e=j[n];else if l~=-2 then repeat if 2>l then r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;r[e[a]][e[d]]=e[t];until true;else r[e[a]][e[d]]=e[t];end end end else if 187~=l then local h;for l=0,6 do if l>=3 then if l<=4 then if l==4 then h=e[a]r[h]=r[h](o(r,h+1,e[d]))n=n+1;e=j[n];else r(e[a],e[d]);n=n+1;e=j[n];end else if 5<l then r[e[a]]=f[e[d]];else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];end end else if l<1 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];else if 2>l then r(e[a],e[d]);n=n+1;e=j[n];else r(e[a],e[d]);n=n+1;e=j[n];end end end end else local f;for l=0,6 do if 2>=l then if l<=0 then r(e[a],e[d]);n=n+1;e=j[n];else if l~=0 then for t=15,85 do if 1~=l then r(e[a],e[d]);n=n+1;e=j[n];break;end;r(e[a],e[d]);n=n+1;e=j[n];break;end;else r(e[a],e[d]);n=n+1;e=j[n];end end else if 5>l then if l==3 then f=e[a]r[f]=r[f](o(r,f+1,e[d]))n=n+1;e=j[n];else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];end else if 2<=l then repeat if 5~=l then r[e[a]][e[d]]=e[t];break;end;r[e[a]][e[d]]=e[t];n=n+1;e=j[n];until true;else r[e[a]][e[d]]=e[t];n=n+1;e=j[n];end end end end end end else if 189<l then if l~=189 then repeat if 191>l then local n=e[a]r[n]=r[n](o(r,n+1,e[d]))break;end;r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];until true;else local n=e[a]r[n]=r[n](o(r,n+1,e[d]))end else if 189==l then for l=0,6 do if l>=3 then if 4<l then if 6==l then r(e[a],e[d]);else r(e[a],e[d]);n=n+1;e=j[n];end else if 4==l then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];else r[e[a]]=f[e[d]];n=n+1;e=j[n];end end else if 1<=l then if l>-3 then repeat if 2~=l then r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];until true;else r[e[a]][e[d]]=e[t];n=n+1;e=j[n];end else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];end end end else local f,h;for l=0,6 do if l>2 then if l>4 then if l>=4 then for f=38,94 do if 5~=l then r[e[a]][e[d]]=e[t];break;end;r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;else r[e[a]][e[d]]=e[t];end else if 4~=l then f=e[a];h=r[e[d]];r[f+1]=h;r[f]=h[e[t]];n=n+1;e=j[n];else r[e[a]]={};n=n+1;e=j[n];end end else if l<=0 then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];else if-2<l then repeat if l>1 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];break;end;f=e[a]r[f](o(r,f+1,e[d]))n=n+1;e=j[n];until true;else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end end end end end end end end else if l>=178 then if 180>=l then if l<179 then local s,c,u,k,b,l,h;for l=0,6 do if l<3 then if 0>=l then l=0;while l>-1 do if l<3 then if l<=0 then s=e;else if 2>l then c=a;else u=d;end end else if l>4 then if 6>l then r(b,k);else l=-2;end else if 4==l then b=s[c];else k=s[u];end end end l=l+1 end n=n+1;e=j[n];else if l>1 then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];else h=e[a]r[h]=r[h](o(r,h+1,e[d]))n=n+1;e=j[n];end end else if l>4 then if l~=3 then repeat if l>5 then r[e[a]]=r[e[d]][e[t]];break;end;r[e[a]]=f[e[d]];n=n+1;e=j[n];until true;else r[e[a]]=f[e[d]];n=n+1;e=j[n];end else if 3<l then r[e[a]][e[d]]=e[t];n=n+1;e=j[n];else r[e[a]][e[d]]=e[t];n=n+1;e=j[n];end end end end else if l~=179 then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=r[e[d]]/e[t];n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];else if(r[e[a]]==e[t])then n=n+1;else n=e[d];end;end end else if l>=183 then if 184>l then local e=e[a];s=e+m-1;for n=e,s do local e=k[n-e];r[n]=e;end;else local f,h;for l=0,6 do if l>=3 then if l<5 then if 0<=l then repeat if l>3 then r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;r[e[a]][e[d]]=e[t];n=n+1;e=j[n];until true;else r[e[a]][e[d]]=e[t];n=n+1;e=j[n];end else if l~=5 then r[e[a]][e[d]]=r[e[t]];else f=e[a]r[f]=r[f](o(r,f+1,e[d]))n=n+1;e=j[n];end end else if l>=1 then if-3~=l then repeat if l>1 then r[e[a]]={};n=n+1;e=j[n];break;end;f=e[a];h=r[e[d]];r[f+1]=h;r[f]=h[e[t]];n=n+1;e=j[n];until true;else r[e[a]]={};n=n+1;e=j[n];end else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];end end end end else if l~=179 then repeat if 181<l then r[e[a]]=u[e[d]];break;end;local l,u,k,b,h;r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];l=e[a];u=r[e[d]];r[l+1]=u;r[l]=u[e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]k,b=c(r[l](o(r,l+1,e[d])))s=b+l-1 h=0;for e=l,s do h=h+1;r[e]=k[h];end;n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,s))until true;else local l,u,b,k,h;r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];l=e[a];u=r[e[d]];r[l+1]=u;r[l]=u[e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]b,k=c(r[l](o(r,l+1,e[d])))s=k+l-1 h=0;for e=l,s do h=h+1;r[e]=b[h];end;n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,s))end end end else if l>173 then if l<176 then if 172~=l then for h=45,66 do if l<175 then local h;for l=0,6 do if 2>=l then if l<=0 then r[e[a]]=f[e[d]];n=n+1;e=j[n];else if l>-1 then for f=48,80 do if 1<l then r(e[a],e[d]);n=n+1;e=j[n];break;end;r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];break;end;else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end end else if 5>l then if 0<l then for t=35,55 do if 4>l then r(e[a],e[d]);n=n+1;e=j[n];break;end;r(e[a],e[d]);n=n+1;e=j[n];break;end;else r(e[a],e[d]);n=n+1;e=j[n];end else if l>2 then for f=44,96 do if 6~=l then h=e[a]r[h]=r[h](o(r,h+1,e[d]))n=n+1;e=j[n];break;end;r[e[a]][e[d]]=r[e[t]];break;end;else r[e[a]][e[d]]=r[e[t]];end end end end break;end;local e=e[a]r[e]=r[e](r[e+1])break;end;else local h;for l=0,6 do if 2>=l then if l<=0 then r[e[a]]=f[e[d]];n=n+1;e=j[n];else if l>-1 then for f=48,80 do if 1<l then r(e[a],e[d]);n=n+1;e=j[n];break;end;r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];break;end;else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end end else if 5>l then if 0<l then for t=35,55 do if 4>l then r(e[a],e[d]);n=n+1;e=j[n];break;end;r(e[a],e[d]);n=n+1;e=j[n];break;end;else r(e[a],e[d]);n=n+1;e=j[n];end else if l>2 then for f=44,96 do if 6~=l then h=e[a]r[h]=r[h](o(r,h+1,e[d]))n=n+1;e=j[n];break;end;r[e[a]][e[d]]=r[e[t]];break;end;else r[e[a]][e[d]]=r[e[t]];end end end end end else if 177>l then local l,h;for f=0,6 do if f<=2 then if f<=0 then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];else if-1~=f then repeat if 2~=f then l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];break;end;r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];until true;else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end end else if 5>f then if f~=2 then repeat if f<4 then l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];n=n+1;e=j[n];break;end;r(e[a],e[d]);n=n+1;e=j[n];until true;else l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];n=n+1;e=j[n];end else if 1<f then for h=46,60 do if 6>f then l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];break;end;r[e[a]]=r[e[d]][e[t]];break;end;else r[e[a]]=r[e[d]][e[t]];end end end end else local a=e[a]local d={r[a](o(r,a+1,s))};local n=0;for e=a,e[t]do n=n+1;r[e]=d[n];end end end else if 171<l then if 170~=l then repeat if 172~=l then local h;for l=0,6 do if 3<=l then if 5<=l then if l<6 then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];else r[e[a]]=f[e[d]];end else if l>=-1 then for t=39,75 do if 3~=l then h=e[a]r[h]=r[h](o(r,h+1,e[d]))n=n+1;e=j[n];break;end;r(e[a],e[d]);n=n+1;e=j[n];break;end;else r(e[a],e[d]);n=n+1;e=j[n];end end else if l<1 then r(e[a],e[d]);n=n+1;e=j[n];else if 2==l then r(e[a],e[d]);n=n+1;e=j[n];else r(e[a],e[d]);n=n+1;e=j[n];end end end end break;end;if(r[e[a]]<r[e[t]])then n=n+1;else n=e[d];end;until true;else local h;for l=0,6 do if 3<=l then if 5<=l then if l<6 then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];else r[e[a]]=f[e[d]];end else if l>=-1 then for t=39,75 do if 3~=l then h=e[a]r[h]=r[h](o(r,h+1,e[d]))n=n+1;e=j[n];break;end;r(e[a],e[d]);n=n+1;e=j[n];break;end;else r(e[a],e[d]);n=n+1;e=j[n];end end else if l<1 then r(e[a],e[d]);n=n+1;e=j[n];else if 2==l then r(e[a],e[d]);n=n+1;e=j[n];else r(e[a],e[d]);n=n+1;e=j[n];end end end end end else r[e[a]]();end end end end else if 213>=l then if l<207 then if l>=203 then if 204<l then if l~=205 then n=e[d];else local l;r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];end else if l>201 then for h=19,52 do if 203~=l then local l;r[e[a]]=f[e[d]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r[e[a]]=r[e[d]];n=n+1;e=j[n];l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];break;end;r[e[a]]=r[e[d]]/e[t];break;end;else local l;r[e[a]]=f[e[d]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r[e[a]]=r[e[d]];n=n+1;e=j[n];l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];end end else if 200>=l then local l,b,_,k,f,h;r[e[a]]=u[e[d]];n=n+1;e=j[n];r[e[a]]=u[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=r[e[d]][r[e[t]]];n=n+1;e=j[n];l=e[a];b=r[e[d]];r[l+1]=b;r[l]=b[e[t]];n=n+1;e=j[n];l=e[a]h,k=c(r[l](r[l+1]))s=k+l-1 f=0;for e=l,s do f=f+1;r[e]=h[f];end;n=n+1;e=j[n];l=e[a]h={r[l](o(r,l+1,s))};f=0;for e=l,e[t]do f=f+1;r[e]=h[f];end else if l~=199 then for h=38,93 do if 202>l then local a=e[a];local t=e[t];local j=a+2 local a={r[a](r[a+1],r[j])};for e=1,t do r[j+e]=a[e];end;local a=a[1]if a then r[j]=a n=e[d];else n=n+1;end;break;end;local l;r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](r[l+1])n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](r[l+1])break;end;else local l;r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](r[l+1])n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](r[l+1])end end end else if 210<=l then if l<=211 then if l>210 then local u,o,s,j,f,h,l;local n=0;while n>-1 do if 3<=n then if 5>n then if n>3 then l=r[f];for e=1+f,j[s]do l=l..r[e];end;else h=j[u];end else if n~=1 then for e=29,71 do if n>5 then n=-2;break;end;r[h]=l;break;end;else r[h]=l;end end else if 1<=n then if-1~=n then repeat if 2>n then j=e;break;end;f=j[o];until true;else j=e;end else u=a;o=d;s=t;end end n=n+1 end else for l=0,6 do if l>=3 then if l<5 then if 2<l then repeat if l>3 then r(e[a],e[d]);n=n+1;e=j[n];break;end;r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];until true;else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end else if l>=4 then for t=23,78 do if l~=5 then r(e[a],e[d]);break;end;r(e[a],e[d]);n=n+1;e=j[n];break;end;else r(e[a],e[d]);n=n+1;e=j[n];end end else if l>=1 then if 0<l then for h=12,84 do if l~=1 then r[e[a]]=f[e[d]];n=n+1;e=j[n];break;end;r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;else r[e[a]][e[d]]=e[t];n=n+1;e=j[n];end else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];end end end end else if 208~=l then for h=24,83 do if 213>l then local h;for l=0,6 do if 2>=l then if l>=1 then if l<2 then r[e[a]]=f[e[d]];n=n+1;e=j[n];else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end else h=e[a]r[h]=r[h](o(r,h+1,e[d]))n=n+1;e=j[n];end else if l>=5 then if 2~=l then repeat if l~=5 then r[e[a]]=r[e[d]][e[t]];break;end;r[e[a]]=f[e[d]];n=n+1;e=j[n];until true;else r[e[a]]=f[e[d]];n=n+1;e=j[n];end else if 1<=l then for f=46,97 do if 4~=l then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];break;end;r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];break;end;else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end end end end break;end;local e=e[a]local a,n=c(r[e](r[e+1]))s=n+e-1 local n=0;for e=e,s do n=n+1;r[e]=a[n];end;break;end;else local h;for l=0,6 do if 2>=l then if l>=1 then if l<2 then r[e[a]]=f[e[d]];n=n+1;e=j[n];else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end else h=e[a]r[h]=r[h](o(r,h+1,e[d]))n=n+1;e=j[n];end else if l>=5 then if 2~=l then repeat if l~=5 then r[e[a]]=r[e[d]][e[t]];break;end;r[e[a]]=f[e[d]];n=n+1;e=j[n];until true;else r[e[a]]=f[e[d]];n=n+1;e=j[n];end else if 1<=l then for f=46,97 do if 4~=l then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];break;end;r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];break;end;else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end end end end end end else if 208>l then r[e[a]]={};else if l>204 then for f=32,81 do if l~=208 then local l,h,u,s,o,f,t,c,y,p,_,g,k;t=0;while t>-1 do if 3>=t then if t<2 then if t>=-2 then repeat if 0<t then h=a;break;end;l=e;until true;else l=e;end else if 3~=t then u=d;else s=r;end end else if t<=5 then if 4<t then f=l[h];else o=s[l[u]];end else if 4<=t then for e=23,76 do if t<7 then r[f]=o;break;end;t=-2;break;end;else t=-2;end end end t=t+1 end n=n+1;e=j[n];t=0;while t>-1 do if 3<t then if t>=6 then if t>3 then repeat if t~=7 then r[f]=o;break;end;t=-2;until true;else t=-2;end else if t>=2 then for e=22,91 do if t~=5 then o=s[l[u]];break;end;f=l[h];break;end;else f=l[h];end end else if t>=2 then if 3==t then s=r;else u=d;end else if-1<t then repeat if t>0 then h=a;break;end;l=e;until true;else h=a;end end end t=t+1 end n=n+1;e=j[n];c=e[a]r[c]=r[c](r[c+1])n=n+1;e=j[n];t=0;while t>-1 do if 3>=t then if t>1 then if t==2 then u=d;else s=r;end else if-1<t then for n=46,86 do if 1~=t then l=e;break;end;h=a;break;end;else l=e;end end else if t>=6 then if t>=3 then repeat if t~=7 then r[f]=o;break;end;t=-2;until true;else r[f]=o;end else if t>1 then repeat if 4~=t then f=l[h];break;end;o=s[l[u]];until true;else o=s[l[u]];end end end t=t+1 end n=n+1;e=j[n];do return r[e[a]]end n=n+1;e=j[n];c=e[a];y={};for e=1,#b do p=b[e];for e=0,#p do _=p[e];g=_[1];k=_[2];if g==r and k>=c then y[k]=g[k];_[1]=y;end;end;end;n=n+1;e=j[n];n=e[d];break;end;r[e[a]]=r[e[d]]%e[t];break;end;else local l,h,u,s,f,o,t,c,p,g,_,y,k;t=0;while t>-1 do if 3>=t then if t<2 then if t>=-2 then repeat if 0<t then h=a;break;end;l=e;until true;else l=e;end else if 3~=t then u=d;else s=r;end end else if t<=5 then if 4<t then o=l[h];else f=s[l[u]];end else if 4<=t then for e=23,76 do if t<7 then r[o]=f;break;end;t=-2;break;end;else t=-2;end end end t=t+1 end n=n+1;e=j[n];t=0;while t>-1 do if 3<t then if t>=6 then if t>3 then repeat if t~=7 then r[o]=f;break;end;t=-2;until true;else t=-2;end else if t>=2 then for e=22,91 do if t~=5 then f=s[l[u]];break;end;o=l[h];break;end;else o=l[h];end end else if t>=2 then if 3==t then s=r;else u=d;end else if-1<t then repeat if t>0 then h=a;break;end;l=e;until true;else h=a;end end end t=t+1 end n=n+1;e=j[n];c=e[a]r[c]=r[c](r[c+1])n=n+1;e=j[n];t=0;while t>-1 do if 3>=t then if t>1 then if t==2 then u=d;else s=r;end else if-1<t then for n=46,86 do if 1~=t then l=e;break;end;h=a;break;end;else l=e;end end else if t>=6 then if t>=3 then repeat if t~=7 then r[o]=f;break;end;t=-2;until true;else r[o]=f;end else if t>1 then repeat if 4~=t then o=l[h];break;end;f=s[l[u]];until true;else f=s[l[u]];end end end t=t+1 end n=n+1;e=j[n];do return r[e[a]]end n=n+1;e=j[n];c=e[a];p={};for e=1,#b do g=b[e];for e=0,#g do _=g[e];y=_[1];k=_[2];if y==r and k>=c then p[k]=y[k];_[1]=p;end;end;end;n=n+1;e=j[n];n=e[d];end end end end else if 220<l then if 224<l then if l>=227 then if 223<l then for h=35,86 do if 227~=l then local h,l;r(e[a],e[d]);n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];h=e[d];l=r[h]for e=h+1,e[t]do l=l..r[e];end;r[e[a]]=l;n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r(e[a],e[d]);break;end;f[e[d]]=r[e[a]];break;end;else f[e[d]]=r[e[a]];end else if l~=225 then u[e[d]]=r[e[a]];else r[e[a]]=_(y[e[d]],nil,f);end end else if 222>=l then if l==221 then local e=e[a];s=e+m-1;for n=e,s do local e=k[n-e];r[n]=e;end;else local l;r[e[a]]=f[e[d]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r[e[a]]=r[e[d]];n=n+1;e=j[n];l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];end else if 220<=l then repeat if l~=224 then local l;for h=0,6 do if h<=2 then if h<=0 then r(e[a],e[d]);n=n+1;e=j[n];else if h~=0 then for t=45,66 do if h<2 then r(e[a],e[d]);n=n+1;e=j[n];break;end;l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];break;end;else l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];end end else if 5<=h then if h>5 then r[e[a]]=r[e[d]][e[t]];else r[e[a]]=f[e[d]];n=n+1;e=j[n];end else if h>=1 then for l=17,61 do if 4>h then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];break;end;r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];end end end end break;end;local h,b,s,c,o,u,l,f;for l=0,3 do if 2>l then if-3<l then for t=20,52 do if l~=1 then l=0;while l>-1 do if l>3 then if 5>=l then if l<5 then o=c[h[s]];else u=h[b];end else if 3<l then repeat if l>6 then l=-2;break;end;r[u]=o;until true;else r[u]=o;end end else if l<2 then if-1<l then repeat if 0~=l then b=a;break;end;h=e;until true;else h=e;end else if-1~=l then for e=34,89 do if 3~=l then s=d;break;end;c=r;break;end;else s=d;end end end l=l+1 end n=n+1;e=j[n];break;end;f=e[a]r[f]=r[f](r[f+1])n=n+1;e=j[n];break;end;else f=e[a]r[f]=r[f](r[f+1])n=n+1;e=j[n];end else if 0<=l then repeat if l<3 then r[e[a]][r[e[d]]]=r[e[t]];n=n+1;e=j[n];break;end;r[e[a]][r[e[d]]]=r[e[t]];until true;else r[e[a]][r[e[d]]]=r[e[t]];n=n+1;e=j[n];end end end until true;else local h;for l=0,6 do if l<=2 then if l<=0 then r(e[a],e[d]);n=n+1;e=j[n];else if l~=0 then for t=45,66 do if l<2 then r(e[a],e[d]);n=n+1;e=j[n];break;end;h=e[a]r[h]=r[h](o(r,h+1,e[d]))n=n+1;e=j[n];break;end;else h=e[a]r[h]=r[h](o(r,h+1,e[d]))n=n+1;e=j[n];end end else if 5<=l then if l>5 then r[e[a]]=r[e[d]][e[t]];else r[e[a]]=f[e[d]];n=n+1;e=j[n];end else if l>=1 then for f=17,61 do if 4>l then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];break;end;r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];end end end end end end end else if 217>l then if 214>=l then local l;r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];for e=e[a],e[d]do r[e]=nil;end;else if l>=211 then for n=48,61 do if 215~=l then local n=e[a]local a,e=c(r[n](o(r,n+1,e[d])))s=e+n-1 local e=0;for n=n,s do e=e+1;r[n]=a[e];end;break;end;local e=e[a]r[e]=r[e]()break;end;else local e=e[a]r[e]=r[e]()end end else if 218<l then if 216<l then repeat if l<220 then local l;l=e[a]r[l](r[l+1])n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];break;end;r[e[a]]=f[e[d]];until true;else local l;l=e[a]r[l](r[l+1])n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];end else if l>=214 then repeat if 218>l then r[e[a]][r[e[d]]]=r[e[t]];break;end;local l,k,s,h,c,f;for u=0,2 do if u>=1 then if-3~=u then repeat if u>1 then l=e[a];k={};for e=1,#b do s=b[e];for e=0,#s do h=s[e];c=h[1];f=h[2];if c==r and f>=l then k[f]=c[f];h[1]=k;end;end;end;break;end;l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];until true;else l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];end else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];end end until true;else local l,c,s,h,k,f;for u=0,2 do if u>=1 then if-3~=u then repeat if u>1 then l=e[a];c={};for e=1,#b do s=b[e];for e=0,#s do h=s[e];k=h[1];f=h[2];if k==r and f>=l then c[f]=k[f];h[1]=c;end;end;end;break;end;l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];until true;else l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];end else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];end end end end end end end end else if l<=141 then if 128<=l then if l<=134 then if l<=130 then if l>=129 then if 129<l then local f;for l=0,6 do if 3<=l then if l<5 then if l>3 then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];else f=e[a]r[f]=r[f](o(r,f+1,e[d]))n=n+1;e=j[n];end else if l>=3 then repeat if 5~=l then r[e[a]][e[d]]=r[e[t]];break;end;r[e[a]][e[d]]=e[t];n=n+1;e=j[n];until true;else r[e[a]][e[d]]=r[e[t]];end end else if l>0 then if l>-1 then repeat if l<2 then r(e[a],e[d]);n=n+1;e=j[n];break;end;r(e[a],e[d]);n=n+1;e=j[n];until true;else r(e[a],e[d]);n=n+1;e=j[n];end else r(e[a],e[d]);n=n+1;e=j[n];end end end else u[e[d]]=r[e[a]];n=n+1;e=j[n];r[e[a]]=u[e[d]];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];n=n+1;e=j[n];r[e[a]]=u[e[d]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r(e[a],e[d]);end else local f,c,u,s,h,l,b;for l=0,6 do if 3<=l then if 4<l then if l~=4 then for f=15,89 do if 6~=l then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];break;end;r[e[a]][e[d]]=e[t];break;end;else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];end else if 3==l then l=0;while l>-1 do if 2<l then if l>=5 then if l>5 then l=-2;else r(h,s);end else if l~=3 then h=f[c];else s=f[u];end end else if l>0 then if l~=-1 then for e=28,84 do if l~=1 then u=d;break;end;c=a;break;end;else u=d;end else f=e;end end l=l+1 end n=n+1;e=j[n];else b=e[a]r[b]=r[b](o(r,b+1,e[d]))n=n+1;e=j[n];end end else if 1>l then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];else if-2~=l then for t=13,84 do if 1<l then l=0;while l>-1 do if l<=2 then if l>0 then if 2~=l then c=a;else u=d;end else f=e;end else if 5>l then if 4~=l then s=f[u];else h=f[c];end else if l~=1 then repeat if 5<l then l=-2;break;end;r(h,s);until true;else r(h,s);end end end l=l+1 end n=n+1;e=j[n];break;end;l=0;while l>-1 do if 3>l then if 0<l then if l>-1 then for e=24,84 do if 1<l then u=d;break;end;c=a;break;end;else u=d;end else f=e;end else if 4>=l then if 1<l then for e=42,69 do if 4>l then s=f[u];break;end;h=f[c];break;end;else h=f[c];end else if 1<=l then repeat if l<6 then r(h,s);break;end;l=-2;until true;else r(h,s);end end end l=l+1 end n=n+1;e=j[n];break;end;else l=0;while l>-1 do if 3>l then if 0<l then if l>-1 then for e=24,84 do if 1<l then u=d;break;end;c=a;break;end;else u=d;end else f=e;end else if 4>=l then if 1<l then for e=42,69 do if 4>l then s=f[u];break;end;h=f[c];break;end;else h=f[c];end else if 1<=l then repeat if l<6 then r(h,s);break;end;l=-2;until true;else r(h,s);end end end l=l+1 end n=n+1;e=j[n];end end end end end else if l>132 then if 131<=l then for h=19,81 do if 134~=l then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];f[e[d]]=r[e[a]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];f[e[d]]=r[e[a]];n=n+1;e=j[n];r[e[a]]=(e[d]~=0);n=n+1;e=j[n];f[e[d]]=r[e[a]];break;end;local e=e[a]r[e]=r[e](r[e+1])break;end;else local e=e[a]r[e]=r[e](r[e+1])end else if 127<=l then for f=49,75 do if l~=131 then if not r[e[a]]then n=n+1;else n=e[d];end;break;end;local l,h;for f=0,6 do if f>=3 then if f>4 then if 1~=f then for o=32,59 do if 6>f then l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];n=n+1;e=j[n];break;end;r[e[a]]={};break;end;else r[e[a]]={};end else if-1<f then repeat if f~=4 then l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];break;end;r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];until true;else l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];end end else if f<1 then r[e[a]]={};n=n+1;e=j[n];else if-3<=f then for l=10,69 do if 2>f then r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;else r[e[a]][e[d]]=e[t];n=n+1;e=j[n];end end end end break;end;else local l,h;for f=0,6 do if f>=3 then if f>4 then if 1~=f then for o=32,59 do if 6>f then l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];n=n+1;e=j[n];break;end;r[e[a]]={};break;end;else r[e[a]]={};end else if-1<f then repeat if f~=4 then l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];break;end;r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];until true;else l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];end end else if f<1 then r[e[a]]={};n=n+1;e=j[n];else if-3<=f then for l=10,69 do if 2>f then r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;else r[e[a]][e[d]]=e[t];n=n+1;e=j[n];end end end end end end end else if l<=137 then if l<=135 then do return end;else if 132~=l then for h=13,89 do if 137>l then local o,h;for l=0,6 do if l<3 then if 0>=l then f[e[d]]=r[e[a]];n=n+1;e=j[n];else if-2~=l then for t=12,56 do if 1~=l then r[e[a]]();n=n+1;e=j[n];break;end;r[e[a]]=f[e[d]];n=n+1;e=j[n];break;end;else r[e[a]]=f[e[d]];n=n+1;e=j[n];end end else if 5>l then if l~=4 then r[e[a]]=f[e[d]];n=n+1;e=j[n];else r[e[a]]();n=n+1;e=j[n];end else if 2<l then repeat if l>5 then r[e[a]]={};break;end;o=e[a];h=r[e[d]];r[o+1]=h;r[o]=h[e[t]];n=n+1;e=j[n];until true;else r[e[a]]={};end end end end break;end;local l;r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](r[l+1])n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](r[l+1])break;end;else local l;r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](r[l+1])n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](r[l+1])end end else if 140>l then if l~=137 then for t=24,73 do if l>138 then r[e[a]]=#r[e[d]];break;end;local t;r[e[a]]=f[e[d]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];t=e[a]r[t](r[t+1])n=n+1;e=j[n];r[e[a]]=(e[d]~=0);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r[e[a]]=f[e[d]];break;end;else r[e[a]]=#r[e[d]];end else if l>140 then r[e[a]]=r[e[d]]-r[e[t]];else for l=0,3 do if 1<l then if 2<l then r[e[a]][e[d]]=e[t];else r[e[a]][e[d]]=e[t];n=n+1;e=j[n];end else if l~=-2 then repeat if 1>l then r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;r[e[a]][e[d]]=e[t];n=n+1;e=j[n];until true;else r[e[a]][e[d]]=e[t];n=n+1;e=j[n];end end end end end end end else if l>120 then if 124<=l then if 126<=l then if l>124 then repeat if 127>l then local l,s;for h=0,6 do if 2<h then if 4>=h then if h>2 then for t=29,73 do if 4~=h then l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];break;end;r[e[a]]=f[e[d]];n=n+1;e=j[n];break;end;else l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];end else if h>=3 then for t=15,68 do if 5~=h then l=e[a]r[l](r[l+1])break;end;r(e[a],e[d]);n=n+1;e=j[n];break;end;else r(e[a],e[d]);n=n+1;e=j[n];end end else if h<1 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];else if h==1 then l=e[a];s=r[e[d]];r[l+1]=s;r[l]=s[e[t]];n=n+1;e=j[n];else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end end end end break;end;local e=e[a];local n=r[e];for e=e+1,s do h.yEWAcxOQ(n,r[e])end;until true;else local l,s;for h=0,6 do if 2<h then if 4>=h then if h>2 then for t=29,73 do if 4~=h then l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];break;end;r[e[a]]=f[e[d]];n=n+1;e=j[n];break;end;else l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];end else if h>=3 then for t=15,68 do if 5~=h then l=e[a]r[l](r[l+1])break;end;r(e[a],e[d]);n=n+1;e=j[n];break;end;else r(e[a],e[d]);n=n+1;e=j[n];end end else if h<1 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];else if h==1 then l=e[a];s=r[e[d]];r[l+1]=s;r[l]=s[e[t]];n=n+1;e=j[n];else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end end end end end else if 125~=l then local l,k,h,_,f,b;for h=0,4 do if h>1 then if 3>h then l=e[a]b,_=c(r[l](r[l+1]))s=_+l-1 f=0;for e=l,s do f=f+1;r[e]=b[f];end;n=n+1;e=j[n];else if h~=2 then for u=12,66 do if h~=4 then l=e[a]b={r[l](o(r,l+1,s))};f=0;for e=l,e[t]do f=f+1;r[e]=b[f];end n=n+1;e=j[n];break;end;n=e[d];break;end;else l=e[a]b={r[l](o(r,l+1,s))};f=0;for e=l,e[t]do f=f+1;r[e]=b[f];end n=n+1;e=j[n];end end else if h~=-4 then for f=16,96 do if h~=1 then r[e[a]]=u[e[d]];n=n+1;e=j[n];break;end;l=e[a];k=r[e[d]];r[l+1]=k;r[l]=k[e[t]];n=n+1;e=j[n];break;end;else r[e[a]]=u[e[d]];n=n+1;e=j[n];end end end else local l,f;r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];l=e[a];f=r[e[d]];r[l+1]=f;r[l]=f[e[t]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))end end else if l>121 then if l==122 then r[e[a]][e[d]]=r[e[t]];else local l;r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];end else local e=e[a]r[e]=r[e](o(r,e+1,s))end end else if 116<l then if 119>l then if l~=117 then r[e[a]]=r[e[d]]-r[e[t]];else local l,_,b,y,h,k;for b=0,5 do if 3>b then if b>=1 then if-2<=b then for f=47,59 do if 2>b then r[e[a]]=u[e[d]];n=n+1;e=j[n];break;end;l=e[a];_=r[e[d]];r[l+1]=_;r[l]=_[e[t]];n=n+1;e=j[n];break;end;else r[e[a]]=u[e[d]];n=n+1;e=j[n];end else r[e[a]]=f[e[d]];n=n+1;e=j[n];end else if 3>=b then l=e[a]k,y=c(r[l](r[l+1]))s=y+l-1 h=0;for e=l,s do h=h+1;r[e]=k[h];end;n=n+1;e=j[n];else if 1<b then repeat if 4<b then n=e[d];break;end;l=e[a]k={r[l](o(r,l+1,s))};h=0;for e=l,e[t]do h=h+1;r[e]=k[h];end n=n+1;e=j[n];until true;else l=e[a]k={r[l](o(r,l+1,s))};h=0;for e=l,e[t]do h=h+1;r[e]=k[h];end n=n+1;e=j[n];end end end end end else if 119~=l then local e=e[a];local n=r[e];for e=e+1,s do h.yEWAcxOQ(n,r[e])end;else local l;l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);end end else if l<115 then if r[e[a]]then n=n+1;else n=e[d];end;else if 116==l then local l;r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];else r[e[a]]=(e[d]~=0);end end end end end else if 155>=l then if 148<l then if l<152 then if 150<=l then if 149<l then repeat if 150~=l then local l,h;for f=0,6 do if f<=2 then if f>0 then if-2~=f then repeat if f~=2 then l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];break;end;l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];n=n+1;e=j[n];until true;else l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];end else r[e[a]]=r[e[d]];n=n+1;e=j[n];end else if f<5 then if f~=0 then repeat if 3<f then l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];break;end;r[e[a]]=r[e[d]];n=n+1;e=j[n];until true;else l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];end else if f==5 then l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];n=n+1;e=j[n];else r[e[a]]=r[e[d]][e[t]];end end end end break;end;local h,s,u,c,b,l,k;r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];l=0;while l>-1 do if 2>=l then if 1>l then h=e;else if l>-3 then for e=19,93 do if l~=1 then u=d;break;end;s=a;break;end;else s=a;end end else if l<5 then if 0<l then repeat if 4~=l then c=h[u];break;end;b=h[s];until true;else c=h[u];end else if 2<=l then for e=23,58 do if l~=6 then r(b,c);break;end;l=-2;break;end;else l=-2;end end end l=l+1 end n=n+1;e=j[n];l=0;while l>-1 do if 2>=l then if 0>=l then h=e;else if-1<l then for e=32,84 do if 1<l then u=d;break;end;s=a;break;end;else s=a;end end else if l>4 then if l~=4 then for e=27,80 do if 6>l then r(b,c);break;end;l=-2;break;end;else l=-2;end else if l>1 then repeat if l~=3 then b=h[s];break;end;c=h[u];until true;else c=h[u];end end end l=l+1 end n=n+1;e=j[n];l=0;while l>-1 do if 2<l then if l>=5 then if l~=2 then repeat if l~=6 then r(b,c);break;end;l=-2;until true;else l=-2;end else if l>=0 then repeat if l~=4 then c=h[u];break;end;b=h[s];until true;else b=h[s];end end else if 0<l then if 1<l then u=d;else s=a;end else h=e;end end l=l+1 end n=n+1;e=j[n];k=e[a]r[k]=r[k](o(r,k+1,e[d]))n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];until true;else local l,h;for f=0,6 do if f<=2 then if f>0 then if-2~=f then repeat if f~=2 then l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];break;end;l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];n=n+1;e=j[n];until true;else l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];end else r[e[a]]=r[e[d]];n=n+1;e=j[n];end else if f<5 then if f~=0 then repeat if 3<f then l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];break;end;r[e[a]]=r[e[d]];n=n+1;e=j[n];until true;else l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];end else if f==5 then l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];n=n+1;e=j[n];else r[e[a]]=r[e[d]][e[t]];end end end end end else for l=0,4 do if l>=2 then if l<3 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];else if l~=-1 then for f=21,78 do if l>3 then if not r[e[a]]then n=n+1;else n=e[d];end;break;end;r[e[a]]=r[e[d]]/e[t];n=n+1;e=j[n];break;end;else if not r[e[a]]then n=n+1;else n=e[d];end;end end else if 0~=l then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];else r[e[a]]=f[e[d]];n=n+1;e=j[n];end end end end else if 153<l then if 153~=l then for h=10,79 do if l>154 then local a=e[a];local n=r[e[d]];r[a+1]=n;r[a]=n[e[t]];break;end;local l,y,k,p,g,_,b,h,m,z,u;r[e[a]]=f[e[d]];n=n+1;e=j[n];l=e[a];y=r[e[d]];r[l+1]=y;r[l]=y[e[t]];n=n+1;e=j[n];h=0;while h>-1 do if 2>=h then if h>=1 then if h==1 then p=a;else g=d;end else k=e;end else if 5<=h then if 3<h then for e=49,74 do if 5~=h then h=-2;break;end;r(b,_);break;end;else r(b,_);end else if 2~=h then repeat if 4~=h then _=k[g];break;end;b=k[p];until true;else b=k[p];end end end h=h+1 end n=n+1;e=j[n];l=e[a]m,z=c(r[l](o(r,l+1,e[d])))s=z+l-1 u=0;for e=l,s do u=u+1;r[e]=m[u];end;n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,s))n=n+1;e=j[n];l=e[a]r[l]=r[l]()break;end;else local n=e[a];local a=r[e[d]];r[n+1]=a;r[n]=a[e[t]];end else if 153==l then r[e[a]]=r[e[d]]%e[t];else if(r[e[a]]==e[t])then n=n+1;else n=e[d];end;end end end else if 145>l then if 143<=l then if 142<=l then for f=20,65 do if l~=143 then local l,f;r[e[a]]=u[e[d]];n=n+1;e=j[n];l=e[a];f=r[e[d]];r[l+1]=f;r[l]=f[e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r[e[a]]=(e[d]~=0);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];l=e[a];f=r[e[d]];r[l+1]=f;r[l]=f[e[t]];n=n+1;e=j[n];l=e[a]r[l]=r[l](r[l+1])break;end;for l=0,3 do if 2>l then if-3~=l then repeat if 0<l then r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;r[e[a]][e[d]]=e[t];n=n+1;e=j[n];until true;else r[e[a]][e[d]]=e[t];n=n+1;e=j[n];end else if l>=-2 then for f=18,63 do if l~=3 then r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;r[e[a]][e[d]]=e[t];break;end;else r[e[a]][e[d]]=e[t];end end end break;end;else local l,f;r[e[a]]=u[e[d]];n=n+1;e=j[n];l=e[a];f=r[e[d]];r[l+1]=f;r[l]=f[e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r[e[a]]=(e[d]~=0);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];l=e[a];f=r[e[d]];r[l+1]=f;r[l]=f[e[t]];n=n+1;e=j[n];l=e[a]r[l]=r[l](r[l+1])end else r[e[a]][e[d]]=e[t];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);end else if 147>l then if 141<=l then for f=25,68 do if l>145 then for l=0,4 do if l>=2 then if 2>=l then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];else if l~=1 then for f=25,52 do if 4~=l then r[e[a]]=u[e[d]];n=n+1;e=j[n];break;end;if(r[e[a]]<r[e[t]])then n=n+1;else n=e[d];end;break;end;else r[e[a]]=u[e[d]];n=n+1;e=j[n];end end else if l>=-1 then for f=36,62 do if 1~=l then r[e[a]]=r[e[d]];n=n+1;e=j[n];break;end;r[e[a]]=r[e[d]]-r[e[t]];n=n+1;e=j[n];break;end;else r[e[a]]=r[e[d]];n=n+1;e=j[n];end end end break;end;do return r[e[a]]end break;end;else do return r[e[a]]end end else if 146<=l then repeat if l~=148 then local h;for l=0,6 do if 3>l then if l>0 then if l>=-3 then for t=37,74 do if l<2 then r(e[a],e[d]);n=n+1;e=j[n];break;end;r(e[a],e[d]);n=n+1;e=j[n];break;end;else r(e[a],e[d]);n=n+1;e=j[n];end else r(e[a],e[d]);n=n+1;e=j[n];end else if l>=5 then if 4~=l then repeat if l>5 then r[e[a]]=r[e[d]][e[t]];break;end;r[e[a]]=f[e[d]];n=n+1;e=j[n];until true;else r[e[a]]=f[e[d]];n=n+1;e=j[n];end else if l~=4 then h=e[a]r[h]=r[h](o(r,h+1,e[d]))n=n+1;e=j[n];else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];end end end end break;end;local j=e[a];local d={};for e=1,#b do local e=b[e];for n=0,#e do local e=e[n];local a=e[1];local n=e[2];if a==r and n>=j then d[n]=a[n];e[1]=d;end;end;end;until true;else local h;for l=0,6 do if 3>l then if l>0 then if l>=-3 then for t=37,74 do if l<2 then r(e[a],e[d]);n=n+1;e=j[n];break;end;r(e[a],e[d]);n=n+1;e=j[n];break;end;else r(e[a],e[d]);n=n+1;e=j[n];end else r(e[a],e[d]);n=n+1;e=j[n];end else if l>=5 then if 4~=l then repeat if l>5 then r[e[a]]=r[e[d]][e[t]];break;end;r[e[a]]=f[e[d]];n=n+1;e=j[n];until true;else r[e[a]]=f[e[d]];n=n+1;e=j[n];end else if l~=4 then h=e[a]r[h]=r[h](o(r,h+1,e[d]))n=n+1;e=j[n];else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];end end end end end end end end else if 162>=l then if l>=159 then if 160<l then if 157<=l then for h=48,69 do if 161~=l then local n=e[a]r[n](o(r,n+1,e[d]))break;end;local l;r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=u[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];l=e[a]r[l](r[l+1])n=n+1;e=j[n];do return end;break;end;else local l;r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=u[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];l=e[a]r[l](r[l+1])n=n+1;e=j[n];do return end;end else if l>157 then repeat if 160~=l then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];break;end;local l;r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];n=n+1;e=j[n];r[e[a]]=f[e[d]];until true;else local l;r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];n=n+1;e=j[n];r[e[a]]=f[e[d]];end end else if l<157 then local h;for l=0,6 do if l<=2 then if 0<l then if 0<=l then for t=47,70 do if 1<l then r(e[a],e[d]);n=n+1;e=j[n];break;end;r(e[a],e[d]);n=n+1;e=j[n];break;end;else r(e[a],e[d]);n=n+1;e=j[n];end else r(e[a],e[d]);n=n+1;e=j[n];end else if l<5 then if 1~=l then repeat if 3~=l then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];break;end;h=e[a]r[h]=r[h](o(r,h+1,e[d]))n=n+1;e=j[n];until true;else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];end else if l>5 then r[e[a]]=r[e[d]][e[t]];else r[e[a]]=f[e[d]];n=n+1;e=j[n];end end end end else if l<158 then local u,s,o,j,f,h,l;local n=0;while n>-1 do if n<3 then if 1>n then u=a;s=d;o=t;else if 1~=n then f=j[s];else j=e;end end else if 4<n then if n>5 then n=-2;else r[h]=l;end else if 3<n then l=r[f];for e=1+f,j[o]do l=l..r[e];end;else h=j[u];end end end n=n+1 end else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);end end end else if 167>l then if 165<=l then if 166==l then local l,h;for f=0,6 do if 2>=f then if 1<=f then if-3<=f then repeat if f>1 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];break;end;l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];until true;else l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];end else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];end else if 4<f then if f>=1 then for l=37,67 do if 6>f then r[e[a]]={};n=n+1;e=j[n];break;end;r[e[a]][e[d]]=e[t];break;end;else r[e[a]]={};n=n+1;e=j[n];end else if f~=1 then repeat if 3~=f then r(e[a],e[d]);n=n+1;e=j[n];break;end;l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];n=n+1;e=j[n];until true;else l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];n=n+1;e=j[n];end end end end else local h,u,c,b,s,l,k;r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];l=0;while l>-1 do if 2<l then if l<5 then if-1<l then repeat if 3~=l then s=h[u];break;end;b=h[c];until true;else s=h[u];end else if l>=3 then repeat if 6>l then r(s,b);break;end;l=-2;until true;else l=-2;end end else if 1>l then h=e;else if 1==l then u=a;else c=d;end end end l=l+1 end n=n+1;e=j[n];l=0;while l>-1 do if 2>=l then if 1>l then h=e;else if 2>l then u=a;else c=d;end end else if l>=5 then if 2<=l then repeat if l<6 then r(s,b);break;end;l=-2;until true;else l=-2;end else if 1~=l then for e=39,86 do if l~=4 then b=h[c];break;end;s=h[u];break;end;else s=h[u];end end end l=l+1 end n=n+1;e=j[n];l=0;while l>-1 do if 3>l then if l>0 then if 1~=l then c=d;else u=a;end else h=e;end else if l>4 then if 5~=l then l=-2;else r(s,b);end else if l>=-1 then for e=18,96 do if 4~=l then b=h[c];break;end;s=h[u];break;end;else s=h[u];end end end l=l+1 end n=n+1;e=j[n];k=e[a]r[k]=r[k](o(r,k+1,e[d]))n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];end else if l>161 then for h=30,69 do if l>163 then if r[e[a]]then n=n+1;else n=e[d];end;break;end;local l,h,o;r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]={};n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a];h=r[l]o=r[l+2];if(o>0)then if(h>r[l+1])then n=e[d];else r[l+3]=h;end elseif(h<r[l+1])then n=e[d];else r[l+3]=h;end break;end;else local l,h,o;r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]={};n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a];h=r[l]o=r[l+2];if(o>0)then if(h>r[l+1])then n=e[d];else r[l+3]=h;end elseif(h<r[l+1])then n=e[d];else r[l+3]=h;end end end else if 168>=l then if l==168 then local l,h,b,k,c,u,s,f;l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];n=n+1;e=j[n];f=0;while f>-1 do if 3>f then if f>=1 then if-3<=f then repeat if f~=2 then k=a;break;end;c=d;until true;else c=d;end else b=e;end else if 5<=f then if 2<f then repeat if f>5 then f=-2;break;end;r(s,u);until true;else r(s,u);end else if f~=4 then u=b[c];else s=b[k];end end end f=f+1 end n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))else r[e[a]][e[d]]=r[e[t]];end else if l~=168 then repeat if 170~=l then local n=e[a]local d={r[n](r[n+1])};local a=0;for e=n,e[t]do a=a+1;r[e]=d[a];end break;end;local l,u,k,_,b;for h=0,6 do if h>=3 then if 4>=h then if-1<h then repeat if h~=4 then r(e[a],e[d]);n=n+1;e=j[n];break;end;l=e[a]k,_=c(r[l](o(r,l+1,e[d])))s=_+l-1 b=0;for e=l,s do b=b+1;r[e]=k[b];end;n=n+1;e=j[n];until true;else r(e[a],e[d]);n=n+1;e=j[n];end else if 2<=h then for d=25,85 do if h~=5 then l=e[a]r[l]=r[l]()break;end;l=e[a]r[l]=r[l](o(r,l+1,s))n=n+1;e=j[n];break;end;else l=e[a]r[l]=r[l](o(r,l+1,s))n=n+1;e=j[n];end end else if h>0 then if h>=-1 then for o=27,95 do if h<2 then r[e[a]]=f[e[d]];n=n+1;e=j[n];break;end;l=e[a];u=r[e[d]];r[l+1]=u;r[l]=u[e[t]];n=n+1;e=j[n];break;end;else l=e[a];u=r[e[d]];r[l+1]=u;r[l]=u[e[t]];n=n+1;e=j[n];end else r[e[a]]=f[e[d]];n=n+1;e=j[n];end end end until true;else local a=e[a]local d={r[a](r[a+1])};local n=0;for e=a,e[t]do n=n+1;r[e]=d[n];end end end end end end end end else if 57<=l then if 85>l then if l<=70 then if 64>l then if 60<=l then if l>61 then if 59<=l then for h=14,85 do if l>62 then r[e[a]]=u[e[d]];break;end;local l;r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];break;end;else r[e[a]]=u[e[d]];end else if 59<l then for f=39,52 do if 60<l then local l,f;l=e[a];f=r[e[d]];r[l+1]=f;r[l]=f[e[t]];n=n+1;e=j[n];r[e[a]]={};n=n+1;e=j[n];r[e[a]][e[d]]=e[t];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];n=n+1;e=j[n];l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];l=e[a];f=r[e[d]];r[l+1]=f;r[l]=f[e[t]];break;end;r[e[a]]=(e[d]~=0);break;end;else r[e[a]]=(e[d]~=0);end end else if 57<l then if 57<=l then for h=45,87 do if 59~=l then local h;for l=0,6 do if 3<=l then if l>=5 then if 4~=l then for h=15,53 do if 5<l then r[e[a]]=f[e[d]];break;end;r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];break;end;else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];end else if l>=-1 then for f=37,87 do if 4>l then r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;else r[e[a]][e[d]]=e[t];n=n+1;e=j[n];end end else if 1<=l then if l>-2 then repeat if 1~=l then r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];until true;else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];end else h=e[a]r[h]=r[h](o(r,h+1,e[d]))n=n+1;e=j[n];end end end break;end;local h,s,o;for l=0,4 do if l<2 then if l>0 then r[e[a]]=f[e[d]];n=n+1;e=j[n];else u[e[d]]=r[e[a]];n=n+1;e=j[n];end else if 3<=l then if 2<=l then for f=36,98 do if l>3 then n=e[d];break;end;h=e[a]s={r[h](r[h+1])};o=0;for e=h,e[t]do o=o+1;r[e]=s[o];end n=n+1;e=j[n];break;end;else n=e[d];end else r[e[a]]=u[e[d]];n=n+1;e=j[n];end end end break;end;else local h;for l=0,6 do if 3<=l then if l>=5 then if 4~=l then for h=15,53 do if 5<l then r[e[a]]=f[e[d]];break;end;r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];break;end;else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];end else if l>=-1 then for f=37,87 do if 4>l then r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;else r[e[a]][e[d]]=e[t];n=n+1;e=j[n];end end else if 1<=l then if l>-2 then repeat if 1~=l then r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];until true;else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];end else h=e[a]r[h]=r[h](o(r,h+1,e[d]))n=n+1;e=j[n];end end end end else local j=e[a];local t=e[t];local a=j+2 local j={r[j](r[j+1],r[a])};for e=1,t do r[a+e]=j[e];end;local j=j[1]if j then r[a]=j n=e[d];else n=n+1;end;end end else if l>66 then if l<69 then if l>65 then repeat if 67<l then local l,b,h,_,u,k;for h=0,8 do if h<4 then if 2>h then if h==1 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];else r[e[a]]=f[e[d]];n=n+1;e=j[n];end else if h~=-1 then repeat if 2~=h then r[e[a]]=f[e[d]];n=n+1;e=j[n];break;end;r[e[a]]=f[e[d]];n=n+1;e=j[n];until true;else r[e[a]]=f[e[d]];n=n+1;e=j[n];end end else if h>=6 then if h<=6 then l=e[a]k,_=c(r[l](r[l+1]))s=_+l-1 u=0;for e=l,s do u=u+1;r[e]=k[u];end;n=n+1;e=j[n];else if 5~=h then repeat if 7<h then n=e[d];break;end;l=e[a]k={r[l](o(r,l+1,s))};u=0;for e=l,e[t]do u=u+1;r[e]=k[u];end n=n+1;e=j[n];until true;else n=e[d];end end else if 0<h then for f=42,97 do if h~=5 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];break;end;l=e[a];b=r[e[d]];r[l+1]=b;r[l]=b[e[t]];n=n+1;e=j[n];break;end;else l=e[a];b=r[e[d]];r[l+1]=b;r[l]=b[e[t]];n=n+1;e=j[n];end end end end break;end;local j,h,f,t,l,o;local n=0;while n>-1 do if n<=3 then if 1<n then if n>-1 then for e=13,98 do if 2~=n then t=r;break;end;f=d;break;end;else t=r;end else if-1~=n then for r=14,63 do if 0~=n then h=a;break;end;j=e;break;end;else j=e;end end else if 5<n then if n>6 then n=-2;else r[o]=l;end else if n~=3 then repeat if n>4 then o=j[h];break;end;l=t[j[f]];until true;else l=t[j[f]];end end end n=n+1 end until true;else local l,b,h,_,u,k;for h=0,8 do if h<4 then if 2>h then if h==1 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];else r[e[a]]=f[e[d]];n=n+1;e=j[n];end else if h~=-1 then repeat if 2~=h then r[e[a]]=f[e[d]];n=n+1;e=j[n];break;end;r[e[a]]=f[e[d]];n=n+1;e=j[n];until true;else r[e[a]]=f[e[d]];n=n+1;e=j[n];end end else if h>=6 then if h<=6 then l=e[a]k,_=c(r[l](r[l+1]))s=_+l-1 u=0;for e=l,s do u=u+1;r[e]=k[u];end;n=n+1;e=j[n];else if 5~=h then repeat if 7<h then n=e[d];break;end;l=e[a]k={r[l](o(r,l+1,s))};u=0;for e=l,e[t]do u=u+1;r[e]=k[u];end n=n+1;e=j[n];until true;else n=e[d];end end else if 0<h then for f=42,97 do if h~=5 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];break;end;l=e[a];b=r[e[d]];r[l+1]=b;r[l]=b[e[t]];n=n+1;e=j[n];break;end;else l=e[a];b=r[e[d]];r[l+1]=b;r[l]=b[e[t]];n=n+1;e=j[n];end end end end end else if 69<l then local l,h;l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];f[e[d]]=r[e[a]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];if(r[e[a]]~=r[e[t]])then n=n+1;else n=e[d];end;else local e=e[a]r[e](r[e+1])end end else if 64>=l then local a=e[a];local t=r[a+2];local j=r[a]+t;r[a]=j;if(t>0)then if(j<=r[a+1])then n=e[d];r[a+3]=j;end elseif(j>=r[a+1])then n=e[d];r[a+3]=j;end else if 63<l then repeat if 66~=l then local s=y[e[d]];local o;local l={};o=h.GR_WjACE({},{__index=function(n,e)local e=l[e];return e[1][e[2]];end,__newindex=function(r,e,n)local e=l[e]e[1][e[2]]=n;end;});for a=1,e[t]do n=n+1;local e=j[n];if e[z]==67 then l[a-1]={r,e[d]};else l[a-1]={u,e[d]};end;b[#b+1]=l;end;r[e[a]]=_(s,o,f);break;end;if not r[e[a]]then n=n+1;else n=e[d];end;until true;else if not r[e[a]]then n=n+1;else n=e[d];end;end end end end else if 77<l then if 80<l then if l<83 then if 79<l then for n=11,96 do if l~=81 then local e=e[a]r[e]=r[e](o(r,e+1,s))break;end;local e=e[a]local a,n=c(r[e](r[e+1]))s=n+e-1 local n=0;for e=e,s do n=n+1;r[e]=a[n];end;break;end;else local e=e[a]r[e]=r[e](o(r,e+1,s))end else if 84~=l then for l=0,6 do if l<3 then if 1>l then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];else if l>0 then repeat if 1<l then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];break;end;r[e[a]]=f[e[d]];n=n+1;e=j[n];until true;else r[e[a]]=f[e[d]];n=n+1;e=j[n];end end else if 5>l then if 3<l then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end else if l~=3 then repeat if l~=6 then r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;r[e[a]]=f[e[d]];until true;else r[e[a]]=f[e[d]];end end end end else local h;for l=0,6 do if l<3 then if 1<=l then if l<2 then r[e[a]]=f[e[d]];n=n+1;e=j[n];else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];end else if l>=5 then if l~=6 then r(e[a],e[d]);n=n+1;e=j[n];else h=e[a]r[h]=r[h](o(r,h+1,e[d]))end else if 1<=l then for t=46,82 do if 3~=l then r(e[a],e[d]);n=n+1;e=j[n];break;end;r(e[a],e[d]);n=n+1;e=j[n];break;end;else r(e[a],e[d]);n=n+1;e=j[n];end end end end end end else if 79<=l then if 78<l then for f=17,56 do if 79<l then local f,h;for l=0,3 do if l<2 then if l>-1 then for o=39,61 do if l~=0 then r[e[a]]={};n=n+1;e=j[n];break;end;f=e[a];h=r[e[d]];r[f+1]=h;r[f]=h[e[t]];n=n+1;e=j[n];break;end;else r[e[a]]={};n=n+1;e=j[n];end else if l>=0 then repeat if 2~=l then r[e[a]][e[d]]=e[t];break;end;r[e[a]][e[d]]=e[t];n=n+1;e=j[n];until true;else r[e[a]][e[d]]=e[t];n=n+1;e=j[n];end end end break;end;r[e[a]]=r[e[d]][r[e[t]]];break;end;else r[e[a]]=r[e[d]][r[e[t]]];end else local h;for l=0,6 do if 3>l then if l>0 then if l~=-2 then for t=18,59 do if l~=2 then r(e[a],e[d]);n=n+1;e=j[n];break;end;r(e[a],e[d]);n=n+1;e=j[n];break;end;else r(e[a],e[d]);n=n+1;e=j[n];end else r(e[a],e[d]);n=n+1;e=j[n];end else if 4<l then if 6~=l then r[e[a]]=f[e[d]];n=n+1;e=j[n];else r[e[a]]=r[e[d]][e[t]];end else if 4==l then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];else h=e[a]r[h]=r[h](o(r,h+1,e[d]))n=n+1;e=j[n];end end end end end end else if l<=73 then if 71<l then if l>=70 then for j=27,84 do if l<73 then do return end;break;end;local a=e[a];local j=r[a]local t=r[a+2];if(t>0)then if(j>r[a+1])then n=e[d];else r[a+3]=j;end elseif(j<r[a+1])then n=e[d];else r[a+3]=j;end break;end;else do return end;end else local l,f;r[e[a]][e[d]]=e[t];n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];l=e[a];f=r[e[d]];r[l+1]=f;r[l]=f[e[t]];n=n+1;e=j[n];r[e[a]]={};n=n+1;e=j[n];r[e[a]][e[d]]=e[t];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];end else if l>75 then if 73<=l then for j=12,82 do if 76~=l then local n=e[a]r[n]=r[n](o(r,n+1,e[d]))break;end;if(e[a]<r[e[t]])then n=n+1;else n=e[d];end;break;end;else local n=e[a]r[n]=r[n](o(r,n+1,e[d]))end else if l~=71 then repeat if 74~=l then local o,h;for l=0,6 do if l>=3 then if 5>l then if l~=0 then repeat if l>3 then o=e[a];h=r[e[d]];r[o+1]=h;r[o]=h[e[t]];n=n+1;e=j[n];break;end;r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];until true;else o=e[a];h=r[e[d]];r[o+1]=h;r[o]=h[e[t]];n=n+1;e=j[n];end else if l==6 then r[e[a]]=r[e[d]][e[t]];else r[e[a]]=f[e[d]];n=n+1;e=j[n];end end else if l>0 then if l>-3 then for h=30,73 do if 1<l then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];break;end;r[e[a]]=f[e[d]];n=n+1;e=j[n];break;end;else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end end end break;end;r[e[a]]=#r[e[d]];until true;else r[e[a]]=#r[e[d]];end end end end end else if 98>=l then if l<=91 then if l<=87 then if l<86 then local l,b,k,y,h,_;for k=0,5 do if k>2 then if 4>k then l=e[a]_,y=c(r[l](r[l+1]))s=y+l-1 h=0;for e=l,s do h=h+1;r[e]=_[h];end;n=n+1;e=j[n];else if k~=4 then n=e[d];else l=e[a]_={r[l](o(r,l+1,s))};h=0;for e=l,e[t]do h=h+1;r[e]=_[h];end n=n+1;e=j[n];end end else if k<1 then r[e[a]]=f[e[d]];n=n+1;e=j[n];else if 0<=k then repeat if k~=2 then r[e[a]]=u[e[d]];n=n+1;e=j[n];break;end;l=e[a];b=r[e[d]];r[l+1]=b;r[l]=b[e[t]];n=n+1;e=j[n];until true;else l=e[a];b=r[e[d]];r[l+1]=b;r[l]=b[e[t]];n=n+1;e=j[n];end end end end else if 85<l then for h=11,76 do if 87>l then local l,f;l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];l=e[a];f=r[e[d]];r[l+1]=f;r[l]=f[e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];break;end;local l;r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](r[l+1])n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=(e[d]~=0);n=n+1;e=j[n];r[e[a]][e[d]]=e[t];n=n+1;e=j[n];r[e[a]]=f[e[d]];break;end;else local l,f;l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];l=e[a];f=r[e[d]];r[l+1]=f;r[l]=f[e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];end end else if 89<l then if 86<=l then for j=41,72 do if 90<l then n=e[d];break;end;if(e[a]<r[e[t]])then n=n+1;else n=e[d];end;break;end;else n=e[d];end else if 84<l then for h=34,58 do if 89>l then if(r[e[a]]==r[e[t]])then n=n+1;else n=e[d];end;break;end;for l=0,6 do if l>=3 then if 4<l then if l>=1 then for h=12,62 do if l~=5 then r[e[a]]=f[e[d]];break;end;r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;else r[e[a]][e[d]]=e[t];n=n+1;e=j[n];end else if l~=0 then repeat if l<4 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];break;end;r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];until true;else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end end else if l<1 then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];else if l<2 then r[e[a]]=f[e[d]];n=n+1;e=j[n];else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end end end end break;end;else for l=0,6 do if l>=3 then if 4<l then if l>=1 then for h=12,62 do if l~=5 then r[e[a]]=f[e[d]];break;end;r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;else r[e[a]][e[d]]=e[t];n=n+1;e=j[n];end else if l~=0 then repeat if l<4 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];break;end;r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];until true;else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end end else if l<1 then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];else if l<2 then r[e[a]]=f[e[d]];n=n+1;e=j[n];else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end end end end end end end else if 94>=l then if 93<=l then if l>92 then repeat if l~=94 then if(r[e[a]]~=e[t])then n=n+1;else n=e[d];end;break;end;local e=e[a]r[e](r[e+1])until true;else if(r[e[a]]~=e[t])then n=n+1;else n=e[d];end;end else local l;for h=0,6 do if 2>=h then if 0>=h then r(e[a],e[d]);n=n+1;e=j[n];else if 1~=h then r[e[a]]=f[e[d]];n=n+1;e=j[n];else l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];end end else if h>=5 then if h~=6 then l=e[a]r[l]=r[l](r[l+1])n=n+1;e=j[n];else r[e[a]][e[d]]=e[t];end else if 2<h then for l=23,71 do if 4~=h then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];break;end;r(e[a],e[d]);n=n+1;e=j[n];break;end;else r(e[a],e[d]);n=n+1;e=j[n];end end end end end else if l>=97 then if l>94 then repeat if l~=97 then local h,s,u,c,b,k,_,l;r[e[a]]=f[e[d]];n=n+1;e=j[n];h=e[a];s=r[e[d]];r[h+1]=s;r[h]=s[e[t]];n=n+1;e=j[n];l=0;while l>-1 do if l>=3 then if l>=5 then if l~=5 then l=-2;else r(_,k);end else if l>2 then for e=21,72 do if l~=4 then k=u[b];break;end;_=u[c];break;end;else k=u[b];end end else if l>0 then if-2~=l then repeat if l~=2 then c=a;break;end;b=d;until true;else c=a;end else u=e;end end l=l+1 end n=n+1;e=j[n];h=e[a]r[h]=r[h](o(r,h+1,e[d]))n=n+1;e=j[n];h=e[a];s=r[e[d]];r[h+1]=s;r[h]=s[e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];break;end;local l,f;r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]]={};n=n+1;e=j[n];l=e[a];f=r[e[d]];r[l+1]=f;r[l]=f[e[t]];n=n+1;e=j[n];r[e[a]]={};n=n+1;e=j[n];r[e[a]][e[d]]=e[t];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];until true;else local h,s,u,k,c,b,_,l;r[e[a]]=f[e[d]];n=n+1;e=j[n];h=e[a];s=r[e[d]];r[h+1]=s;r[h]=s[e[t]];n=n+1;e=j[n];l=0;while l>-1 do if l>=3 then if l>=5 then if l~=5 then l=-2;else r(_,b);end else if l>2 then for e=21,72 do if l~=4 then b=u[c];break;end;_=u[k];break;end;else b=u[c];end end else if l>0 then if-2~=l then repeat if l~=2 then k=a;break;end;c=d;until true;else k=a;end else u=e;end end l=l+1 end n=n+1;e=j[n];h=e[a]r[h]=r[h](o(r,h+1,e[d]))n=n+1;e=j[n];h=e[a];s=r[e[d]];r[h+1]=s;r[h]=s[e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];end else if l>=92 then for h=28,70 do if 95~=l then local t,h,j,l,f;local n=0;while n>-1 do if n<=2 then if n>=1 then if-2<n then for e=25,73 do if n<2 then h=a;break;end;j=d;break;end;else j=d;end else t=e;end else if 5<=n then if n==6 then n=-2;else r(f,l);end else if 0<=n then for e=32,95 do if 4>n then l=t[j];break;end;f=t[h];break;end;else l=t[j];end end end n=n+1 end break;end;local l;r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](r[l+1])n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](r[l+1])break;end;else local l;r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](r[l+1])n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](r[l+1])end end end end else if l<106 then if l<=101 then if 99>=l then local j,o,h,t,l,f;local n=0;while n>-1 do if 3>=n then if 1<n then if n>=0 then repeat if 2~=n then t=r;break;end;h=d;until true;else t=r;end else if-4~=n then for r=10,52 do if n<1 then j=e;break;end;o=a;break;end;else j=e;end end else if n<=5 then if n==4 then l=t[j[h]];else f=j[o];end else if n~=3 then repeat if 7>n then r[f]=l;break;end;n=-2;until true;else n=-2;end end end n=n+1 end else if l~=98 then for h=31,80 do if l>100 then local l;r[e[a]]=u[e[d]];n=n+1;e=j[n];r[e[a]]=u[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]];n=n+1;e=j[n];l=e[a]r[l]=r[l](r[l+1])n=n+1;e=j[n];r[e[a]][r[e[d]]]=r[e[t]];n=n+1;e=j[n];do return end;break;end;r[e[a]]=f[e[d]];break;end;else r[e[a]]=f[e[d]];end end else if l>103 then if l==104 then local f,c,h,b,k,u,s,l;r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];f=e[a];c=r[e[d]];r[f+1]=c;r[f]=c[e[t]];n=n+1;e=j[n];l=0;while l>-1 do if 2>=l then if l<1 then h=e;else if 1<l then k=d;else b=a;end end else if l<5 then if 0~=l then for e=28,74 do if 3~=l then s=h[b];break;end;u=h[k];break;end;else u=h[k];end else if 1~=l then for e=48,97 do if l>5 then l=-2;break;end;r(s,u);break;end;else r(s,u);end end end l=l+1 end n=n+1;e=j[n];f=e[a]r[f]=r[f](o(r,f+1,e[d]))n=n+1;e=j[n];f=e[a];c=r[e[d]];r[f+1]=c;r[f]=c[e[t]];n=n+1;e=j[n];l=0;while l>-1 do if 3>l then if l>=1 then if l>-1 then for e=17,56 do if 1~=l then k=d;break;end;b=a;break;end;else b=a;end else h=e;end else if 5<=l then if 2~=l then repeat if l>5 then l=-2;break;end;r(s,u);until true;else r(s,u);end else if-1<=l then for e=21,67 do if 3~=l then s=h[b];break;end;u=h[k];break;end;else s=h[b];end end end l=l+1 end n=n+1;e=j[n];f=e[a]r[f]=r[f](o(r,f+1,e[d]))else local h;for l=0,6 do if 2<l then if 5<=l then if 5<l then r[e[a]][e[d]]=r[e[t]];else h=e[a]r[h]=r[h](o(r,h+1,e[d]))n=n+1;e=j[n];end else if 3==l then r(e[a],e[d]);n=n+1;e=j[n];else r(e[a],e[d]);n=n+1;e=j[n];end end else if 0>=l then r[e[a]]=f[e[d]];n=n+1;e=j[n];else if-1<l then repeat if 1<l then r(e[a],e[d]);n=n+1;e=j[n];break;end;r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];until true;else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end end end end end else if 103>l then local l;r[e[a]]=f[e[d]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r[e[a]]=r[e[d]];n=n+1;e=j[n];l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];else local h;for l=0,4 do if 1<l then if l>=3 then if l>1 then for t=48,83 do if l~=4 then h=e[a]r[h]=r[h](o(r,h+1,e[d]))n=n+1;e=j[n];break;end;if r[e[a]]then n=n+1;else n=e[d];end;break;end;else if r[e[a]]then n=n+1;else n=e[d];end;end else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end else if l~=0 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];else r[e[a]]=f[e[d]];n=n+1;e=j[n];end end end end end end else if 109>=l then if 108<=l then if 107~=l then repeat if l~=108 then r[e[a]][e[d]]=e[t];break;end;local l,h;for s=0,6 do if s<3 then if s>=1 then if s>1 then l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];else r(e[a],e[d]);n=n+1;e=j[n];end else l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];n=n+1;e=j[n];end else if 4>=s then if s>0 then for o=26,76 do if s<4 then r[e[a]]=f[e[d]];n=n+1;e=j[n];break;end;l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];n=n+1;e=j[n];break;end;else l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];n=n+1;e=j[n];end else if s>=2 then repeat if s>5 then l=e[a]r[l]=r[l](o(r,l+1,e[d]))break;end;r(e[a],e[d]);n=n+1;e=j[n];until true;else l=e[a]r[l]=r[l](o(r,l+1,e[d]))end end end end until true;else r[e[a]][e[d]]=e[t];end else if l~=105 then for h=16,76 do if l>106 then local l,h;l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))break;end;r[e[a]]=r[e[d]]+r[e[t]];break;end;else local l,h;l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))end end else if 111>=l then if 106<l then repeat if l~=111 then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];n=n+1;e=j[n];r[e[a]]=f[e[d]];break;end;local n=e[a]local a,e=c(r[n](o(r,n+1,e[d])))s=e+n-1 local e=0;for n=n,s do e=e+1;r[n]=a[e];end;until true;else local n=e[a]local a,e=c(r[n](o(r,n+1,e[d])))s=e+n-1 local e=0;for n=n,s do e=e+1;r[n]=a[e];end;end else if 109~=l then repeat if l>112 then local s=y[e[d]];local o;local l={};o=h.GR_WjACE({},{__index=function(n,e)local e=l[e];return e[1][e[2]];end,__newindex=function(r,e,n)local e=l[e]e[1][e[2]]=n;end;});for a=1,e[t]do n=n+1;local e=j[n];if e[z]==67 then l[a-1]={r,e[d]};else l[a-1]={u,e[d]};end;b[#b+1]=l;end;r[e[a]]=_(s,o,f);break;end;if(r[e[a]]~=e[t])then n=n+1;else n=e[d];end;until true;else if(r[e[a]]~=e[t])then n=n+1;else n=e[d];end;end end end end end end else if 27<l then if l<=41 then if 35>l then if l<=30 then if l<=28 then local l,f;r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];l=e[a];f=r[e[d]];r[l+1]=f;r[l]=f[e[t]];n=n+1;e=j[n];r[e[a]]={};n=n+1;e=j[n];r[e[a]][e[d]]=e[t];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];else if 25<=l then for h=38,58 do if l~=29 then local f,c,s,h,u,l,b;l=0;while l>-1 do if l>2 then if 5>l then if l>3 then u=f[c];else h=f[s];end else if 3<=l then repeat if l~=6 then r(u,h);break;end;l=-2;until true;else r(u,h);end end else if 0<l then if 2==l then s=d;else c=a;end else f=e;end end l=l+1 end n=n+1;e=j[n];l=0;while l>-1 do if l>2 then if 5>l then if l>-1 then repeat if 3~=l then u=f[c];break;end;h=f[s];until true;else h=f[s];end else if 1<l then for e=44,67 do if l>5 then l=-2;break;end;r(u,h);break;end;else r(u,h);end end else if 0>=l then f=e;else if 1~=l then s=d;else c=a;end end end l=l+1 end n=n+1;e=j[n];l=0;while l>-1 do if l<3 then if l<=0 then f=e;else if l~=2 then c=a;else s=d;end end else if 5<=l then if l~=3 then for e=10,68 do if 6~=l then r(u,h);break;end;l=-2;break;end;else l=-2;end else if l>1 then repeat if l>3 then u=f[c];break;end;h=f[s];until true;else h=f[s];end end end l=l+1 end n=n+1;e=j[n];b=e[a]r[b]=r[b](o(r,b+1,e[d]))n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];break;end;local h;for l=0,6 do if 2<l then if 4<l then if l~=2 then repeat if 5<l then r[e[a]]=r[e[d]][e[t]];break;end;r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];until true;else r[e[a]]=r[e[d]][e[t]];end else if l>-1 then for h=48,62 do if 4>l then r[e[a]]=f[e[d]];n=n+1;e=j[n];break;end;r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];break;end;else r[e[a]]=f[e[d]];n=n+1;e=j[n];end end else if 0>=l then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];else if l<2 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];else h=e[a]r[h]=r[h](o(r,h+1,e[d]))n=n+1;e=j[n];end end end end break;end;else local f,c,s,h,u,l,b;l=0;while l>-1 do if l>2 then if 5>l then if l>3 then u=f[c];else h=f[s];end else if 3<=l then repeat if l~=6 then r(u,h);break;end;l=-2;until true;else r(u,h);end end else if 0<l then if 2==l then s=d;else c=a;end else f=e;end end l=l+1 end n=n+1;e=j[n];l=0;while l>-1 do if l>2 then if 5>l then if l>-1 then repeat if 3~=l then u=f[c];break;end;h=f[s];until true;else h=f[s];end else if 1<l then for e=44,67 do if l>5 then l=-2;break;end;r(u,h);break;end;else r(u,h);end end else if 0>=l then f=e;else if 1~=l then s=d;else c=a;end end end l=l+1 end n=n+1;e=j[n];l=0;while l>-1 do if l<3 then if l<=0 then f=e;else if l~=2 then c=a;else s=d;end end else if 5<=l then if l~=3 then for e=10,68 do if 6~=l then r(u,h);break;end;l=-2;break;end;else l=-2;end else if l>1 then repeat if l>3 then u=f[c];break;end;h=f[s];until true;else h=f[s];end end end l=l+1 end n=n+1;e=j[n];b=e[a]r[b]=r[b](o(r,b+1,e[d]))n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];end end else if 32>=l then if l>=29 then repeat if l~=31 then local l;r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];break;end;local f;for l=0,4 do if 1<l then if l>2 then if 2~=l then for h=32,55 do if l~=4 then f=e[a]r[f]=r[f](o(r,f+1,e[d]))n=n+1;e=j[n];break;end;if(r[e[a]]==e[t])then n=n+1;else n=e[d];end;break;end;else if(r[e[a]]==e[t])then n=n+1;else n=e[d];end;end else r(e[a],e[d]);n=n+1;e=j[n];end else if l<1 then r[e[a]]=r[e[d]];n=n+1;e=j[n];else r(e[a],e[d]);n=n+1;e=j[n];end end end until true;else local l;r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];end else if 30~=l then repeat if 33<l then local l,h;r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))break;end;local l,f,k,h,s,b,o,u,c;local j=0;while j>-1 do if 3<=j then if j<5 then if 1~=j then repeat if j<4 then o=l[h];u=l[s];break;end;c=o==u and f[b]or 1+k;until true;else o=l[h];u=l[s];end else if 4<j then for e=17,91 do if j~=6 then n=c;break;end;j=-2;break;end;else j=-2;end end else if 1<=j then if 2~=j then f=e;k=n;else h=f[a];s=f[t];b=d;end else l=r;end end j=j+1 end until true;else local l,h;r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))end end end else if 37<l then if 40<=l then if 39<=l then repeat if l~=40 then r[e[a]]=(not r[e[d]]);break;end;for l=0,6 do if 3>l then if 0<l then if 0~=l then for h=49,61 do if 2>l then r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;r[e[a]]=f[e[d]];n=n+1;e=j[n];break;end;else r[e[a]][e[d]]=e[t];n=n+1;e=j[n];end else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];end else if l<=4 then if l~=3 then r(e[a],e[d]);n=n+1;e=j[n];else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end else if l>5 then r(e[a],e[d]);else r(e[a],e[d]);n=n+1;e=j[n];end end end end until true;else for l=0,6 do if 3>l then if 0<l then if 0~=l then for h=49,61 do if 2>l then r[e[a]][e[d]]=e[t];n=n+1;e=j[n];break;end;r[e[a]]=f[e[d]];n=n+1;e=j[n];break;end;else r[e[a]][e[d]]=e[t];n=n+1;e=j[n];end else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];end else if l<=4 then if l~=3 then r(e[a],e[d]);n=n+1;e=j[n];else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end else if l>5 then r(e[a],e[d]);else r(e[a],e[d]);n=n+1;e=j[n];end end end end end else if l<39 then local h,s,c,b,u,l,k;l=0;while l>-1 do if l<=2 then if l>=1 then if-3~=l then for e=17,81 do if l~=1 then c=d;break;end;s=a;break;end;else s=a;end else h=e;end else if l<=4 then if 1<l then repeat if 3~=l then u=h[s];break;end;b=h[c];until true;else u=h[s];end else if 5<l then l=-2;else r(u,b);end end end l=l+1 end n=n+1;e=j[n];l=0;while l>-1 do if l<3 then if l>=1 then if-2<l then for e=49,65 do if l~=2 then s=a;break;end;c=d;break;end;else s=a;end else h=e;end else if l>=5 then if l<6 then r(u,b);else l=-2;end else if l==4 then u=h[s];else b=h[c];end end end l=l+1 end n=n+1;e=j[n];l=0;while l>-1 do if l>2 then if l>=5 then if l~=2 then repeat if l~=6 then r(u,b);break;end;l=-2;until true;else l=-2;end else if l~=-1 then for e=13,67 do if l<4 then b=h[c];break;end;u=h[s];break;end;else b=h[c];end end else if 0<l then if l>-2 then for e=47,83 do if l~=1 then c=d;break;end;s=a;break;end;else s=a;end else h=e;end end l=l+1 end n=n+1;e=j[n];l=0;while l>-1 do if 2>=l then if l>=1 then if l>-3 then repeat if 2~=l then s=a;break;end;c=d;until true;else c=d;end else h=e;end else if l>4 then if 4<=l then repeat if 5<l then l=-2;break;end;r(u,b);until true;else r(u,b);end else if l>-1 then for e=16,90 do if 3~=l then u=h[s];break;end;b=h[c];break;end;else u=h[s];end end end l=l+1 end n=n+1;e=j[n];k=e[a]r[k]=r[k](o(r,k+1,e[d]))n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];else do return r[e[a]]end end end else if 35>=l then r[e[a]][r[e[d]]]=r[e[t]];else if 33<=l then for n=49,66 do if l>36 then r[e[a]]=r[e[d]][r[e[t]]];break;end;local n=e[a]local d={r[n](r[n+1])};local a=0;for e=n,e[t]do a=a+1;r[e]=d[a];end break;end;else local n=e[a]local d={r[n](r[n+1])};local a=0;for e=n,e[t]do a=a+1;r[e]=d[a];end end end end end else if l<49 then if 45<=l then if 46>=l then if l~=44 then for j=26,62 do if 46~=l then local a=e[a];local j=r[a]local t=r[a+2];if(t>0)then if(j>r[a+1])then n=e[d];else r[a+3]=j;end elseif(j<r[a+1])then n=e[d];else r[a+3]=j;end break;end;r[e[a]]=r[e[d]]+r[e[t]];break;end;else r[e[a]]=r[e[d]]+r[e[t]];end else if l==48 then r[e[a]]=(not r[e[d]]);else local o,h,b,c,u,l,s,k;r[e[a]]=f[e[d]];n=n+1;e=j[n];l=0;while l>-1 do if 3>l then if l>0 then if l>=-1 then for e=26,58 do if 2>l then h=a;break;end;b=d;break;end;else h=a;end else o=e;end else if l>4 then if l~=6 then r(u,c);else l=-2;end else if 3<l then u=o[h];else c=o[b];end end end l=l+1 end n=n+1;e=j[n];s=e[a]r[s](r[s+1])n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];s=e[a];k=r[e[d]];r[s+1]=k;r[s]=k[e[t]];n=n+1;e=j[n];l=0;while l>-1 do if l<=2 then if 0<l then if l>=0 then for e=18,65 do if l~=1 then b=d;break;end;h=a;break;end;else h=a;end else o=e;end else if 5<=l then if 4<l then for e=20,66 do if 5~=l then l=-2;break;end;r(u,c);break;end;else l=-2;end else if 4>l then c=o[b];else u=o[h];end end end l=l+1 end end end else if 43<=l then if l>40 then repeat if 44>l then local k,c,s,h,o,b,f,l;for l=0,4 do if 2>l then if l>=-3 then for f=10,94 do if 0<l then r[e[a]]=r[e[d]]+r[e[t]];n=n+1;e=j[n];break;end;r[e[a]]=u[e[d]];n=n+1;e=j[n];break;end;else r[e[a]]=r[e[d]]+r[e[t]];n=n+1;e=j[n];end else if l>2 then if l<4 then r[e[a]]=r[e[d]][r[e[t]]];n=n+1;e=j[n];else l=0;while l>-1 do if 3>l then if 1<=l then if l~=-3 then for n=24,74 do if 1<l then o=h[c];break;end;h=e;break;end;else h=e;end else k=a;c=d;s=t;end else if 5<=l then if l<6 then r[b]=f;else l=-2;end else if l>=-1 then repeat if l~=4 then b=h[k];break;end;f=r[o];for e=1+o,h[s]do f=f..r[e];end;until true;else f=r[o];for e=1+o,h[s]do f=f..r[e];end;end end end l=l+1 end end else r[e[a]]=r[e[d]]%e[t];n=n+1;e=j[n];end end end break;end;u[e[d]]=r[e[a]];until true;else local c,b,s,h,o,k,f,l;for l=0,4 do if 2>l then if l>=-3 then for f=10,94 do if 0<l then r[e[a]]=r[e[d]]+r[e[t]];n=n+1;e=j[n];break;end;r[e[a]]=u[e[d]];n=n+1;e=j[n];break;end;else r[e[a]]=r[e[d]]+r[e[t]];n=n+1;e=j[n];end else if l>2 then if l<4 then r[e[a]]=r[e[d]][r[e[t]]];n=n+1;e=j[n];else l=0;while l>-1 do if 3>l then if 1<=l then if l~=-3 then for n=24,74 do if 1<l then o=h[b];break;end;h=e;break;end;else h=e;end else c=a;b=d;s=t;end else if 5<=l then if l<6 then r[k]=f;else l=-2;end else if l>=-1 then repeat if l~=4 then k=h[c];break;end;f=r[o];for e=1+o,h[s]do f=f..r[e];end;until true;else f=r[o];for e=1+o,h[s]do f=f..r[e];end;end end end l=l+1 end end else r[e[a]]=r[e[d]]%e[t];n=n+1;e=j[n];end end end end else for l=0,6 do if l<=2 then if l>=1 then if l~=-1 then repeat if 2~=l then r[e[a]]=u[e[d]];n=n+1;e=j[n];break;end;r[e[a]][e[d]]=e[t];n=n+1;e=j[n];until true;else r[e[a]]=u[e[d]];n=n+1;e=j[n];end else u[e[d]]=r[e[a]];n=n+1;e=j[n];end else if 5>l then if l>-1 then repeat if l>3 then r[e[a]]=f[e[d]];n=n+1;e=j[n];break;end;r[e[a]]=u[e[d]];n=n+1;e=j[n];until true;else r[e[a]]=u[e[d]];n=n+1;e=j[n];end else if l<6 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];else r(e[a],e[d]);end end end end end end else if 52>=l then if 50>=l then if 45<=l then repeat if 50~=l then local o,l,h,u,k,b,s,c,f;local j=0;while j>-1 do if j<=2 then if 0>=j then o=r;else if-3<j then repeat if 2>j then l=e;h=n;break;end;u=l[a];k=l[t];b=d;until true;else l=e;h=n;end end else if j<5 then if 4~=j then s=o[u];c=o[k];else f=s==c and l[b]or 1+h;end else if 3~=j then for e=39,59 do if j~=6 then n=f;break;end;j=-2;break;end;else n=f;end end end j=j+1 end break;end;for l=0,2 do if l>=1 then if l~=1 then r[e[a]][e[d]]=e[t];else r[e[a]][e[d]]=e[t];n=n+1;e=j[n];end else r[e[a]]={};n=n+1;e=j[n];end end until true;else for l=0,2 do if l>=1 then if l~=1 then r[e[a]][e[d]]=e[t];else r[e[a]][e[d]]=e[t];n=n+1;e=j[n];end else r[e[a]]={};n=n+1;e=j[n];end end end else if 47<=l then for h=44,83 do if 52>l then for e=e[a],e[d]do r[e]=nil;end;break;end;for l=0,4 do if l<2 then if-1<l then repeat if l~=0 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];break;end;r[e[a]]=f[e[d]];n=n+1;e=j[n];until true;else r[e[a]]=f[e[d]];n=n+1;e=j[n];end else if 2<l then if l<4 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];else if(r[e[a]]~=r[e[t]])then n=n+1;else n=e[d];end;end else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end end end break;end;else for l=0,4 do if l<2 then if-1<l then repeat if l~=0 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];break;end;r[e[a]]=f[e[d]];n=n+1;e=j[n];until true;else r[e[a]]=f[e[d]];n=n+1;e=j[n];end else if 2<l then if l<4 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];else if(r[e[a]]~=r[e[t]])then n=n+1;else n=e[d];end;end else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end end end end end else if l>54 then if 52~=l then for h=40,65 do if l~=55 then if(r[e[a]]==r[e[t]])then n=n+1;else n=e[d];end;break;end;local k,h,b,s,u,c,l;for l=0,6 do if 3<=l then if l>4 then if l>5 then l=0;while l>-1 do if 2<l then if 5<=l then if l==5 then r(c,u);else l=-2;end else if 4==l then c=h[b];else u=h[s];end end else if l>0 then if-2<=l then for e=39,55 do if 2>l then b=a;break;end;s=d;break;end;else s=d;end else h=e;end end l=l+1 end else l=0;while l>-1 do if l<=2 then if l<1 then h=e;else if l>-3 then for e=19,69 do if 1<l then s=d;break;end;b=a;break;end;else s=d;end end else if 5<=l then if l>3 then for e=20,81 do if l<6 then r(c,u);break;end;l=-2;break;end;else r(c,u);end else if 1<l then repeat if l~=3 then c=h[b];break;end;u=h[s];until true;else c=h[b];end end end l=l+1 end n=n+1;e=j[n];end else if 0~=l then repeat if l<4 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];break;end;l=0;while l>-1 do if 2<l then if 4>=l then if-1~=l then repeat if 4~=l then u=h[s];break;end;c=h[b];until true;else u=h[s];end else if 6==l then l=-2;else r(c,u);end end else if 1<=l then if 2>l then b=a;else s=d;end else h=e;end end l=l+1 end n=n+1;e=j[n];until true;else l=0;while l>-1 do if 2<l then if 4>=l then if-1~=l then repeat if 4~=l then u=h[s];break;end;c=h[b];until true;else u=h[s];end else if 6==l then l=-2;else r(c,u);end end else if 1<=l then if 2>l then b=a;else s=d;end else h=e;end end l=l+1 end n=n+1;e=j[n];end end else if 0>=l then k=e[a]r[k]=r[k](o(r,k+1,e[d]))n=n+1;e=j[n];else if 0~=l then for h=13,84 do if l>1 then r[e[a]]=f[e[d]];n=n+1;e=j[n];break;end;r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];break;end;else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];end end end end break;end;else if(r[e[a]]==r[e[t]])then n=n+1;else n=e[d];end;end else if l>50 then for h=43,59 do if l<54 then local l;r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][r[e[t]]];n=n+1;e=j[n];l=e[a]r[l]=r[l](r[l+1])n=n+1;e=j[n];if not r[e[a]]then n=n+1;else n=e[d];end;break;end;local n=e[a]r[n](o(r,n+1,e[d]))break;end;else local l;r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][r[e[t]]];n=n+1;e=j[n];l=e[a]r[l]=r[l](r[l+1])n=n+1;e=j[n];if not r[e[a]]then n=n+1;else n=e[d];end;end end end end end else if l<14 then if l>=7 then if 9<l then if l<=11 then if l==10 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];else local l;r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];end else if 9<l then for h=10,86 do if 12<l then local f,c,h,k,u,s,b,l;for l=0,6 do if 3>l then if 0<l then if l<2 then f=e[a]r[f](o(r,f+1,e[d]))n=n+1;e=j[n];else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end else r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];end else if l>=5 then if l>3 then repeat if 6~=l then f=e[a]r[f]=r[f](o(r,f+1,e[d]))n=n+1;e=j[n];break;end;r[e[a]]=r[e[d]][e[t]];until true;else f=e[a]r[f]=r[f](o(r,f+1,e[d]))n=n+1;e=j[n];end else if l==3 then f=e[a];c=r[e[d]];r[f+1]=c;r[f]=c[e[t]];n=n+1;e=j[n];else l=0;while l>-1 do if l<3 then if l>0 then if l<2 then k=a;else u=d;end else h=e;end else if l>4 then if l>2 then repeat if 5~=l then l=-2;break;end;r(b,s);until true;else r(b,s);end else if 1<=l then repeat if 3~=l then b=h[k];break;end;s=h[u];until true;else s=h[u];end end end l=l+1 end n=n+1;e=j[n];end end end end break;end;for l=0,6 do if 2>=l then if 1>l then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];else if-3<=l then for h=41,57 do if 1~=l then r[e[a]]=f[e[d]];n=n+1;e=j[n];break;end;r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];break;end;else r[e[a]]=f[e[d]];n=n+1;e=j[n];end end else if 4>=l then if l>3 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end else if 6~=l then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];else r[e[a]][e[d]]=e[t];end end end end break;end;else for l=0,6 do if 2>=l then if 1>l then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];else if-3<=l then for h=41,57 do if 1~=l then r[e[a]]=f[e[d]];n=n+1;e=j[n];break;end;r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];break;end;else r[e[a]]=f[e[d]];n=n+1;e=j[n];end end else if 4>=l then if l>3 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end else if 6~=l then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];else r[e[a]][e[d]]=e[t];end end end end end end else if l<=7 then local l,f;r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];l=e[a];f=r[e[d]];r[l+1]=f;r[l]=f[e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r[e[a]]={};n=n+1;e=j[n];r[e[a]][e[d]]=e[t];else if l>8 then for l=0,6 do if 3>l then if l<1 then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];else if 2~=l then r[e[a]][e[d]]=e[t];n=n+1;e=j[n];else r[e[a]]=f[e[d]];n=n+1;e=j[n];end end else if l<5 then if 4>l then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];else r(e[a],e[d]);n=n+1;e=j[n];end else if l~=4 then repeat if 6~=l then r(e[a],e[d]);n=n+1;e=j[n];break;end;r(e[a],e[d]);until true;else r(e[a],e[d]);n=n+1;e=j[n];end end end end else local l;r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];n=n+1;e=j[n];r[e[a]]=f[e[d]];end end end else if 3<=l then if 5<=l then if l>3 then repeat if l~=5 then r[e[a]]=_(y[e[d]],nil,f);break;end;for e=e[a],e[d]do r[e]=nil;end;until true;else for e=e[a],e[d]do r[e]=nil;end;end else if 0~=l then for h=29,97 do if 3<l then local h;for l=0,6 do if 3<=l then if 4<l then if l>=2 then repeat if l~=6 then r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];break;end;r[e[a]]=r[e[d]][e[t]];until true;else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end else if 3==l then r[e[a]]=f[e[d]];n=n+1;e=j[n];else r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];end end else if l>0 then if-1<l then for t=29,63 do if 1<l then h=e[a]r[h](r[h+1])n=n+1;e=j[n];break;end;r(e[a],e[d]);n=n+1;e=j[n];break;end;else r(e[a],e[d]);n=n+1;e=j[n];end else r[e[a]]=f[e[d]];n=n+1;e=j[n];end end end break;end;local l,f;r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];l=e[a];f=r[e[d]];r[l+1]=f;r[l]=f[e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r[e[a]]={};n=n+1;e=j[n];r[e[a]][e[d]]=e[t];break;end;else local l,f;r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];l=e[a];f=r[e[d]];r[l+1]=f;r[l]=f[e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r[e[a]]={};n=n+1;e=j[n];r[e[a]][e[d]]=e[t];end end else if l<=0 then local l,f;r[e[a]][e[d]]=e[t];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];n=n+1;e=j[n];l=e[a]r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];l=e[a];f=r[e[d]];r[l+1]=f;r[l]=f[e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))else if 1==l then r[e[a]]=r[e[d]]/e[t];else local a=e[a];local t=r[a+2];local j=r[a]+t;r[a]=j;if(t>0)then if(j<=r[a+1])then n=e[d];r[a+3]=j;end elseif(j>=r[a+1])then n=e[d];r[a+3]=j;end end end end end else if 21<=l then if l<=23 then if l>21 then if 20<l then repeat if 23>l then local l,s;for h=0,6 do if h>=3 then if h<5 then if h>3 then l=e[a];s=r[e[d]];r[l+1]=s;r[l]=s[e[t]];n=n+1;e=j[n];else r[e[a]]=f[e[d]];n=n+1;e=j[n];end else if h<6 then r(e[a],e[d]);n=n+1;e=j[n];else l=e[a]r[l]=r[l](o(r,l+1,e[d]))end end else if h>0 then if h>=0 then for t=17,83 do if h>1 then l=e[a]r[l](r[l+1])n=n+1;e=j[n];break;end;r(e[a],e[d]);n=n+1;e=j[n];break;end;else l=e[a]r[l](r[l+1])n=n+1;e=j[n];end else r[e[a]]=f[e[d]];n=n+1;e=j[n];end end end break;end;local a=e[a];local n=r[e[d]];r[a+1]=n;r[a]=n[e[t]];until true;else local n=e[a];local a=r[e[d]];r[n+1]=a;r[n]=a[e[t]];end else local l;r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))n=n+1;e=j[n];r[e[a]]=u[e[d]];n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))end else if l<26 then if 24~=l then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);else local t;r[e[a]]=u[e[d]];n=n+1;e=j[n];r[e[a]]=u[e[d]];n=n+1;e=j[n];r[e[a]]=u[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]];n=n+1;e=j[n];t=e[a]r[t]=r[t](o(r,t+1,e[d]))end else if l~=23 then for h=38,68 do if 26~=l then local l,b,_,k,u;for h=0,6 do if 2>=h then if h>0 then if-2<=h then for o=15,78 do if 1~=h then l=e[a];b=r[e[d]];r[l+1]=b;r[l]=b[e[t]];n=n+1;e=j[n];break;end;r[e[a]]=f[e[d]];n=n+1;e=j[n];break;end;else r[e[a]]=f[e[d]];n=n+1;e=j[n];end else r[e[a]]=f[e[d]];n=n+1;e=j[n];end else if h>=5 then if 6==h then l=e[a]r[l]=r[l]()else l=e[a]r[l]=r[l](o(r,l+1,s))n=n+1;e=j[n];end else if 4>h then r(e[a],e[d]);n=n+1;e=j[n];else l=e[a]_,k=c(r[l](o(r,l+1,e[d])))s=k+l-1 u=0;for e=l,s do u=u+1;r[e]=_[u];end;n=n+1;e=j[n];end end end end break;end;f[e[d]]=r[e[a]];break;end;else local l,b,k,_,u;for h=0,6 do if 2>=h then if h>0 then if-2<=h then for o=15,78 do if 1~=h then l=e[a];b=r[e[d]];r[l+1]=b;r[l]=b[e[t]];n=n+1;e=j[n];break;end;r[e[a]]=f[e[d]];n=n+1;e=j[n];break;end;else r[e[a]]=f[e[d]];n=n+1;e=j[n];end else r[e[a]]=f[e[d]];n=n+1;e=j[n];end else if h>=5 then if 6==h then l=e[a]r[l]=r[l]()else l=e[a]r[l]=r[l](o(r,l+1,s))n=n+1;e=j[n];end else if 4>h then r(e[a],e[d]);n=n+1;e=j[n];else l=e[a]k,_=c(r[l](o(r,l+1,e[d])))s=_+l-1 u=0;for e=l,s do u=u+1;r[e]=k[u];end;n=n+1;e=j[n];end end end end end end end else if 16>=l then if 14<l then if 11~=l then repeat if l>15 then r[e[a]]={};break;end;local l,f;for h=0,4 do if 1<h then if h<3 then r[e[a]]=u[e[d]];n=n+1;e=j[n];else if h>0 then for o=37,72 do if 4~=h then l=e[a];f=r[e[d]];r[l+1]=f;r[l]=f[e[t]];n=n+1;e=j[n];break;end;l=e[a]r[l](r[l+1])break;end;else l=e[a];f=r[e[d]];r[l+1]=f;r[l]=f[e[t]];n=n+1;e=j[n];end end else if-2<=h then repeat if h>0 then l=e[a]r[l](r[l+1])n=n+1;e=j[n];break;end;l=e[a];f=r[e[d]];r[l+1]=f;r[l]=f[e[t]];n=n+1;e=j[n];until true;else l=e[a];f=r[e[d]];r[l+1]=f;r[l]=f[e[t]];n=n+1;e=j[n];end end end until true;else r[e[a]]={};end else r[e[a]]=r[e[d]][e[t]];end else if 18<l then if l==20 then r[e[a]]=r[e[d]][e[t]];else r[e[a]]();end else if 18==l then r[e[a]][e[d]]=r[e[t]];n=n+1;e=j[n];r[e[a]][e[d]]=e[t];n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];r[e[a]]=r[e[d]][e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];r(e[a],e[d]);else local l,h;r[e[a]]=f[e[d]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l](r[l+1])n=n+1;e=j[n];r[e[a]]=f[e[d]];n=n+1;e=j[n];l=e[a];h=r[e[d]];r[l+1]=h;r[l]=h[e[t]];n=n+1;e=j[n];r(e[a],e[d]);n=n+1;e=j[n];l=e[a]r[l]=r[l](o(r,l+1,e[d]))end end end end end end end end n=1+n;end;end;return re end;local d=0xff;local t={};local l=(1);local a='';(function(n)local r=n local j=0x00 local e=0x00 r={(function(f)if j>0x30 then return f end j=j+1 e=(e+0x1142-f)%0x23 return(e%0x03==0x1 and(function(r)if not n[r]then e=e+0x01 n[r]=(0x48);end return true end)'jiyDx'and r[0x3](0xe9+f))or(e%0x03==0x0 and(function(r)if not n[r]then e=e+0x01 n[r]=(0x5);end return true end)'eDbpL'and r[0x1](f+0xa0))or(e%0x03==0x2 and(function(r)if not n[r]then e=e+0x01 n[r]=(0x2b);d[2]=(d[2]*(re(function()t()end,o(a))-re(d[1],o(a))))+1;t[l]={};d=d[2];l=l+d;end return true end)'mytUi'and r[0x2](f+0x2cc))or f end),(function(f)if j>0x31 then return f end j=j+1 e=(e+0x12b5-f)%0x16 return(e%0x03==0x0 and(function(r)if not n[r]then e=e+0x01 n[r]=(0x12);a='\37';d={function()d()end};a=a..'\100\43';end return true end)'sJXTs'and r[0x2](0x1a1+f))or(e%0x03==0x1 and(function(r)if not n[r]then e=e+0x01 n[r]=(0xf1);t[l]=ae();l=l+d;end return true end)'ivMcM'and r[0x3](f+0x35c))or(e%0x03==0x2 and(function(r)if not n[r]then e=e+0x01 n[r]=(0x93);a={a..'\58 a',a};t[l]=ne();l=l+((not h.EmAmWyVP)and 1 or 0);a[1]='\58'..a[1];d[2]=0xff;end return true end)'fiDWY'and r[0x1](f+0x10d))or f end),(function(a)if j>0x24 then return a end j=j+1 e=(e+0x521-a)%0x41 return(e%0x03==0x1 and(function(r)if not n[r]then e=e+0x01 n[r]=(0x17);end return true end)'kAQuO'and r[0x1](0x2e8+a))or(e%0x03==0x2 and(function(r)if not n[r]then e=e+0x01 n[r]=(0x0);end return true end)'eCcxx'and r[0x2](a+0x1f0))or(e%0x03==0x0 and(function(r)if not n[r]then e=e+0x01 n[r]=(0x0);end return true end)'chdop'and r[0x3](a+0x321))or a end)}r[0x2](0xb64)end){};local e=_(o(t));t[2]={};t[1]=e(t[1])rIyrEbRTtBepaYO=nil;e=_(o(t))return e(...);end return ne((function()local n={}local e=0x01;local r;if h.EmAmWyVP then r=h.EmAmWyVP(ne)else r=''end if h.nLQIUxzz(r,h._PiPYsCu)then e=e+0;else e=e+1;end n[e]=0x02;n[n[e]+0x01]=0x03;return n;end)(),...)end)((function(r,e,n,a,d,j)local j;if r<4 then if r>1 then if r>=1 then repeat if 3>r then do return 16777216,65536,256 end;break;end;do return e(1),e(4,d,a,n,e),e(5,d,a,n)end;until true;else do return e(1),e(4,d,a,n,e),e(5,d,a,n)end;end else if-2~=r then repeat if 1~=r then do return e(1),e(4,d,a,n,e),e(5,d,a,n)end;break;end;do return function(r,e,n)if n then local e=(r/2^(e-1))%2^((n-1)-(e-1)+1);return e-e%1;else local e=2^(e-1);return(r%(e+e)>=e)and 1 or 0;end;end;end;until true;else do return e(1),e(4,d,a,n,e),e(5,d,a,n)end;end end else if 6<=r then if 7>r then do return d[n]end;else if r~=3 then for e=27,64 do if 8>r then do return setmetatable({},{['__\99\97\108\108']=function(e,a,r,d,n)if n then return e[n]elseif d then return e else e[a]=r end end})end break;end;do return n(r,nil,n);end break;end;else do return setmetatable({},{['__\99\97\108\108']=function(e,d,a,r,n)if n then return e[n]elseif r then return e else e[d]=a end end})end end end else if r~=0 then repeat if r~=4 then local r=a;do return function()local e=e(n,r(r,r),r(r,r));r(1);return e;end;end;break;end;local r=a;local a,d,t=d(2);do return function()local l,e,j,n=e(n,r(r,r),r(r,r)+3);r(4);return(n*a)+(j*d)+(e*t)+l;end;end;until true;else local r=a;do return function()local e=e(n,r(r,r),r(r,r));r(1);return e;end;end;end end end end),...)
+--if you steal this then credit me
+
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+
+function Init()
+    local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+end
+
+function Test()
+    print(Fluent.Options)
+end
+
+Init()
+Test()
+
+local Window = Fluent:CreateWindow({
+    Title = "M1M1: MM2 " .. Fluent.Version,
+    SubTitle = "by muncinotherexd ( discord )",
+    TabWidth = 160,
+    Size = UDim2.fromOffset(580, 460),
+    Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
+    Theme = "Dark",
+    MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
+})
+
+-- Fluent provides Lucide Icons, they are optional
+local Tabs = {
+    Info = Window:AddTab({ Title = "Info", Icon = "" }),
+    Game = Window:AddTab({ Title = "Game", Icon = "" }),
+    Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
+}
+
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+
+SaveManager:SetLibrary(Fluent)
+InterfaceManager:SetLibrary(Fluent)
+
+InterfaceManager:BuildInterfaceSection(Tabs.Settings)
+SaveManager:BuildConfigSection(Tabs.Settings)
+
+local Section = Tabs.Info:AddSection("yap yap")
+
+Tabs.Info:AddParagraph({
+    Title = "Yap Yap",
+    Content = "Hey this is munci use this script how you want idc tbh"
+})
+
+Tabs.Info:AddButton({
+    Title = "Discord Invite",
+    Description = "Copy Discord Invite Link",
+    Callback = function()
+            if setclipboard then setclipboard("https://discord.gg/7gdsaRCJMc") end
+                print("Copied In Clipboard")
+
+
+    end
+})
+
+local Section = Tabs.Game:AddSection("Visuals")
+
+Tabs.Game:AddButton({
+    Title = "MM2 Aura",
+    Description = "Adds a highlighter with the color of what every player in the game is",
+    Callback = function()
+            --[[
+    Credits to Kiriot22 for the Role getter <3
+        - poorly coded by FeIix <3
+]]
+
+-- > Declarations < --
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local LP = Players.LocalPlayer
+local roles
+
+-- > Functions <--
+
+function CreateHighlight() -- make any new highlights for new players
+	for i, v in pairs(Players:GetChildren()) do
+		if v ~= LP and v.Character and not v.Character:FindFirstChild("Highlight") then
+			Instance.new("Highlight", v.Character)           
+		end
+	end
+end
+
+function UpdateHighlights() -- Get Current Role Colors (messy)
+	for _, v in pairs(Players:GetChildren()) do
+		if v ~= LP and v.Character and v.Character:FindFirstChild("Highlight") then
+			Highlight = v.Character:FindFirstChild("Highlight")
+			if v.Name == Sheriff and IsAlive(v) then
+				Highlight.FillColor = Color3.fromRGB(0, 0, 225)
+			elseif v.Name == Murder and IsAlive(v) then
+				Highlight.FillColor = Color3.fromRGB(225, 0, 0)
+			elseif v.Name == Hero and IsAlive(v) and not IsAlive(game.Players[Sheriff]) then
+				Highlight.FillColor = Color3.fromRGB(255, 250, 0)
+			else
+				Highlight.FillColor = Color3.fromRGB(0, 225, 0)
+			end
+		end
+	end
+end	
+
+function IsAlive(Player) -- Simple sexy function
+	for i, v in pairs(roles) do
+		if Player.Name == i then
+			if not v.Killed and not v.Dead then
+				return true
+			else
+				return false
+			end
+		end
+	end
+end
+
+
+-- > Loops < --
+
+RunService.RenderStepped:connect(function()
+	roles = ReplicatedStorage:FindFirstChild("GetPlayerData", true):InvokeServer()
+	for i, v in pairs(roles) do
+		if v.Role == "Murderer" then
+			Murder = i
+		elseif v.Role == 'Sheriff'then
+			Sheriff = i
+		elseif v.Role == 'Hero'then
+			Hero = i
+		end
+	end
+	CreateHighlight()
+	UpdateHighlights()
+end)
+    end
+})
+
+
+local Section = Tabs.Game:AddSection("Character")
+
+Tabs.Game:AddButton({
+    Title = "Noclip",
+    Description = "Gives you an other gui that lets you choose from on and off",
+    Callback = function()
+            local Workspace = game:GetService("Workspace")
+local CoreGui = game:GetService("CoreGui")
+local Players = game:GetService("Players")
+local Noclip = Instance.new("ScreenGui")
+local BG = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Toggle = Instance.new("TextButton")
+local StatusPF = Instance.new("TextLabel")
+local Status = Instance.new("TextLabel")
+local Credit = Instance.new("TextLabel")
+local Plr = Players.LocalPlayer
+local Clipon = false
+
+Noclip.Name = "Noclip"
+Noclip.Parent = game.CoreGui
+
+BG.Name = "BG"
+BG.Parent = Noclip
+BG.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+BG.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+BG.BorderSizePixel = 2
+BG.Position = UDim2.new(0.149479166, 0, 0.82087779, 0)
+BG.Size = UDim2.new(0, 210, 0, 127)
+BG.Active = true
+BG.Draggable = true
+
+Title.Name = "Title"
+Title.Parent = BG
+Title.BackgroundColor3 = Color3.new(0.266667, 0.00392157, 0.627451)
+Title.BorderColor3 = Color3.new(0.180392, 0, 0.431373)
+Title.BorderSizePixel = 2
+Title.Size = UDim2.new(0, 210, 0, 33)
+Title.Font = Enum.Font.Highway
+Title.Text = "Noclip"
+Title.TextColor3 = Color3.new(1, 1, 1)
+Title.FontSize = Enum.FontSize.Size32
+Title.TextSize = 30
+Title.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+Title.TextStrokeTransparency = 0
+
+Toggle.Parent = BG
+Toggle.BackgroundColor3 = Color3.new(0.266667, 0.00392157, 0.627451)
+Toggle.BorderColor3 = Color3.new(0.180392, 0, 0.431373)
+Toggle.BorderSizePixel = 2
+Toggle.Position = UDim2.new(0.152380958, 0, 0.374192119, 0)
+Toggle.Size = UDim2.new(0, 146, 0, 36)
+Toggle.Font = Enum.Font.Highway
+Toggle.FontSize = Enum.FontSize.Size28
+Toggle.Text = "Toggle"
+Toggle.TextColor3 = Color3.new(1, 1, 1)
+Toggle.TextSize = 25
+Toggle.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+Toggle.TextStrokeTransparency = 0
+
+StatusPF.Name = "StatusPF"
+StatusPF.Parent = BG
+StatusPF.BackgroundColor3 = Color3.new(1, 1, 1)
+StatusPF.BackgroundTransparency = 1
+StatusPF.Position = UDim2.new(0.314285725, 0, 0.708661377, 0)
+StatusPF.Size = UDim2.new(0, 56, 0, 20)
+StatusPF.Font = Enum.Font.Highway
+StatusPF.FontSize = Enum.FontSize.Size24
+StatusPF.Text = "Status:"
+StatusPF.TextColor3 = Color3.new(1, 1, 1)
+StatusPF.TextSize = 20
+StatusPF.TextStrokeColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+StatusPF.TextStrokeTransparency = 0
+StatusPF.TextWrapped = true
+
+Status.Name = "Status"
+Status.Parent = BG
+Status.BackgroundColor3 = Color3.new(1, 1, 1)
+Status.BackgroundTransparency = 1
+Status.Position = UDim2.new(0.580952346, 0, 0.708661377, 0)
+Status.Size = UDim2.new(0, 56, 0, 20)
+Status.Font = Enum.Font.Highway
+Status.FontSize = Enum.FontSize.Size14
+Status.Text = "off"
+Status.TextColor3 = Color3.new(0.666667, 0, 0)
+Status.TextScaled = true
+Status.TextSize = 14
+Status.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+Status.TextWrapped = true
+Status.TextXAlignment = Enum.TextXAlignment.Left
+
+Credit.Name = "Credit"
+Credit.Parent = BG
+Credit.BackgroundColor3 = Color3.new(1, 1, 1)
+Credit.BackgroundTransparency = 1
+Credit.Position = UDim2.new(0.195238099, 0, 0.866141737, 0)
+Credit.Size = UDim2.new(0, 128, 0, 17)
+Credit.Font = Enum.Font.SourceSans
+Credit.FontSize = Enum.FontSize.Size18
+Credit.Text = "epic script"
+Credit.TextColor3 = Color3.new(1, 1, 1)
+Credit.TextSize = 16
+Credit.TextStrokeColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+Credit.TextStrokeTransparency = 0
+Credit.TextWrapped = true
+
+Toggle.MouseButton1Click:connect(function()
+	if Status.Text == "off" then
+		Clipon = true
+		Status.Text = "on"
+		Status.TextColor3 = Color3.new(0,185,0)
+		Stepped = game:GetService("RunService").Stepped:Connect(function()
+			if not Clipon == false then
+				for a, b in pairs(Workspace:GetChildren()) do
+                if b.Name == Plr.Name then
+                for i, v in pairs(Workspace[Plr.Name]:GetChildren()) do
+                if v:IsA("BasePart") then
+                v.CanCollide = false
+                end end end end
+			else
+				Stepped:Disconnect()
+			end
+		end)
+	elseif Status.Text == "on" then
+		Clipon = false
+		Status.Text = "off"
+		Status.TextColor3 = Color3.new(170,0,0)
+                    end
+                end)
+        end
+})
+
+Tabs.Game:AddButton({
+    Title = "God Mode",
+    Description = "you cant die",
+    Callback = function()
+			local Cam = workspace.CurrentCamera
+			local Pos, Char = Cam.CFrame, localplayer.Character
+			local Human = Char and Char.FindFirstChildWhichIsA(Char, "Humanoid")
+			local nHuman = Human.Clone(Human)
+			nHuman.Parent, localplayer.Character = Char, nil
+			nHuman.SetStateEnabled(nHuman, 15, false)
+			nHuman.SetStateEnabled(nHuman, 1, false)
+			nHuman.SetStateEnabled(nHuman, 0, false)
+			nHuman.BreakJointsOnDeath, Human = true, Human.Destroy(Human)
+			localplayer.Character, Cam.CameraSubject, Cam.CFrame = Char, nHuman, wait() and Pos
+			nHuman.DisplayDistanceType = Enum.HumanoidDisplayDistanceType.None
+			local Script = Char.FindFirstChild(Char, "Animate")
+			if Script then
+				Script.Disabled = true
+				wait()
+				Script.Disabled = false
+			end
+			nHuman.Health = nHuman.MaxHealth
+    end
+})
+
+local Slider = Tabs.Game:AddSlider("Slider", 
+{
+    Title = "Speed Slider",
+    Description = "This is a speed slider",
+    Default = 16,
+    Min = 0,
+    Max = 50,
+    Rounding = 1,
+    Callback = function(Value)
+        print("Slider was changed:", Value)
+            game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Value)
+    end
+})
+
+local Slider = Tabs.Game:AddSlider("Slider", 
+{
+    Title = "Jump Slider",
+    Description = "This is a jump slider",
+    Default = 50,
+    Min = 0,
+    Max = 300,
+    Rounding = 1,
+    Callback = function(Value)
+        print("Slider was changed:", Value)
+            game.Players.LocalPlayer.Character.Humanoid.JumpPower = (Value)
+    end
+})
+
+
+local Section = Tabs.Game:AddSection("Other")
+
+Tabs.Game:AddButton({
+    Title = "Infinite Yeild",
+    Description = "Universal admin script",
+    Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end
+})
+
+local Section = Tabs.Game:AddSection("Winning")
+
+Tabs.Game:AddButton({
+    Title = "TP to gun",
+    Description = "teleport",
+    Callback = function()
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+
+-- Function to search for the "GunDrop" part in all models
+local function findGunDrop()
+    for _, object in pairs(game.Workspace:GetChildren()) do
+        if object:IsA("Model") then
+            local gunDrop = object:FindFirstChild("GunDrop")
+            if gunDrop then
+                return gunDrop
+            end
+        end
+    end
+    return nil
+end
+
+local targetPart = findGunDrop()
+
+if character and targetPart then
+    -- Save the player's current position
+    local lastPosition = character.HumanoidRootPart.Position
+    
+    -- Teleport to GunDrop
+    character:MoveTo(targetPart.Position)
+    
+    -- Wait 0.1 second, then teleport back to the last position
+    wait(0.1)
+    character:MoveTo(lastPosition)
+end
+
+    end
+})
+
+Tabs.Game:AddButton({
+    Title = "Aimbot",
+    Description = "AIM",
+    Callback = function()
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+
+function Init()
+    local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+end
+
+function Test()
+    print(Fluent.Options)
+end
+
+Init()
+Test()
+
+local Window = Fluent:CreateWindow({
+    Title = "M1M1: MM2 " .. Fluent.Version,
+    SubTitle = "by muncinotherexd ( discord )",
+    TabWidth = 160,
+    Size = UDim2.fromOffset(580, 460),
+    Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
+    Theme = "Dark",
+    MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
+})
+
+-- Fluent provides Lucide Icons, they are optional
+local Tabs = {
+    Info = Window:AddTab({ Title = "Info", Icon = "" }),
+    Game = Window:AddTab({ Title = "Game", Icon = "" }),
+    Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
+}
+
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+
+SaveManager:SetLibrary(Fluent)
+InterfaceManager:SetLibrary(Fluent)
+
+InterfaceManager:BuildInterfaceSection(Tabs.Settings)
+SaveManager:BuildConfigSection(Tabs.Settings)
+
+local Section = Tabs.Info:AddSection("yap yap")
+
+Tabs.Info:AddParagraph({
+    Title = "Yap Yap",
+    Content = "Hey this is munci use this script how you want idc tbh"
+})
+
+Tabs.Info:AddButton({
+    Title = "Discord Invite",
+    Description = "Copy Discord Invite Link",
+    Callback = function()
+            if setclipboard then setclipboard("https://discord.gg/7gdsaRCJMc") end
+                print("Copied In Clipboard")
+
+
+    end
+})
+
+local Section = Tabs.Game:AddSection("Visuals")
+
+Tabs.Game:AddButton({
+    Title = "MM2 Aura",
+    Description = "Adds a highlighter with the color of what every player in the game is",
+    Callback = function()
+            --[[
+    Credits to Kiriot22 for the Role getter <3
+        - poorly coded by FeIix <3
+]]
+
+-- > Declarations < --
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local LP = Players.LocalPlayer
+local roles
+
+-- > Functions <--
+
+function CreateHighlight() -- make any new highlights for new players
+	for i, v in pairs(Players:GetChildren()) do
+		if v ~= LP and v.Character and not v.Character:FindFirstChild("Highlight") then
+			Instance.new("Highlight", v.Character)           
+		end
+	end
+end
+
+function UpdateHighlights() -- Get Current Role Colors (messy)
+	for _, v in pairs(Players:GetChildren()) do
+		if v ~= LP and v.Character and v.Character:FindFirstChild("Highlight") then
+			Highlight = v.Character:FindFirstChild("Highlight")
+			if v.Name == Sheriff and IsAlive(v) then
+				Highlight.FillColor = Color3.fromRGB(0, 0, 225)
+			elseif v.Name == Murder and IsAlive(v) then
+				Highlight.FillColor = Color3.fromRGB(225, 0, 0)
+			elseif v.Name == Hero and IsAlive(v) and not IsAlive(game.Players[Sheriff]) then
+				Highlight.FillColor = Color3.fromRGB(255, 250, 0)
+			else
+				Highlight.FillColor = Color3.fromRGB(0, 225, 0)
+			end
+		end
+	end
+end	
+
+function IsAlive(Player) -- Simple sexy function
+	for i, v in pairs(roles) do
+		if Player.Name == i then
+			if not v.Killed and not v.Dead then
+				return true
+			else
+				return false
+			end
+		end
+	end
+end
+
+
+-- > Loops < --
+
+RunService.RenderStepped:connect(function()
+	roles = ReplicatedStorage:FindFirstChild("GetPlayerData", true):InvokeServer()
+	for i, v in pairs(roles) do
+		if v.Role == "Murderer" then
+			Murder = i
+		elseif v.Role == 'Sheriff'then
+			Sheriff = i
+		elseif v.Role == 'Hero'then
+			Hero = i
+		end
+	end
+	CreateHighlight()
+	UpdateHighlights()
+end)
+    end
+})
+
+
+local Section = Tabs.Game:AddSection("Character")
+
+Tabs.Game:AddButton({
+    Title = "Noclip",
+    Description = "Gives you an other gui that lets you choose from on and off",
+    Callback = function()
+            local Workspace = game:GetService("Workspace")
+local CoreGui = game:GetService("CoreGui")
+local Players = game:GetService("Players")
+local Noclip = Instance.new("ScreenGui")
+local BG = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Toggle = Instance.new("TextButton")
+local StatusPF = Instance.new("TextLabel")
+local Status = Instance.new("TextLabel")
+local Credit = Instance.new("TextLabel")
+local Plr = Players.LocalPlayer
+local Clipon = false
+
+Noclip.Name = "Noclip"
+Noclip.Parent = game.CoreGui
+
+BG.Name = "BG"
+BG.Parent = Noclip
+BG.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+BG.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+BG.BorderSizePixel = 2
+BG.Position = UDim2.new(0.149479166, 0, 0.82087779, 0)
+BG.Size = UDim2.new(0, 210, 0, 127)
+BG.Active = true
+BG.Draggable = true
+
+Title.Name = "Title"
+Title.Parent = BG
+Title.BackgroundColor3 = Color3.new(0.266667, 0.00392157, 0.627451)
+Title.BorderColor3 = Color3.new(0.180392, 0, 0.431373)
+Title.BorderSizePixel = 2
+Title.Size = UDim2.new(0, 210, 0, 33)
+Title.Font = Enum.Font.Highway
+Title.Text = "Noclip"
+Title.TextColor3 = Color3.new(1, 1, 1)
+Title.FontSize = Enum.FontSize.Size32
+Title.TextSize = 30
+Title.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+Title.TextStrokeTransparency = 0
+
+Toggle.Parent = BG
+Toggle.BackgroundColor3 = Color3.new(0.266667, 0.00392157, 0.627451)
+Toggle.BorderColor3 = Color3.new(0.180392, 0, 0.431373)
+Toggle.BorderSizePixel = 2
+Toggle.Position = UDim2.new(0.152380958, 0, 0.374192119, 0)
+Toggle.Size = UDim2.new(0, 146, 0, 36)
+Toggle.Font = Enum.Font.Highway
+Toggle.FontSize = Enum.FontSize.Size28
+Toggle.Text = "Toggle"
+Toggle.TextColor3 = Color3.new(1, 1, 1)
+Toggle.TextSize = 25
+Toggle.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+Toggle.TextStrokeTransparency = 0
+
+StatusPF.Name = "StatusPF"
+StatusPF.Parent = BG
+StatusPF.BackgroundColor3 = Color3.new(1, 1, 1)
+StatusPF.BackgroundTransparency = 1
+StatusPF.Position = UDim2.new(0.314285725, 0, 0.708661377, 0)
+StatusPF.Size = UDim2.new(0, 56, 0, 20)
+StatusPF.Font = Enum.Font.Highway
+StatusPF.FontSize = Enum.FontSize.Size24
+StatusPF.Text = "Status:"
+StatusPF.TextColor3 = Color3.new(1, 1, 1)
+StatusPF.TextSize = 20
+StatusPF.TextStrokeColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+StatusPF.TextStrokeTransparency = 0
+StatusPF.TextWrapped = true
+
+Status.Name = "Status"
+Status.Parent = BG
+Status.BackgroundColor3 = Color3.new(1, 1, 1)
+Status.BackgroundTransparency = 1
+Status.Position = UDim2.new(0.580952346, 0, 0.708661377, 0)
+Status.Size = UDim2.new(0, 56, 0, 20)
+Status.Font = Enum.Font.Highway
+Status.FontSize = Enum.FontSize.Size14
+Status.Text = "off"
+Status.TextColor3 = Color3.new(0.666667, 0, 0)
+Status.TextScaled = true
+Status.TextSize = 14
+Status.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+Status.TextWrapped = true
+Status.TextXAlignment = Enum.TextXAlignment.Left
+
+Credit.Name = "Credit"
+Credit.Parent = BG
+Credit.BackgroundColor3 = Color3.new(1, 1, 1)
+Credit.BackgroundTransparency = 1
+Credit.Position = UDim2.new(0.195238099, 0, 0.866141737, 0)
+Credit.Size = UDim2.new(0, 128, 0, 17)
+Credit.Font = Enum.Font.SourceSans
+Credit.FontSize = Enum.FontSize.Size18
+Credit.Text = "epic script"
+Credit.TextColor3 = Color3.new(1, 1, 1)
+Credit.TextSize = 16
+Credit.TextStrokeColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+Credit.TextStrokeTransparency = 0
+Credit.TextWrapped = true
+
+Toggle.MouseButton1Click:connect(function()
+	if Status.Text == "off" then
+		Clipon = true
+		Status.Text = "on"
+		Status.TextColor3 = Color3.new(0,185,0)
+		Stepped = game:GetService("RunService").Stepped:Connect(function()
+			if not Clipon == false then
+				for a, b in pairs(Workspace:GetChildren()) do
+                if b.Name == Plr.Name then
+                for i, v in pairs(Workspace[Plr.Name]:GetChildren()) do
+                if v:IsA("BasePart") then
+                v.CanCollide = false
+                end end end end
+			else
+				Stepped:Disconnect()
+			end
+		end)
+	elseif Status.Text == "on" then
+		Clipon = false
+		Status.Text = "off"
+		Status.TextColor3 = Color3.new(170,0,0)
+                    end
+                end)
+        end
+})
+
+Tabs.Game:AddButton({
+    Title = "God Mode",
+    Description = "you cant die",
+    Callback = function()
+			local Cam = workspace.CurrentCamera
+			local Pos, Char = Cam.CFrame, localplayer.Character
+			local Human = Char and Char.FindFirstChildWhichIsA(Char, "Humanoid")
+			local nHuman = Human.Clone(Human)
+			nHuman.Parent, localplayer.Character = Char, nil
+			nHuman.SetStateEnabled(nHuman, 15, false)
+			nHuman.SetStateEnabled(nHuman, 1, false)
+			nHuman.SetStateEnabled(nHuman, 0, false)
+			nHuman.BreakJointsOnDeath, Human = true, Human.Destroy(Human)
+			localplayer.Character, Cam.CameraSubject, Cam.CFrame = Char, nHuman, wait() and Pos
+			nHuman.DisplayDistanceType = Enum.HumanoidDisplayDistanceType.None
+			local Script = Char.FindFirstChild(Char, "Animate")
+			if Script then
+				Script.Disabled = true
+				wait()
+				Script.Disabled = false
+			end
+			nHuman.Health = nHuman.MaxHealth
+    end
+})
+
+local Slider = Tabs.Game:AddSlider("Slider", 
+{
+    Title = "Speed Slider",
+    Description = "This is a speed slider",
+    Default = 16,
+    Min = 0,
+    Max = 50,
+    Rounding = 1,
+    Callback = function(Value)
+        print("Slider was changed:", Value)
+            game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Value)
+    end
+})
+
+local Slider = Tabs.Game:AddSlider("Slider", 
+{
+    Title = "Jump Slider",
+    Description = "This is a jump slider",
+    Default = 50,
+    Min = 0,
+    Max = 300,
+    Rounding = 1,
+    Callback = function(Value)
+        print("Slider was changed:", Value)
+            game.Players.LocalPlayer.Character.Humanoid.JumpPower = (Value)
+    end
+})
+
+
+local Section = Tabs.Game:AddSection("Other")
+
+Tabs.Game:AddButton({
+    Title = "Infinite Yeild",
+    Description = "Universal admin script",
+    Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end
+})
+
+local Section = Tabs.Game:AddSection("Winning")
+
+Tabs.Game:AddButton({
+    Title = "TP to gun",
+    Description = "teleport",
+    Callback = function()
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+
+-- Function to search for the "GunDrop" part in all models
+local function findGunDrop()
+    for _, object in pairs(game.Workspace:GetChildren()) do
+        if object:IsA("Model") then
+            local gunDrop = object:FindFirstChild("GunDrop")
+            if gunDrop then
+                return gunDrop
+            end
+        end
+    end
+    return nil
+end
+
+local targetPart = findGunDrop()
+
+if character and targetPart then
+    -- Save the player's current position
+    local lastPosition = character.HumanoidRootPart.Position
+    
+    -- Teleport to GunDrop
+    character:MoveTo(targetPart.Position)
+    
+    -- Wait 0.1 second, then teleport back to the last position
+    wait(0.1)
+    character:MoveTo(lastPosition)
+end
+
+    end
+})
+
+Tabs.Game:AddButton({
+    Title = "Aimbot",
+    Description = "AIM",
+    Callback = function()
+-- Aim configuration
+local aim_config = _G.AIMCONFIG or {
+    Enabled = true,
+    KeyActivation = Enum.KeyCode.Q,
+    FOV = 175,
+    TeamCheck = true,
+    DistanceCheck = true,
+    VisibleCheck = true,
+    Smoothness = 0.9999,
+    Prediction = {Enabled = false, Value = 0}
+}
+_G.AIMCONFIG = _G.AIMCONFIG or aim_config
+
+-- Services and objects
+local input_service = game:GetService("UserInputService")
+local players = game:GetService("Players")
+local run_service = game:GetService("RunService")
+local camera = workspace.CurrentCamera
+local player = players.LocalPlayer
+
+local fovCircle = Drawing.new("Circle")
+local targetBox = Drawing.new("Square")
+
+-- Helper functions
+local function is_player_valid(plr)
+    local char = plr.Character
+    local humanoid = char and char:FindFirstChildWhichIsA("Humanoid")
+    local rootPart = char and char:FindFirstChild("HumanoidRootPart")
+    return plr ~= player and char and humanoid and humanoid.Health > 0 and not char:FindFirstChildWhichIsA("ForceField") 
+        and (not aim_config.TeamCheck or (plr.Neutral or plr.TeamColor ~= player.TeamColor)), rootPart
+end
+
+local function get_root_part(plr)
+    return plr.Character and plr.Character:FindFirstChild("HumanoidRootPart")
+end
+
+local function in_line_of_sight(origin_pos, ...)
+    return #camera:GetPartsObscuringTarget({origin_pos}, {camera, player.Character, ...}) == 0
+end
+
+local function get_prediction(part)
+    return part.CFrame + Vector3.new(part.Velocity.X, math.clamp(part.Velocity.Y * 0.5, -5, 10), part.Velocity.Z) * aim_config.Prediction.Value
+end
+
+-- Get nearest player
+local function get_nearest_player()
+    local closest = {aimPart = nil, cursor_dist = math.huge, char_dist = math.huge}
+
+    for _, plr in players:GetPlayers() do
+        local valid, part = is_player_valid(plr)
+        if valid and part then
+            local screen_pos, on_screen = camera:WorldToViewportPoint(part.Position)
+            local fov_dist = (input_service:GetMouseLocation() - Vector2.new(screen_pos.X, screen_pos.Y)).Magnitude
+            local char_dist = (get_root_part(player).Position - part.Position).Magnitude
+
+            if (not aim_config.VisibleCheck or (on_screen and in_line_of_sight(camera.CFrame, plr.Character))) and
+               fov_dist <= aim_config.FOV and fov_dist < closest.cursor_dist and
+               (not aim_config.DistanceCheck or char_dist < closest.char_dist) then
+                closest = {aimPart = part, cursor_dist = fov_dist, char_dist = char_dist}
+            end
+        end
+    end
+    return closest.aimPart and closest or nil
+end
+
+-- Main loop
+fovCircle.Color = Color3.fromRGB(225, 225, 225)
+fovCircle.Thickness = 2
+fovCircle.Transparency = 0.6
+fovCircle.Visible = true
+
+targetBox.Color = Color3.fromRGB(225, 225, 225)
+targetBox.Filled = true
+targetBox.Size = Vector2.new(0, 0)
+targetBox.Thickness = 20
+targetBox.Transparency = 0.6
+
+run_service.PreSimulation:Connect(function()
+    local nearest = get_nearest_player()
+    fovCircle.Radius = aim_config.FOV
+    fovCircle.Position = input_service:GetMouseLocation()
+
+    if nearest then
+        local screen_pos, on_screen = camera:WorldToViewportPoint(nearest.aimPart.Position)
+        targetBox.Visible = on_screen
+        targetBox.Position = Vector2.new(screen_pos.X, screen_pos.Y) - (targetBox.Size / 2)
+
+        if input_service:IsKeyDown(aim_config.KeyActivation) then
+            local target_pos = aim_config.Prediction.Enabled and get_prediction(nearest.aimPart) or nearest.aimPart.CFrame
+            camera.CFrame = camera.CFrame:Lerp(CFrame.lookAt(camera.CFrame.Position, target_pos.Position), aim_config.Smoothness)
+        end
+    else
+        targetBox.Visible = false
+        targetBox.Position = Vector3.zero
+    end
+end)
+    end
+})
+
