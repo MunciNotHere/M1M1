@@ -20,6 +20,7 @@ UICornerMain.CornerRadius = UDim.new(0, 13)
 
 -- Title Text
 local titleLabel = Instance.new("TextLabel", M1M1.MainFrame)
+titleLabel.Name = "Title"  -- Ensure we set the name so it can be accessed later
 titleLabel.Size = UDim2.new(0, 375, 0, 50)
 titleLabel.Position = UDim2.new(0.03567, 0, 0, 0)
 titleLabel.BackgroundTransparency = 1
