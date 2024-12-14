@@ -35,15 +35,50 @@ function Library:CreateWindow(name)
     TitleStroke.Color = Color3.fromRGB(60, 60, 60)
 
     local Container = Instance.new("Frame", MainFrame)
-    Container.Size = UDim2.new(1, -10, 1, -50)
-    Container.Position = UDim2.new(0, 5, 0, 45)
+    Container.Size = UDim2.new(1, -120, 1, -50)
+    Container.Position = UDim2.new(0, 115, 0, 45)
     Container.BackgroundTransparency = 1
 
     local UIListLayout = Instance.new("UIListLayout", Container)
     UIListLayout.Padding = UDim.new(0, 10)
 
+    local TabsContainer = Instance.new("Frame", MainFrame)
+    TabsContainer.Size = UDim2.new(0, 100, 1, -50)
+    TabsContainer.Position = UDim2.new(0, 5, 0, 45)
+    TabsContainer.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+    TabsContainer.BorderSizePixel = 0
+    local TabsLayout = Instance.new("UIListLayout", TabsContainer)
+    TabsLayout.Padding = UDim.new(0, 10)
+
     self.ScreenGui = ScreenGui
+    self.MainFrame = MainFrame
     self.Container = Container
+    self.TabsContainer = TabsContainer
+
+    -- Draggable Functionality for the Window
+    local dragging = false
+    local dragInput, mousePos, framePos
+    Title.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 then
+            dragging = true
+            mousePos = input.Position
+            framePos = MainFrame.Position
+        end
+    end)
+
+    Title.InputEnded:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 then
+            dragging = false
+        end
+    end)
+
+    game:GetService("UserInputService").InputChanged:Connect(function(input)
+        if dragging then
+            local delta = input.Position - mousePos
+            MainFrame.Position = UDim2.new(framePos.X.Scale, framePos.X.Offset + delta.X, framePos.Y.Scale, framePos.Y.Offset + delta.Y)
+        end
+    end)
+
     return self
 end
 
@@ -97,6 +132,29 @@ function Library:AddToggle(text, callback)
         Toggled = not Toggled
         Indicator.BackgroundColor3 = Toggled and Color3.fromRGB(0, 170, 255) or Color3.fromRGB(100, 100, 100)
         callback(Toggled)
+    end)
+end
+
+-- Add a Tab
+function Library:AddTab(tabName)
+    local TabButton = Instance.new("TextButton", self.TabsContainer)
+    TabButton.Size = UDim2.new(1, 0, 0, 40)
+    TabButton.Text = tabName
+    TabButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+    TabButton.Font = Enum.Font.Gotham
+    TabButton.TextSize = 14
+    TabButton.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+    TabButton.BorderSizePixel = 0
+
+    -- Adding UICorner and UIStroke to Tab Button
+    local Corner = Instance.new("UICorner", TabButton)
+    Corner.CornerRadius = UDim.new(0, 10)
+    local Stroke = Instance.new("UIStroke", TabButton)
+    Stroke.Thickness = 1
+    Stroke.Color = Color3.fromRGB(60, 60, 60)
+
+    TabButton.MouseButton1Click:Connect(function()
+        -- You can add logic to switch between tabs
     end)
 end
 
