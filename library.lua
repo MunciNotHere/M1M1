@@ -1,21 +1,23 @@
 local library = {}
 
--- // Services
+local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
 
--- // Create Main UI
+local player = Players.LocalPlayer
+local playerGui = player:FindFirstChildOfClass("PlayerGui")
+
+-- Create Main UI
 function library:CreateWindow(title)
     local screenGui = Instance.new("ScreenGui")
-    screenGui.Parent = game:GetService("CoreGui")
+    screenGui.Parent = playerGui
 
     local mainFrame = Instance.new("Frame")
     mainFrame.Size = UDim2.new(0, 500, 0, 350)
-    mainFrame.Position = UDim2.new(0.5, -250, 0.5, -175)
+    mainFrame.Position = UDim2.new(0.2, 0, 0.2, 0)
     mainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
     mainFrame.Parent = screenGui
 
-    -- // UICorner & UIStroke (Premium Look)
     local uiCorner = Instance.new("UICorner")
     uiCorner.CornerRadius = UDim.new(0, 8)
     uiCorner.Parent = mainFrame
@@ -25,7 +27,6 @@ function library:CreateWindow(title)
     uiStroke.Color = Color3.fromRGB(50, 50, 50)
     uiStroke.Parent = mainFrame
 
-    -- // Title Bar
     local titleLabel = Instance.new("TextLabel")
     titleLabel.Size = UDim2.new(1, 0, 0, 30)
     titleLabel.BackgroundTransparency = 1
@@ -35,9 +36,9 @@ function library:CreateWindow(title)
     titleLabel.TextSize = 18
     titleLabel.Parent = mainFrame
 
-    -- // Dragging Function
+    -- Dragging Function
     local dragging, dragInput, dragStart, startPos
-    titleLabel.InputBegan:Connect(function(input)
+    mainFrame.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 then
             dragging = true
             dragStart = input.Position
@@ -49,11 +50,13 @@ function library:CreateWindow(title)
             end)
         end
     end)
-    titleLabel.InputChanged:Connect(function(input)
+
+    mainFrame.InputChanged:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseMovement then
             dragInput = input
         end
     end)
+
     UserInputService.InputChanged:Connect(function(input)
         if input == dragInput and dragging then
             local delta = input.Position - dragStart
@@ -66,7 +69,7 @@ function library:CreateWindow(title)
         end
     end)
 
-    -- // Left Tabs Frame
+    -- Tabs Frame
     local tabFrame = Instance.new("Frame")
     tabFrame.Size = UDim2.new(0, 120, 1, -30)
     tabFrame.Position = UDim2.new(0, 0, 0, 30)
@@ -77,11 +80,10 @@ function library:CreateWindow(title)
     uiCornerTabs.CornerRadius = UDim.new(0, 8)
     uiCornerTabs.Parent = tabFrame
 
-    -- // Tabs ScrollingFrame
     local tabScroll = Instance.new("ScrollingFrame")
     tabScroll.Size = UDim2.new(1, 0, 1, 0)
     tabScroll.CanvasSize = UDim2.new(0, 0, 0, 0)
-    tabScroll.ScrollBarThickness = 2
+    tabScroll.ScrollBarThickness = 0
     tabScroll.BackgroundTransparency = 1
     tabScroll.Parent = tabFrame
 
@@ -90,12 +92,12 @@ function library:CreateWindow(title)
     tabLayout.Padding = UDim.new(0, 5)
     tabLayout.Parent = tabScroll
 
-    -- // Content ScrollingFrame
+    -- Content Frame
     local contentScroll = Instance.new("ScrollingFrame")
     contentScroll.Size = UDim2.new(1, -120, 1, -30)
     contentScroll.Position = UDim2.new(0, 120, 0, 30)
     contentScroll.CanvasSize = UDim2.new(0, 0, 0, 0)
-    contentScroll.ScrollBarThickness = 2
+    contentScroll.ScrollBarThickness = 0
     contentScroll.BackgroundTransparency = 1
     contentScroll.Parent = mainFrame
 
@@ -104,75 +106,77 @@ function library:CreateWindow(title)
     contentLayout.Padding = UDim.new(0, 10)
     contentLayout.Parent = contentScroll
 
-    -- // Auto-Update Scrolling
-    local function updateScrolling(frame, layout)
-        frame.CanvasSize = UDim2.new(0, 0, 0, layout.AbsoluteContentSize.Y + 10)
-    end
-    tabLayout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
-        updateScrolling(tabScroll, tabLayout)
-    end)
-    contentLayout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
-        updateScrolling(contentScroll, contentLayout)
-    end)
+    local window = {
+        tabs = {}
+    }
 
-    -- // Create a Tab
-    function library:CreateTab(tabName)
+    function window:CreateTab(name)
         local tabButton = Instance.new("TextButton")
         tabButton.Size = UDim2.new(1, 0, 0, 40)
         tabButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-        tabButton.Text = tabName
+        tabButton.Text = name
         tabButton.TextColor3 = Color3.fromRGB(255, 255, 255)
         tabButton.Font = Enum.Font.Gotham
         tabButton.TextSize = 14
         tabButton.Parent = tabScroll
 
-        local tabContent = Instance.new("Frame")
-        tabContent.Size = UDim2.new(1, 0, 0, 300)
-        tabContent.BackgroundTransparency = 1
-        tabContent.Visible = false
-        tabContent.Parent = contentScroll
+        local tabPage = Instance.new("Frame")
+        tabPage.Size = UDim2.new(1, 0, 0, 300)
+        tabPage.BackgroundTransparency = 1
+        tabPage.Visible = false
+        tabPage.Parent = contentScroll
 
-        -- Click to Switch
         tabButton.MouseButton1Click:Connect(function()
-            for _, child in pairs(contentScroll:GetChildren()) do
-                if child:IsA("Frame") then
-                    child.Visible = false
+            for _, tab in pairs(contentScroll:GetChildren()) do
+                if tab:IsA("Frame") then
+                    tab.Visible = false
                 end
             end
-            tabContent.Visible = true
+            tabPage.Visible = true
         end)
 
-        return tabContent
+        local tab = {elements = {}, page = tabPage}
+
+        function tab:CreateButton(text, callback)
+            local button = Instance.new("TextButton")
+            button.Size = UDim2.new(1, -20, 0, 40)
+            button.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+            button.Text = text
+            button.TextColor3 = Color3.fromRGB(255, 255, 255)
+            button.Font = Enum.Font.Gotham
+            button.TextSize = 16
+            button.Parent = tabPage
+
+            local uiCorner = Instance.new("UICorner")
+            uiCorner.CornerRadius = UDim.new(0, 6)
+            uiCorner.Parent = button
+
+            button.MouseButton1Click:Connect(callback)
+        end
+
+        function tab:CreateToggle(text, default, callback)
+            local toggle = Instance.new("TextButton")
+            toggle.Size = UDim2.new(1, -20, 0, 40)
+            toggle.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+            toggle.Text = text
+            toggle.TextColor3 = default and Color3.fromRGB(0, 255, 0) or Color3.fromRGB(255, 0, 0)
+            toggle.Font = Enum.Font.Gotham
+            toggle.TextSize = 16
+            toggle.Parent = tabPage
+
+            local state = default
+            toggle.MouseButton1Click:Connect(function()
+                state = not state
+                toggle.TextColor3 = state and Color3.fromRGB(0, 255, 0) or Color3.fromRGB(255, 0, 0)
+                callback(state)
+            end)
+        end
+
+        table.insert(window.tabs, tab)
+        return tab
     end
 
-    -- // Create a Smooth Button
-    function library:CreateButton(parent, text, callback)
-        local button = Instance.new("TextButton")
-        button.Size = UDim2.new(1, -20, 0, 40)
-        button.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-        button.Text = text
-        button.TextColor3 = Color3.fromRGB(255, 255, 255)
-        button.Font = Enum.Font.Gotham
-        button.TextSize = 16
-        button.Parent = parent
-
-        local uiCornerButton = Instance.new("UICorner")
-        uiCornerButton.CornerRadius = UDim.new(0, 6)
-        uiCornerButton.Parent = button
-
-        button.MouseEnter:Connect(function()
-            TweenService:Create(button, TweenInfo.new(0.2), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
-        end)
-        button.MouseLeave:Connect(function()
-            TweenService:Create(button, TweenInfo.new(0.2), {BackgroundColor3 = Color3.fromRGB(50, 50, 50)}):Play()
-        end)
-
-        button.MouseButton1Click:Connect(callback)
-
-        return button
-    end
-
-    return library
+    return window
 end
 
 return library
