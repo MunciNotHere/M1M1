@@ -7,7 +7,7 @@ local UserInputService = game:GetService("UserInputService")
 local player = Players.LocalPlayer
 local playerGui = player:FindFirstChildOfClass("PlayerGui")
 
--- Create Main UI
+-- // Create Window
 function library:CreateWindow(title)
     local screenGui = Instance.new("ScreenGui")
     screenGui.Parent = playerGui
@@ -16,10 +16,9 @@ function library:CreateWindow(title)
     mainFrame.Size = UDim2.new(0, 500, 0, 350)
     mainFrame.Position = UDim2.new(0.2, 0, 0.2, 0)
     mainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-    mainFrame.BorderSizePixel = 0
     mainFrame.Parent = screenGui
 
-    -- UICorner & UIStroke
+    -- Rounded Corners & Stroke
     local uiCorner = Instance.new("UICorner")
     uiCorner.CornerRadius = UDim.new(0, 8)
     uiCorner.Parent = mainFrame
@@ -39,7 +38,7 @@ function library:CreateWindow(title)
     titleLabel.TextSize = 18
     titleLabel.Parent = mainFrame
 
-    -- Dragging Function
+    -- // Dragging
     local dragging, dragInput, dragStart, startPos
     mainFrame.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 then
@@ -72,48 +71,38 @@ function library:CreateWindow(title)
         end
     end)
 
-    -- Left Tabs Frame
-    local tabFrame = Instance.new("Frame")
+    -- // Tabs Frame (Scrollable)
+    local tabFrame = Instance.new("ScrollingFrame")
     tabFrame.Size = UDim2.new(0, 120, 1, -30)
     tabFrame.Position = UDim2.new(0, 0, 0, 30)
+    tabFrame.CanvasSize = UDim2.new(0, 0, 0, 0)
+    tabFrame.ScrollBarThickness = 3
     tabFrame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
     tabFrame.Parent = mainFrame
-
-    local uiCornerTabs = Instance.new("UICorner")
-    uiCornerTabs.CornerRadius = UDim.new(0, 8)
-    uiCornerTabs.Parent = tabFrame
-
-    -- Tabs ScrollingFrame
-    local tabScroll = Instance.new("ScrollingFrame")
-    tabScroll.Size = UDim2.new(1, 0, 1, 0)
-    tabScroll.CanvasSize = UDim2.new(0, 0, 0, 0)
-    tabScroll.ScrollBarThickness = 0
-    tabScroll.BackgroundTransparency = 1
-    tabScroll.Parent = tabFrame
 
     local tabLayout = Instance.new("UIListLayout")
     tabLayout.SortOrder = Enum.SortOrder.LayoutOrder
     tabLayout.Padding = UDim.new(0, 5)
-    tabLayout.Parent = tabScroll
+    tabLayout.Parent = tabFrame
 
-    -- Content ScrollingFrame
-    local contentScroll = Instance.new("ScrollingFrame")
-    contentScroll.Size = UDim2.new(1, -120, 1, -30)
-    contentScroll.Position = UDim2.new(0, 120, 0, 30)
-    contentScroll.CanvasSize = UDim2.new(0, 0, 0, 0)
-    contentScroll.ScrollBarThickness = 0
-    contentScroll.BackgroundTransparency = 1
-    contentScroll.Parent = mainFrame
+    -- // Content Frame (Scrollable)
+    local contentFrame = Instance.new("ScrollingFrame")
+    contentFrame.Size = UDim2.new(1, -120, 1, -30)
+    contentFrame.Position = UDim2.new(0, 120, 0, 30)
+    contentFrame.CanvasSize = UDim2.new(0, 0, 0, 0)
+    contentFrame.ScrollBarThickness = 3
+    contentFrame.BackgroundTransparency = 1
+    contentFrame.Parent = mainFrame
 
     local contentLayout = Instance.new("UIListLayout")
     contentLayout.SortOrder = Enum.SortOrder.LayoutOrder
-    contentLayout.Padding = UDim.new(0, 0)
-    contentLayout.Parent = contentScroll
+    contentLayout.Padding = UDim.new(0, 10)
+    contentLayout.Parent = contentFrame
 
     -- Store Tabs
     local tabs = {}
 
-    -- Create Tab Function
+    -- // Create Tab Function
     function library:CreateTab(tabName)
         local tabButton = Instance.new("TextButton")
         tabButton.Size = UDim2.new(1, 0, 0, 40)
@@ -122,59 +111,36 @@ function library:CreateWindow(title)
         tabButton.TextColor3 = Color3.fromRGB(255, 255, 255)
         tabButton.Font = Enum.Font.Gotham
         tabButton.TextSize = 14
-        tabButton.Parent = tabScroll
+        tabButton.Parent = tabFrame
 
         local uiCornerButton = Instance.new("UICorner")
         uiCornerButton.CornerRadius = UDim.new(0, 6)
         uiCornerButton.Parent = tabButton
 
-        tabButton.MouseEnter:Connect(function()
-            TweenService:Create(
-                tabButton,
-                TweenInfo.new(0.2),
-                {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}
-            ):Play()
-        end)
-        tabButton.MouseLeave:Connect(function()
-            TweenService:Create(
-                tabButton,
-                TweenInfo.new(0.2),
-                {BackgroundColor3 = Color3.fromRGB(50, 50, 50)}
-            ):Play()
-        end)
-
-        local tab = {}
-
-        -- Create Page
         local page = Instance.new("Frame")
         page.Size = UDim2.new(1, 0, 0, 300)
         page.BackgroundTransparency = 1
         page.Visible = false
-        page.Parent = contentScroll
+        page.Parent = contentFrame
 
         local pageLayout = Instance.new("UIListLayout")
         pageLayout.SortOrder = Enum.SortOrder.LayoutOrder
         pageLayout.Padding = UDim.new(0, 10)
         pageLayout.Parent = page
 
-        local pagePadding = Instance.new("UIPadding")
-        pagePadding.PaddingTop = UDim.new(0, 10)
-        pagePadding.PaddingLeft = UDim.new(0, 10)
-        pagePadding.PaddingRight = UDim.new(0, 10)
-        pagePadding.Parent = page
-
-        -- Tab Switching
         tabButton.MouseButton1Click:Connect(function()
-            for _, child in pairs(contentScroll:GetChildren()) do
-                if child:IsA("Frame") then
-                    child.Visible = false
+            for _, t in pairs(contentFrame:GetChildren()) do
+                if t:IsA("Frame") then
+                    t.Visible = false
                 end
             end
             page.Visible = true
-            contentScroll.CanvasSize = UDim2.new(0, 0, 0, page.AbsoluteSize.Y)
         end)
 
-        -- Create Button
+        local tab = {}
+        tab.page = page
+
+        -- // Create Button
         function tab:CreateButton(buttonText, callback)
             local button = Instance.new("TextButton")
             button.Size = UDim2.new(1, -20, 0, 40)
@@ -184,10 +150,22 @@ function library:CreateWindow(title)
             button.Font = Enum.Font.Gotham
             button.TextSize = 16
             button.Parent = page
+
+            local uiCornerButton = Instance.new("UICorner")
+            uiCornerButton.CornerRadius = UDim.new(0, 6)
+            uiCornerButton.Parent = button
+
+            button.MouseEnter:Connect(function()
+                TweenService:Create(button, TweenInfo.new(0.2), {BackgroundColor3 = Color3.fromRGB(70, 70, 70)}):Play()
+            end)
+            button.MouseLeave:Connect(function()
+                TweenService:Create(button, TweenInfo.new(0.2), {BackgroundColor3 = Color3.fromRGB(50, 50, 50)}):Play()
+            end)
+
             button.MouseButton1Click:Connect(callback)
         end
 
-        -- Create Toggle
+        -- // Create Toggle
         function tab:CreateToggle(toggleText, default, callback)
             local toggle = Instance.new("TextButton")
             toggle.Size = UDim2.new(1, -20, 0, 40)
@@ -206,7 +184,6 @@ function library:CreateWindow(title)
             end)
         end
 
-        table.insert(tabs, tab)
         return tab
     end
 
