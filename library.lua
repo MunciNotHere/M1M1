@@ -1,29 +1,24 @@
+-- // Library Table
 local Library = {}
-
--- Services
-local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
 
-local player = Players.LocalPlayer
-local playerGui = player:FindFirstChildOfClass("PlayerGui")
-
--- Create UI
+-- // Create Window
 function Library:CreateWindow(title)
     local screenGui = Instance.new("ScreenGui")
-    screenGui.Parent = playerGui
+    screenGui.Parent = game:GetService("CoreGui")
 
-    -- Main UI
+    -- // Main Frame
     local mainFrame = Instance.new("Frame")
     mainFrame.Size = UDim2.new(0, 500, 0, 350)
     mainFrame.Position = UDim2.new(0.5, -250, 0.5, -175)
     mainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-    mainFrame.BackgroundTransparency = 0.1
+    mainFrame.ClipsDescendants = true
     mainFrame.Parent = screenGui
 
-    -- UICorner & UIStroke
+    -- // UI Corner & Stroke
     local uiCorner = Instance.new("UICorner")
-    uiCorner.CornerRadius = UDim.new(0, 10)
+    uiCorner.CornerRadius = UDim.new(0, 8)
     uiCorner.Parent = mainFrame
 
     local uiStroke = Instance.new("UIStroke")
@@ -31,17 +26,17 @@ function Library:CreateWindow(title)
     uiStroke.Color = Color3.fromRGB(50, 50, 50)
     uiStroke.Parent = mainFrame
 
-    -- Title
+    -- // Title
     local titleLabel = Instance.new("TextLabel")
     titleLabel.Size = UDim2.new(1, 0, 0, 30)
     titleLabel.BackgroundTransparency = 1
-    titleLabel.Text = title or "🔥 Premium UI Library"
+    titleLabel.Text = "🔥 " .. title
     titleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
     titleLabel.Font = Enum.Font.GothamBold
     titleLabel.TextSize = 18
     titleLabel.Parent = mainFrame
 
-    -- Dragging Function
+    -- // Dragging Function
     local dragging, dragInput, dragStart, startPos
     titleLabel.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 then
@@ -65,106 +60,104 @@ function Library:CreateWindow(title)
     UserInputService.InputChanged:Connect(function(input)
         if input == dragInput and dragging then
             local delta = input.Position - dragStart
-            mainFrame.Position = UDim2.new(0, startPos.X.Offset + delta.X, 0, startPos.Y.Offset + delta.Y)
+            mainFrame.Position = UDim2.new(
+                startPos.X.Scale,
+                startPos.X.Offset + delta.X,
+                startPos.Y.Scale,
+                startPos.Y.Offset + delta.Y
+            )
         end
     end)
 
-    -- Tab System
+    -- // Tabs Frame
     local tabFrame = Instance.new("Frame")
     tabFrame.Size = UDim2.new(0, 120, 1, -30)
     tabFrame.Position = UDim2.new(0, 0, 0, 30)
     tabFrame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
     tabFrame.Parent = mainFrame
 
-    local tabScroll = Instance.new("ScrollingFrame")
-    tabScroll.Size = UDim2.new(1, 0, 1, 0)
-    tabScroll.CanvasSize = UDim2.new(0, 0, 0, 0)
-    tabScroll.ScrollBarThickness = 0
-    tabScroll.BackgroundTransparency = 1
-    tabScroll.Parent = tabFrame
+    -- // Tab Highlight Animation
+    local highlight = Instance.new("Frame")
+    highlight.Size = UDim2.new(1, 0, 0, 40)
+    highlight.BackgroundColor3 = Color3.fromRGB(60, 120, 255)
+    highlight.BackgroundTransparency = 0.7
+    highlight.Parent = tabFrame
 
     local tabLayout = Instance.new("UIListLayout")
-    tabLayout.SortOrder = Enum.SortOrder.LayoutOrder
-    tabLayout.Padding = UDim.new(0, 5)
-    tabLayout.Parent = tabScroll
+    tabLayout.Parent = tabFrame
 
-    local contentScroll = Instance.new("ScrollingFrame")
-    contentScroll.Size = UDim2.new(1, -120, 1, -30)
-    contentScroll.Position = UDim2.new(0, 120, 0, 30)
-    contentScroll.CanvasSize = UDim2.new(0, 0, 0, 0)
-    contentScroll.ScrollBarThickness = 0
-    contentScroll.BackgroundTransparency = 1
-    contentScroll.Parent = mainFrame
+    -- // Content Frame
+    local contentFrame = Instance.new("Frame")
+    contentFrame.Size = UDim2.new(1, -120, 1, -30)
+    contentFrame.Position = UDim2.new(0, 120, 0, 30)
+    contentFrame.BackgroundTransparency = 1
+    contentFrame.Parent = mainFrame
 
-    local contentLayout = Instance.new("UIListLayout")
-    contentLayout.SortOrder = Enum.SortOrder.LayoutOrder
-    contentLayout.Parent = contentScroll
+    local pages = {}
 
-    local tabs = {}
-
-    function Library:CreateTab(name)
+    function Library:CreateTab(tabName)
         local tabButton = Instance.new("TextButton")
         tabButton.Size = UDim2.new(1, 0, 0, 40)
         tabButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-        tabButton.Text = name
+        tabButton.Text = tabName
         tabButton.TextColor3 = Color3.fromRGB(255, 255, 255)
         tabButton.Font = Enum.Font.Gotham
-        tabButton.TextSize = 14
-        tabButton.Parent = tabScroll
+        tabButton.Parent = tabFrame
 
         local page = Instance.new("Frame")
         page.Size = UDim2.new(1, 0, 1, 0)
-        page.BackgroundTransparency = 1
         page.Visible = false
-        page.Parent = contentScroll
-
-        local function switchTab()
-            for _, child in pairs(contentScroll:GetChildren()) do
-                if child:IsA("Frame") then
-                    child.Visible = false
-                end
-            end
-            page.Visible = true
-        end
+        page.Parent = contentFrame
+        pages[tabName] = page
 
         tabButton.MouseButton1Click:Connect(function()
-            switchTab()
+            for _, p in pairs(pages) do p.Visible = false end
+            page.Visible = true
+            TweenService:Create(highlight, TweenInfo.new(0.2), {Position = tabButton.Position}):Play()
         end)
 
-        tabs[name] = page
-        return page
-    end
+        return {
+            CreateButton = function(_, text, callback)
+                local button = Instance.new("TextButton")
+                button.Size = UDim2.new(1, -20, 0, 40)
+                button.Position = UDim2.new(0, 10, 0, 10)
+                button.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+                button.Text = text
+                button.TextColor3 = Color3.fromRGB(255, 255, 255)
+                button.Font = Enum.Font.Gotham
+                button.Parent = page
 
-    function Library:CreateButton(tab, text, callback)
-        local button = Instance.new("TextButton")
-        button.Size = UDim2.new(1, -10, 0, 40)
-        button.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-        button.Text = text
-        button.TextColor3 = Color3.fromRGB(255, 255, 255)
-        button.Font = Enum.Font.Gotham
-        button.TextSize = 16
-        button.Parent = tab
+                button.MouseButton1Click:Connect(callback)
+            end,
 
-        button.MouseButton1Click:Connect(callback)
-    end
+            CreateToggle = function(_, text, callback)
+                local toggleFrame = Instance.new("Frame")
+                toggleFrame.Size = UDim2.new(1, -20, 0, 40)
+                toggleFrame.Position = UDim2.new(0, 10, 0, 10)
+                toggleFrame.BackgroundTransparency = 1
+                toggleFrame.Parent = page
 
-    function Library:CreateToggle(tab, text, callback)
-        local toggleState = false
+                local toggleBG = Instance.new("Frame")
+                toggleBG.Size = UDim2.new(0, 50, 0, 25)
+                toggleBG.Position = UDim2.new(1, -60, 0, 8)
+                toggleBG.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+                toggleBG.Parent = toggleFrame
 
-        local toggle = Instance.new("TextButton")
-        toggle.Size = UDim2.new(1, -10, 0, 40)
-        toggle.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-        toggle.Text = text .. ": OFF"
-        toggle.TextColor3 = Color3.fromRGB(255, 255, 255)
-        toggle.Font = Enum.Font.Gotham
-        toggle.TextSize = 16
-        toggle.Parent = tab
+                local toggleCircle = Instance.new("Frame")
+                toggleCircle.Size = UDim2.new(0, 20, 0, 20)
+                toggleCircle.Position = UDim2.new(0, 2, 0.5, -10)
+                toggleCircle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                toggleCircle.Parent = toggleBG
 
-        toggle.MouseButton1Click:Connect(function()
-            toggleState = not toggleState
-            toggle.Text = text .. (toggleState and ": ON" or ": OFF")
-            callback(toggleState)
-        end)
+                local toggled = false
+                toggleFrame.MouseButton1Click:Connect(function()
+                    toggled = not toggled
+                    TweenService:Create(toggleBG, TweenInfo.new(0.2), {BackgroundColor3 = toggled and Color3.fromRGB(0, 255, 0) or Color3.fromRGB(100, 100, 100)}):Play()
+                    TweenService:Create(toggleCircle, TweenInfo.new(0.2), {Position = UDim2.new(toggled and 1 or 0, toggled and -22 or 2, 0.5, -10)}):Play()
+                    callback(toggled)
+                end)
+            end
+        }
     end
 
     return Library
