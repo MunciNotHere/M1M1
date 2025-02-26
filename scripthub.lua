@@ -7,7 +7,9 @@ local MM2 = win:Tab("MM2")
 local Fisch = win:Tab("Fisch")
 local Doors = win:Tab("Doors")
 local BladeBall = win:Tab("Blade Ball")
+local Dahood = win:Tab("Da Hood")
 local Rivals = win:Tab("Rivals")
+local SlapBattle = win:Tab("Slap Battle")
 local Universal = win:Tab("Universal")
 
 Info:Button("Copy server link", function()
@@ -20,7 +22,7 @@ end)
 
 -------------------------------------------------------------------------------
 
-Settings:Colorpicker("Change UI Color",Color3.fromRGB(44, 120, 224), function(t)
+Settings:Colorpicker("Change UI Color",Color3.fromRGB(200, 200, 200), function(t)
 lib:ChangePresetColor(Color3.fromRGB(t.R * 255, t.G * 255, t.B * 255))
 end)
 
@@ -35,6 +37,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Ihaveash0rtnamefordis
 end)
 
 ---------------------------------------------------------------------------------
+
+SlapBattle:Button("kykyryzob", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KykyryzoB/KykyryzoB-Hub-SB/main/KykryzoB.lua"))()
+end)
+
+----------------------------------------------------------------------------------
 
 Fisch:Button("Speed Hub X", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
@@ -55,6 +63,16 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TripleScript/NothingH
 end)
 
 -----------------------------------------------------------------------------------
+
+Dahood:Button("vortex", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex", true))()
+end)
+
+Dahood:Button("Yes Epic", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+
+------------------------------------------------------------------------------------
 
 Rivals:Button("FlameWare With GUI", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/EzWinsV4/FlameForRobloxRivals/refs/heads/main/NewMain.lua", true))()
@@ -308,6 +326,10 @@ end)
 
 Universal:Button("orca", function()
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua"))()
+end)
+
+Universal:Button("nameless admin", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
 end)
 
 -------------------------------------------------------------------------------------------------------------------------------
