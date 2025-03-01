@@ -1,224 +1,143 @@
-local TweenService = game:GetService("TweenService")
-local Players = game:GetService("Players")
-local LocalPlayer = Players.LocalPlayer
-local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
+local Library = {}
 
-local BetterUI = {}
+function Library:CreateWindow(title)
+    local screenGui = Instance.new("ScreenGui")
+    screenGui.Parent = game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")
 
-function BetterUI:CreateUI()
-    local ScreenGui = Instance.new("ScreenGui")
-    ScreenGui.Name = "M1M1_UI"
-    ScreenGui.Parent = PlayerGui
+    local mainFrame = Instance.new("Frame")
+    mainFrame.Size = UDim2.new(0, 500, 0, 350)
+    mainFrame.Position = UDim2.new(0.5, -250, 0.5, -175)
+    mainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+    mainFrame.ClipsDescendants = true
+    mainFrame.Parent = screenGui
 
-    local MainFrame = Instance.new("Frame", ScreenGui)
-    MainFrame.Name = "MainFrame"
-    MainFrame.BorderSizePixel = 0
-    MainFrame.BackgroundColor3 = Color3.fromRGB(51,51,51)
-    MainFrame.Size = UDim2.new(0,350,0,250)
-    MainFrame.Position = UDim2.new(0.3,0,0.3,0)
-    local mainCorner = Instance.new("UICorner", MainFrame)
-    mainCorner.CornerRadius = UDim.new(0,20)
+    -- UICorner
+    local corner = Instance.new("UICorner")
+    corner.CornerRadius = UDim.new(0, 10)
+    corner.Parent = mainFrame
 
-    local Title = Instance.new("TextLabel", MainFrame)
-    Title.Name = "Title"
-    Title.BorderSizePixel = 0
-    Title.BackgroundColor3 = Color3.fromRGB(51,51,51)
-    Title.Size = UDim2.new(1,0,0,50)
-    Title.Text = "Title"
-    Title.TextColor3 = Color3.fromRGB(151,151,151)
-    Title.Font = Enum.Font.GothamBold
-    Title.TextSize = 20
-    Title.BackgroundTransparency = 0.1
-    local titleCorner = Instance.new("UICorner", Title)
-    titleCorner.CornerRadius = UDim.new(0,20)
+    -- UIStroke
+    local stroke = Instance.new("UIStroke")
+    stroke.Color = Color3.fromRGB(255, 255, 255)
+    stroke.Thickness = 1.5
+    stroke.Parent = mainFrame
 
-    local TabsFrame = Instance.new("Frame", MainFrame)
-    TabsFrame.Name = "Tabs"
-    TabsFrame.BorderSizePixel = 0
-    TabsFrame.BackgroundColor3 = Color3.fromRGB(51,51,51)
-    TabsFrame.Size = UDim2.new(0,115,1,-50)
-    TabsFrame.Position = UDim2.new(0,0,0,50)
-    TabsFrame.BackgroundTransparency = 0.1
-    local tabsCorner = Instance.new("UICorner", TabsFrame)
-    tabsCorner.CornerRadius = UDim.new(0,20)
+    local titleLabel = Instance.new("TextLabel")
+    titleLabel.Size = UDim2.new(1, 0, 0, 35)
+    titleLabel.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+    titleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+    titleLabel.Font = Enum.Font.GothamBold
+    titleLabel.TextSize = 16
+    titleLabel.Text = title or "🔥 Premium UI Library"
+    titleLabel.Parent = mainFrame
 
-    local TabScroll = Instance.new("ScrollingFrame", TabsFrame)
-    TabScroll.Name = "TabScroll"
-    TabScroll.Active = true
-    TabScroll.Size = UDim2.new(1, -15, 1, -10)
-    TabScroll.Position = UDim2.new(0,5,0,5)
-    TabScroll.BackgroundTransparency = 1
-    TabScroll.ScrollBarThickness = 4
-    local uiListTabs = Instance.new("UIListLayout", TabScroll)
-    uiListTabs.Padding = UDim.new(0,5)
-    uiListTabs.SortOrder = Enum.SortOrder.LayoutOrder
+    -- Tabs Holder
+    local tabsHolder = Instance.new("Frame")
+    tabsHolder.Size = UDim2.new(0, 120, 1, -35)
+    tabsHolder.Position = UDim2.new(0, 0, 0, 35)
+    tabsHolder.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+    tabsHolder.Parent = mainFrame
 
-    local ElementScroll = Instance.new("ScrollingFrame", MainFrame)
-    ElementScroll.Name = "elementScroll"
-    ElementScroll.Active = true
-    ElementScroll.Size = UDim2.new(0, (350 - 115) - 10, 1, -60)
-    ElementScroll.Position = UDim2.new(0,120,0,55)
-    ElementScroll.BackgroundTransparency = 1
-    ElementScroll.ScrollBarThickness = 4
-    local uiListElem = Instance.new("UIListLayout", ElementScroll)
-    uiListElem.Padding = UDim.new(0,5)
-    uiListElem.SortOrder = Enum.SortOrder.LayoutOrder
+    local tabs = {}
 
-    local NotificationPlace = Instance.new("ScrollingFrame", ScreenGui)
-    NotificationPlace.Name = "NOTIFICATIONPLACE"
-    NotificationPlace.Active = true
-    NotificationPlace.Size = UDim2.new(0,240,0,300)
-    NotificationPlace.Position = UDim2.new(0.75,0,0,0)
-    NotificationPlace.BackgroundTransparency = 1
-    NotificationPlace.ScrollBarThickness = 4
-    local uiListNotifs = Instance.new("UIListLayout", NotificationPlace)
-    uiListNotifs.Padding = UDim.new(0,3)
-    uiListNotifs.SortOrder = Enum.SortOrder.LayoutOrder
+    function Library:CreateTab(tabName)
+        local tab = Instance.new("TextButton")
+        tab.Size = UDim2.new(1, 0, 0, 40)
+        tab.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+        tab.TextColor3 = Color3.fromRGB(200, 200, 200)
+        tab.Font = Enum.Font.GothamBold
+        tab.TextSize = 14
+        tab.Text = tabName
+        tab.Parent = tabsHolder
 
-    return {
-        ScreenGui = ScreenGui,
-        MainFrame = MainFrame,
-        Title = Title,
-        TabsFrame = TabsFrame,
-        TabScroll = TabScroll,
-        ElementScroll = ElementScroll,
-        NotificationPlace = NotificationPlace
-    }
-end
+        local content = Instance.new("Frame")
+        content.Size = UDim2.new(1, -120, 1, -35)
+        content.Position = UDim2.new(0, 120, 0, 35)
+        content.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+        content.Visible = false
+        content.Parent = mainFrame
 
-function BetterUI:Notify(ui, title, text, duration)
-    duration = duration or 3
-    local nFrame = Instance.new("Frame")
-    nFrame.Size = UDim2.new(1,0,0,60)
-    nFrame.BackgroundColor3 = Color3.fromRGB(40,40,40)
-    nFrame.BackgroundTransparency = 0.2
-    local corner = Instance.new("UICorner", nFrame)
-    corner.CornerRadius = UDim.new(0,10)
+        local tabCorner = Instance.new("UICorner")
+        tabCorner.CornerRadius = UDim.new(0, 6)
+        tabCorner.Parent = tab
 
-    local tLabel = Instance.new("TextLabel", nFrame)
-    tLabel.Size = UDim2.new(1,-10,0,25)
-    tLabel.Position = UDim2.new(0,5,0,0)
-    tLabel.BackgroundTransparency = 1
-    tLabel.Text = title or "Notification"
-    tLabel.TextColor3 = Color3.new(1,1,1)
-    tLabel.Font = Enum.Font.GothamBold
-    tLabel.TextSize = 14
+        local tabStroke = Instance.new("UIStroke")
+        tabStroke.Color = Color3.fromRGB(255, 255, 255)
+        tabStroke.Thickness = 1
+        tabStroke.Parent = tab
 
-    local desc = Instance.new("TextLabel", nFrame)
-    desc.Size = UDim2.new(1,-10,0,25)
-    desc.Position = UDim2.new(0,5,0,25)
-    desc.BackgroundTransparency = 1
-    desc.Text = text or ""
-    desc.TextColor3 = Color3.new(1,1,1)
-    desc.Font = Enum.Font.Gotham
-    desc.TextSize = 13
-
-    nFrame.Parent = ui.NotificationPlace
-    nFrame.Position = UDim2.new(1,300,0,0)
-    TweenService:Create(nFrame, TweenInfo.new(0.5, Enum.EasingStyle.Quart), {Position = UDim2.new(0,0,0,0)}):Play()
-
-    task.delay(duration, function()
-        TweenService:Create(nFrame, TweenInfo.new(0.5, Enum.EasingStyle.Quart), {Position = UDim2.new(1,300,0,0)}):Play()
-        task.wait(0.5)
-        nFrame:Destroy()
-    end)
-end
-
-function BetterUI:CreateTab(ui, tabName)
-    local tabBtn = Instance.new("TextButton")
-    tabBtn.Size = UDim2.new(1,0,0,30)
-    tabBtn.BackgroundColor3 = Color3.fromRGB(35,35,35)
-    tabBtn.BackgroundTransparency = 0.2
-    tabBtn.Text = tabName or "Tab"
-    tabBtn.TextColor3 = Color3.new(1,1,1)
-    tabBtn.Font = Enum.Font.Gotham
-    tabBtn.TextSize = 14
-    tabBtn.Parent = ui.TabScroll
-    local btnCorner = Instance.new("UICorner", tabBtn)
-    btnCorner.CornerRadius = UDim.new(0,5)
-
-    local tabContainer = Instance.new("Frame")
-    tabContainer.Size = UDim2.new(1,0,1,0)
-    tabContainer.BackgroundTransparency = 1
-    tabContainer.Visible = false
-    tabContainer.Parent = ui.ElementScroll
-
-    tabBtn.MouseButton1Click:Connect(function()
-        for _,child in pairs(ui.ElementScroll:GetChildren()) do
-            if child:IsA("Frame") then
-                child.Visible = false
+        local function highlightTab()
+            for _, v in pairs(tabs) do
+                v[1].BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+                v[2].Visible = false
             end
+            tab.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+            content.Visible = true
         end
-        tabContainer.Visible = true
-    end)
 
-    local Tab = {}
-    Tab.Container = tabContainer
+        tab.MouseButton1Click:Connect(highlightTab)
+        table.insert(tabs, {tab, content})
+        if #tabs == 1 then highlightTab() end
 
-    function Tab:AddButton(txt, callback)
-        local b = Instance.new("TextButton")
-        b.Size = UDim2.new(1, -10, 0, 30)
-        b.BackgroundColor3 = Color3.fromRGB(45,45,45)
-        b.BackgroundTransparency = 0.2
-        b.Text = txt or "Button"
-        b.TextColor3 = Color3.new(1,1,1)
-        b.Font = Enum.Font.Gotham
-        b.TextSize = 14
-        b.Parent = tabContainer
-        local bc = Instance.new("UICorner", b)
-        bc.CornerRadius = UDim.new(0,5)
+        local elements = {}
 
-        b.MouseButton1Click:Connect(function()
-            if callback then pcall(callback) end
-        end)
+        function elements:CreateButton(text, callback)
+            local button = Instance.new("TextButton")
+            button.Size = UDim2.new(0.9, 0, 0, 35)
+            button.Position = UDim2.new(0.05, 0, #content:GetChildren() * 0.1, 0)
+            button.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+            button.TextColor3 = Color3.fromRGB(255, 255, 255)
+            button.Font = Enum.Font.Gotham
+            button.TextSize = 14
+            button.Text = text
+            button.Parent = content
+
+            local corner = Instance.new("UICorner")
+            corner.CornerRadius = UDim.new(0, 6)
+            corner.Parent = button
+
+            button.MouseButton1Click:Connect(callback)
+        end
+
+        function elements:CreateToggle(text, default, callback)
+            local toggle = Instance.new("Frame")
+            toggle.Size = UDim2.new(0.9, 0, 0, 35)
+            toggle.Position = UDim2.new(0.05, 0, #content:GetChildren() * 0.1, 0)
+            toggle.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+            toggle.Parent = content
+
+            local corner = Instance.new("UICorner")
+            corner.CornerRadius = UDim.new(0, 6)
+            corner.Parent = toggle
+
+            local label = Instance.new("TextLabel")
+            label.Size = UDim2.new(0.7, 0, 1, 0)
+            label.Text = text
+            label.TextColor3 = Color3.fromRGB(255, 255, 255)
+            label.Font = Enum.Font.Gotham
+            label.TextSize = 14
+            label.BackgroundTransparency = 1
+            label.Parent = toggle
+
+            local imageButton = Instance.new("ImageButton")
+            imageButton.Size = UDim2.new(0, 30, 0, 30)
+            imageButton.Position = UDim2.new(0.9, -30, 0.1, 0)
+            imageButton.BackgroundTransparency = 1
+            imageButton.Image = default and "rbxassetid://105620223191972" or "rbxassetid://98219838597023"
+            imageButton.Parent = toggle
+
+            local state = default
+            imageButton.MouseButton1Click:Connect(function()
+                state = not state
+                imageButton.Image = state and "rbxassetid://105620223191972" or "rbxassetid://98219838597023"
+                callback(state)
+            end)
+        end
+
+        return elements
     end
 
-    function Tab:AddToggle(txt, default, callback)
-        local frame = Instance.new("Frame")
-        frame.Size = UDim2.new(1, -10, 0, 30)
-        frame.BackgroundTransparency = 1
-        frame.Parent = tabContainer
-
-        local label = Instance.new("TextLabel", frame)
-        label.Size = UDim2.new(0.7,0,1,0)
-        label.BackgroundTransparency = 1
-        label.Text = txt or "Toggle"
-        label.TextColor3 = Color3.new(1,1,1)
-        label.Font = Enum.Font.Gotham
-        label.TextSize = 14
-
-        local toggleBtn = Instance.new("TextButton", frame)
-        toggleBtn.Size = UDim2.new(0.3,0,1,0)
-        toggleBtn.Position = UDim2.new(0.7,0,0,0)
-        toggleBtn.BackgroundColor3 = Color3.fromRGB(45,45,45)
-        toggleBtn.BackgroundTransparency = 0.2
-        toggleBtn.TextColor3 = Color3.new(1,1,1)
-        toggleBtn.Font = Enum.Font.Gotham
-        toggleBtn.TextSize = 14
-        local tCorner = Instance.new("UICorner", toggleBtn)
-        tCorner.CornerRadius = UDim.new(0,5)
-
-        local state = default or false
-        toggleBtn.Text = state and "ON" or "OFF"
-        toggleBtn.MouseButton1Click:Connect(function()
-            state = not state
-            toggleBtn.Text = state and "ON" or "OFF"
-            if callback then pcall(callback, state) end
-        end)
-    end
-
-    function Tab:AddLabel(txt)
-        local label = Instance.new("TextLabel")
-        label.Size = UDim2.new(1, -10, 0, 30)
-        label.BackgroundTransparency = 1
-        label.Text = txt or "Label"
-        label.TextColor3 = Color3.new(1,1,1)
-        label.Font = Enum.Font.Gotham
-        label.TextSize = 14
-        label.Parent = tabContainer
-    end
-
-    return Tab
+    return Library
 end
 
-return BetterUI
+return Library
